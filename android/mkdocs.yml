@@ -1,0 +1,50 @@
+site_name: TripKit SDK for Android
+nav:
+  - Introduction: index.md
+  - TripKit Map Fragment: tripkit_map_fragment.md
+  - Searching for a Location: search_location.md
+  - Stop Detail: stop_detail.md
+  - Service Detail: service_detail.md
+  - Trip Results: trip_results.md
+
+theme:
+    name: null
+    custom_dir: ../theme/
+    language: en
+    palette:
+      primary: 'indigo'
+      accent: 'indigo'
+    font:
+      text: Roboto
+      code: Roboto Mono
+    logo:
+      icon: "\uE52e"
+    feature:
+      tabs: false
+    include_search_page: false
+    search_index_only: true
+    static_templates:
+      - 404.html
+
+markdown_extensions:
+  - admonition
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight:
+      css_class: codehilite
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
