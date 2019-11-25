@@ -149,3 +149,27 @@ fragment.show(supportFragmentManager, "timePicker")
 The `LocationSearchFragment` is a self-contained location search component which merges search results from both SkedGo's
 search results as well as Google Places. 
 
+![LocationSearchFragment.png](img/LocationSearchFragment.png)
+
+
+````kotlin tab="Kotlin"
+        LocationSearchFragment.Builder()
+                .withBounds(mMap.projection.visibleRegion.latLngBounds)
+                .near(mMap.cameraPosition.target)
+                .withHint(getString(R.string.search))
+                .allowCurrentLocation(true)
+                .allowDropPin()
+                .build()
+````
+
+The `LocationSearchFragment.Builder()` can be configured with a few different settings.
+
+| Function                 | Description |
+|--------------------------|-------------|
+| withBounds(LatLngBounds) | Used for Google Places searches. In our example, we use the map's visible boundaries. |
+| near(LatLng) | Used for TripGo searches. In our example, we focus on the center of the map. |
+| withHint(String) | Sets the EditText's hint. |
+| initialQuery(String) | Set a query. |
+| allowCurrentLocation(Boolean) | When `true`, show a permanent option for "Current Location" at the top of the results list|
+| allowDropPin(Boolean) | When `true`, show a permanent option for "Choose on Map" at the top of the results list|
+
