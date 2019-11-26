@@ -3,9 +3,8 @@ nav:
   - Introduction: index.md
   - TripKit Map Fragment: tripkit_map_fragment.md
   - Searching for a Location: search_location.md
-  - Stop Detail: stop_detail.md
-  - Service Detail: service_detail.md
   - Trip Results: trip_results.md
+  - Service & Stop Detail: stop_detail.md
 
 theme:
     name: null
