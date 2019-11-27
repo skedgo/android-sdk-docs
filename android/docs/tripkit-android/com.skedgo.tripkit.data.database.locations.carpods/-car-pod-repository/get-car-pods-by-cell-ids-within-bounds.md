@@ -1,0 +1,5 @@
+[tripkit-android](../../index.md) / [com.skedgo.tripkit.data.database.locations.carpods](../index.md) / [CarPodRepository](index.md) / [getCarPodsByCellIdsWithinBounds](./get-car-pods-by-cell-ids-within-bounds.md)
+
+# getCarPodsByCellIdsWithinBounds
+
+`fun getCarPodsByCellIdsWithinBounds(cellIds: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, southwest: `[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)`, northEast: `[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)`): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`CarPod`](../../skedgo.tripkit.locations/-car-pod/index.md)`>>`

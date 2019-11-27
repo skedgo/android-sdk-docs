@@ -1,0 +1,5 @@
+[tripkit-android](../../index.md) / [com.skedgo.tripkit.a2brouting](../index.md) / [SelectBestDisplayTrip](index.md) / [apply](./apply.md)
+
+# apply
+
+`@NonNull fun apply(@NonNull group: `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`): `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)

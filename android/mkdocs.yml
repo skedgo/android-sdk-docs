@@ -5,7 +5,7 @@ nav:
   - Searching for a Location: search_location.md
   - Trip Results: trip_results.md
   - Service & Stop Detail: stop_detail.md
-
+  - Class Documentation: tripkit-android/index.md
 theme:
     name: null
     custom_dir: ../theme/

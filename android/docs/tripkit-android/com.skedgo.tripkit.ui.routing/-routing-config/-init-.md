@@ -1,0 +1,5 @@
+[tripkit-android](../../index.md) / [com.skedgo.tripkit.ui.routing](../index.md) / [RoutingConfig](index.md) / [&lt;init&gt;](./-init-.md)
+
+# &lt;init&gt;
+
+`RoutingConfig(preferredTransferTime: Minutes = Minutes.THREE, walkingSpeed: `[`WalkingSpeed`](../../com.skedgo.tripkit.ui.routing.settings/-walking-speed/index.md)` = WalkingSpeed.Medium, cyclingSpeed: `[`CyclingSpeed`](../../com.skedgo.tripkit.ui.routing.settings/-cycling-speed/index.md)` = CyclingSpeed.Medium, shouldUseConcessionPricing: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = false, isOnWheelchair: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = false, weightingProfile: `[`WeightingProfile`](../../com.skedgo.tripkit.ui.routing.settings/-weighting-profile/index.md)` = WeightingProfile())`

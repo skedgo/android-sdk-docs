@@ -1,0 +1,5 @@
+[tripkit-android](../../index.md) / [skedgo.tripgo.parkingspots.models](../index.md) / [Restriction](index.md) / [&lt;init&gt;](./-init-.md)
+
+# &lt;init&gt;
+
+`Restriction(color: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, maximumParkingMinutes: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`?, parkingSymbol: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, type: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, timezone: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, daysAndTimes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`RestrictionDayAndTime`](../-restriction-day-and-time/index.md)`>)`

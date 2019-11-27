@@ -1,0 +1,5 @@
+[tripkit-android](../../index.md) / [com.skedgo.tripkit.ui.geocoding](../index.md) / [SkedgoResultLocationAdapter](index.md) / [getLat](./get-lat.md)
+
+# getLat
+
+`fun getLat(): `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`!`

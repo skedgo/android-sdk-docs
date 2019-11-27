@@ -1,0 +1,5 @@
+[tripkit-android](../../index.md) / [com.skedgo.android.common.model](../index.md) / [BookingProvider](index.md) / [CREATOR](./-c-r-e-a-t-o-r.md)
+
+# CREATOR
+
+`static val CREATOR: Creator<`[`BookingProvider`](index.md)`!>!`

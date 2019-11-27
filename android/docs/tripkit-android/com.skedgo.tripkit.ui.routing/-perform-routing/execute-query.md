@@ -1,0 +1,5 @@
+[tripkit-android](../../index.md) / [com.skedgo.tripkit.ui.routing](../index.md) / [PerformRouting](index.md) / [executeQuery](./execute-query.md)
+
+# executeQuery
+
+`fun executeQuery(query: `[`Query`](../../com.skedgo.android.common.model/-query/index.md)`): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`>>`

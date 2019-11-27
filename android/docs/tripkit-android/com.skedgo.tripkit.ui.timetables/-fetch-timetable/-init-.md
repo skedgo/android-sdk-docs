@@ -1,0 +1,5 @@
+[tripkit-android](../../index.md) / [com.skedgo.tripkit.ui.timetables](../index.md) / [FetchTimetable](index.md) / [&lt;init&gt;](./-init-.md)
+
+# &lt;init&gt;
+
+`FetchTimetable(departuresRepository: `[`DeparturesRepository`](../../com.skedgo.tripkit.ui.timetables.domain/-departures-repository/index.md)`, realtimeAlertRepository: RealtimeAlertRepository, parentStopDao: `[`ParentStopDao`](../../skedgo.tripgo.data.timetables/-parent-stop-dao/index.md)`, timetableEntriesMapper: `[`TimetableEntriesMapper`](../-timetable-entries-mapper/index.md)`, serviceAlertMapper: `[`ServiceAlertMapper`](../../com.skedgo.tripkit.data.database.timetables/-service-alert-mapper/index.md)`, serviceAlertsDao: `[`ServiceAlertsDao`](../../com.skedgo.tripkit.data.database.timetables/-service-alerts-dao/index.md)`, context: Context)`

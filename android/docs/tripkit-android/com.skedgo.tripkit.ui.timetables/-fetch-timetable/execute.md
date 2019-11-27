@@ -1,0 +1,5 @@
+[tripkit-android](../../index.md) / [com.skedgo.tripkit.ui.timetables](../index.md) / [FetchTimetable](index.md) / [execute](./execute.md)
+
+# execute
+
+`open fun execute(embarkationStopCodes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, region: `[`Region`](../../com.skedgo.android.common.model/-region/index.md)`, startTimeInSecs: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`): Single<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`>, `[`Optional`](../../com.skedgo.tripkit.ui.utils/-optional/index.md)`<`[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`>>>`

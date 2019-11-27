@@ -1,0 +1,5 @@
+[tripkit-android](../../index.md) / [com.skedgo.tripkit.ui.core.rxlifecyclecomponents](../index.md) / [FragmentEvent](index.md) / [RESUME](./-r-e-s-u-m-e.md)
+
+# RESUME
+
+`RESUME`

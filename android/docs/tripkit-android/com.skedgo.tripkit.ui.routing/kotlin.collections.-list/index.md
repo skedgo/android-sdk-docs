@@ -1,0 +1,7 @@
+[tripkit-android](../../index.md) / [com.skedgo.tripkit.ui.routing](../index.md) / [kotlin.collections.List](./index.md)
+
+### Extensions for kotlin.collections.List
+
+| Name | Summary |
+|---|---|
+| [getVisibleGeoPointsOnMap](get-visible-geo-points-on-map.md) | `fun `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`>.getVisibleGeoPointsOnMap(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)`>` |

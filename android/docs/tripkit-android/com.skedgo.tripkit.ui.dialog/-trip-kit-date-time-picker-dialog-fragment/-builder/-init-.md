@@ -1,0 +1,5 @@
+[tripkit-android](../../../index.md) / [com.skedgo.tripkit.ui.dialog](../../index.md) / [TripKitDateTimePickerDialogFragment](../index.md) / [Builder](index.md) / [&lt;init&gt;](./-init-.md)
+
+# &lt;init&gt;
+
+`Builder()`

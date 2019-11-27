@@ -1,0 +1,8 @@
+[tripkit-android](../../index.md) / [com.skedgo.tripkit.ui.core.module](../index.md) / [PicassoModule](index.md) / [&lt;init&gt;](./-init-.md)
+
+# &lt;init&gt;
+
+`PicassoModule()`
+
+Defines components fetching and loading images.
+

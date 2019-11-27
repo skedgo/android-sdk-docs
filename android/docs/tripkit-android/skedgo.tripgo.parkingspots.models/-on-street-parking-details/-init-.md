@@ -1,0 +1,5 @@
+[tripkit-android](../../index.md) / [skedgo.tripgo.parkingspots.models](../index.md) / [OnStreetParkingDetails](index.md) / [&lt;init&gt;](./-init-.md)
+
+# &lt;init&gt;
+
+`OnStreetParkingDetails(actualRate: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, availableSpaces: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`?, totalSpaces: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`?, lastUpdate: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?, restrictions: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Restriction`](../-restriction/index.md)`>?, paymentTypes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`PaymentType`](../../skedgo.tripkit.parkingspots.models/-payment-type/index.md)`>?)`
