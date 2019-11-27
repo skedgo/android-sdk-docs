@@ -4,11 +4,11 @@ or possibly a service stop location. We provide a few components to help you fin
 ## RouteInputView
 ![RouteInputView](img/RouteInputView.png)
 
-The `RouteInputView` is a view that can be overlaid on top of a map, such as the  [TripKit Map Fragment](tripkit_map_fragment.md), 
+The [`RouteInputView`](tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/index.md) is a view that can be overlaid on top of a map, such as the  [TripKit Map Fragment](tripkit_map_fragment.md), 
 providing a UI for displaying the origin and destination locations, as well as departure/arrival time.
 
-The RouteInputView doesn't provide any logic, it's simply there to display information and pass along click events.
-You'll need to keep track of the chosen Locations yourself by adding an `OnRouteWidgetClickedListener`.
+The [`RouteInputView`](tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/index.md) doesn't provide any logic, it's simply there to display information and pass along click events.
+You'll need to keep track of the chosen Locations yourself by adding an [`OnRouteWidgetClickedListener`](tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/-on-route-widget-clicked-listener/index.md).
 
 ```xml tab="Layout"
 <FrameLayout android:layout_width="match_parent"
@@ -78,35 +78,9 @@ You'll need to keep track of the chosen Locations yourself by adding an `OnRoute
     }
 ```
 
-The `widgetClicked` function of your `OnRouteWidgetClickListener` will give you an enum value of the widget that was 
+The [`widgetClicked`](tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/-on-route-widget-clicked-listener/widget-clicked.md) 
+function of your  [`OnRouteWidgetClickedListener`](tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/-on-route-widget-clicked-listener/index.md) will give you an [enum value](tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/-on-route-widget-clicked-listener/-widget/index.md) of the widget that was 
 clicked.
-
-````kotlin
-interface OnRouteWidgetClickedListener {
-    enum class Widget {
-        /**
-         * The "Start" EditText.
-         */
-        START,
-        /**
-         * The "Destination" EditText.
-         */
-        DESTINATION,
-        /**
-         * The "Swap Start and Destination" button.
-         */
-        SWAPPED,
-        /**
-         * The "Set Time" button.
-         */
-        TIME,
-        /**
-         * The "Route" button.
-         */
-        ROUTE
-    }
-}
-````
 
 When the user clicks on the start or destination fields, you could launch a [LocationSearchFragment](#locationsearchfragment) to allow them to 
 search for a location. When they click on the time button, you can show them a [TripKitDateTimePickerDialogFragment](#tripkitdatetimepickerdialogfragment) 
