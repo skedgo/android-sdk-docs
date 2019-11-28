@@ -2,7 +2,7 @@
 
 ![ServiceStopMapFragment](img/ServiceStopMapFragment.png)
 
-The `ServiceStopMapFragment` displays a particular scheduled service's route.
+The [`ServiceStopMapFragment`](tripkit-android/com.skedgo.tripkit.ui.map.servicestop/-service-stop-map-fragment/index.md) displays a particular scheduled service's route.
 
 ````xml tab="Layout"
     <fragment
@@ -12,15 +12,15 @@ The `ServiceStopMapFragment` displays a particular scheduled service's route.
             android:layout_height="match_parent" />
 ````
 
-To tell it which route to display, call the `setService` function with a `TimetableEntry`, or if you are using a [TimetableFragment](stop_detail.md#TimetableFragment),
+To tell it which route to display, call the [`setService`](tripkit-android/com.skedgo.tripkit.ui.map.servicestop/-service-stop-map-fragment/set-service.md) function with a [`TimetableEntry`](tripkit-android/com.skedgo.tripkit.ui.model/-timetable-entry/index.md), or if you are using a [TimetableFragment](stop_detail.md#TimetableFragment),
 you can give the map to it and it will automatically display routes when the entries are clicked.
 
 ## TimetableFragment
 
 ![TimetableFragment](img/TimetableFragment.png)
 
-The `TimetableFragment` lists all scheduled services for a particular stop. If you pass it a [ServiceStopMapFragment](stop_detail.md#ServiceStopMapFragment),
-it will automatically call `setService` when the user clicks on a particular service. You can also do that manually from a `OnTimetableEntrySelectedListener`.
+The [`TimetableFragment`](tripkit-android/com.skedgo.tripkit.ui.timetables/-timetable-fragment/index.md) lists all scheduled services for a particular stop. If you pass it a [ServiceStopMapFragment](stop_detail.md#ServiceStopMapFragment),
+it will automatically call `setService` when the user clicks on a particular service. You can also do that manually from a [`OnTimetableEntrySelectedListener`](tripkit-android/com.skedgo.tripkit.ui.timetables/-timetable-fragment/-on-timetable-entry-selected-listener/index.md).
 
 Like a few of the fragments in the [Trip Results](trip_results.md), you can display your own custom buttons.
 
@@ -32,7 +32,7 @@ Like a few of the fragments in the [Trip Results](trip_results.md), you can disp
             .build()
 ````
 
-When the user clicks a particular timetable entry, the `OnTimetableEntrySelectedListener` will be called.
+When the user clicks a particular timetable entry, the [`OnTimetableEntrySelectedListener`](tripkit-android/com.skedgo.tripkit.ui.timetables/-timetable-fragment/-on-timetable-entry-selected-listener/index.md) will be called.
 
 ````kotlin tab="Kotlin"
     // If we add our ServiceStopMapFragment as a listener, it will automatically display a selected timetable entry.
@@ -42,7 +42,7 @@ When the user clicks a particular timetable entry, the `OnTimetableEntrySelected
     }
 ````
 
-And when they click on any of the `TripKitButtons` that you provided, the `OnTripKitButtonClickListener` will be called.
+And when they click on any of the [`TripKitButtons`](tripkit-android/com.skedgo.tripkit.ui.model/-trip-kit-button/index.md) that you provided, the [`OnTripKitButtonClickListener`](tripkit-android/com.skedgo.tripkit.ui.timetables/-timetable-fragment/-on-trip-kit-button-click-listener/index.md) will be called.
 
 ````kotlin tab="Kotlin"
     timetableFragment.setOnTripButtonClickListener { id, scheduledStop ->
@@ -57,11 +57,11 @@ And when they click on any of the `TripKitButtons` that you provided, the `OnTri
 
 ![ServiceDetailFragment](img/ServiceDetailFragment.png)
 
-To show the details about a particular service, you can use the `ServiceDetailFragment` which shows the entire scheduled
+To show the details about a particular service, you can use the [`ServiceDetailFragment`](tripkit-android/com.skedgo.tripkit.ui.servicedetail/-service-detail-fragment/index.md) which shows the entire scheduled
 service line.  If you pass it a [ServiceStopMapFragment](stop_detail.md#ServiceStopMapFragment),
 it will automatically have the map move and zoom in on the scheduled stop that a user clicks on.
 
-You'll need to pass it a `TimetableEntry` and a `ScheduledStop`.
+You'll need to pass it a [`TimetableEntry`](tripkit-android/com.skedgo.tripkit.ui.model/-timetable-entry/index.md) and a [`ScheduledStop`](tripkit-android/com.skedgo.android.common.model/-scheduled-stop/index.md).
 
 ````kotlin tab="Kotlin"
     var fragment = ServiceDetailFragment.Builder()
@@ -70,7 +70,7 @@ You'll need to pass it a `TimetableEntry` and a `ScheduledStop`.
                     .build()
 ````
 
-You can then add `OnScheduledStopClickListeners` to handle users clicking on individual stops.
+You can then add [`OnScheduledStopClickListeners`](tripkit-android/com.skedgo.tripkit.ui.servicedetail/-service-detail-fragment/-on-scheduled-stop-click-listener/index.md) to handle users clicking on individual stops.
 
 ````kotlin tab="Kotlin"
             fragment.addOnScheduledStopClickListener(mapFragment)

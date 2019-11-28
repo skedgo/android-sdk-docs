@@ -89,16 +89,15 @@ to set their departure or arrival time, and when they click on the *Route* butto
 ## TripKitDateTimePickerDialogFragment
 ![TripKitDateTimePickerDialogFragment](img/TripKitTimeDatePickerDialog.png)
 
-The `TripKitTimeDatePickerDialogFragment` (yes, that's probably a name that should be changed)
-displays a date and time picker so the user can choose their departure or arrival time. 
+The [`TripKitTimeDatePickerDialogFragment`](tripkit-android/com.skedgo.tripkit.ui.dialog/-trip-kit-date-time-picker-dialog-fragment/index.md) displays a date and time picker so the user can choose their departure or arrival time. 
 
-Use the `TripKitDateTimePickerDialogFragment.Builder` to build your fragment fluently. If you know the start and 
-destination locations, you can pass that using `withLocations` to automatically handle timezone issues. 
+Use the [`TripKitDateTimePickerDialogFragment.Builder`](tripkit-android/com.skedgo.tripkit.ui.dialog/-trip-kit-date-time-picker-dialog-fragment/-builder/index.md) to build your fragment fluently. If you know the start and 
+destination locations, you can pass that using [`withLocations`](tripkit-android/com.skedgo.tripkit.ui.dialog/-trip-kit-date-time-picker-dialog-fragment/-builder/with-locations.md) to automatically handle timezone issues. 
 
-To configure the initial values, you can either use `withTimeTag` to give the fragment a `TimeTag`, or you can use
+To configure the initial values, you can either use [`withTimeTag`](tripkit-android/com.skedgo.tripkit.ui.dialog/-trip-kit-date-time-picker-dialog-fragment/-builder/with-time-tag.md) to give the fragment a `TimeTag`, or you can use
 `withTimeType` and `timeMillis`.
 
-The `OnTimeSelectedListener` will return a `TimeTag` after the user has finalized their choice.
+The `OnTimeSelectedListener` will return a [`TimeTag`](tripkit-android/com.skedgo.android.common.model/-time-tag/index.md) after the user has finalized their choice.
 
 ````kotlin tab="Kotlin"
 var fragment = TripKitDateTimePickerDialogFragment.Builder()
@@ -120,7 +119,7 @@ fragment.show(supportFragmentManager, "timePicker")
 ````
 ## LocationSearchFragment
 
-The `LocationSearchFragment` is a self-contained location search component which merges search results from both SkedGo's
+The [`LocationSearchFragment`](tripkit-android/com.skedgo.tripkit.ui.search/-location-search-fragment/index.md) is a self-contained location search component which merges search results from both SkedGo's
 search results as well as Google Places. 
 
 ![LocationSearchFragment.png](img/LocationSearchFragment.png)
@@ -136,7 +135,7 @@ search results as well as Google Places.
                 .build()
 ````
 
-The `LocationSearchFragment.Builder()` can be configured with a few different settings.
+The [`LocationSearchFragment.Builder()`](tripkit-android/com.skedgo.tripkit.ui.search/-location-search-fragment/-builder/index.md) can be configured with a few different settings.
 
 | Function                 | Description |
 |--------------------------|-------------|
