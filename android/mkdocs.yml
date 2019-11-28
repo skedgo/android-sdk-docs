@@ -10,14 +10,15 @@ theme:
     name: null
     custom_dir: ../theme/
     language: en
+    extra_css:
+      - 'stylesheets/extra.css'
     palette:
-      primary: 'indigo'
+      primary: 'rgb(21, 76, 123)'
       accent: 'indigo'
     font:
       text: Roboto
       code: Roboto Mono
-    logo:
-      icon: "\uE52e"
+    logo: 'img/tripgo-api-logo-white.svg'
     feature:
       tabs: false
     include_search_page: false
