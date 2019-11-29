@@ -2,4 +2,4 @@
 
 # tripSegmentViewModelComponent
 
-`abstract fun tripSegmentViewModelComponent(): `[`TripSegmentViewModelComponent`](../../com.skedgo.tripkit.ui.core.module/-trip-segment-view-model-component/index.md)`!`
+`abstract fun tripSegmentViewModelComponent(): TripSegmentViewModelComponent!`

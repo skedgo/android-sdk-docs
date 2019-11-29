@@ -4,18 +4,38 @@
 
 `open class TripKitDateTimePickerDialogFragment : DialogFragment, OnTimeChangedListener`
 
+A DialogFragment which allows a user to set a time and choose whether it is a departure time or an arrival time.
+
+```
+DialogFragment fragment = TripKitDateTimePickerDialogFragment.Builder()
+          .withLocations(toLocation, fromLocation)
+          .withTimeTag(timeTagForQuery)
+          .build();
+ 
+  fragment.show(supportFragmentManager, "timePicker")
+```
+
 ### Types
 
 | Name | Summary |
 |---|---|
-| [Builder](-builder/index.md) | `class Builder` |
-| [OnTimeSelectedListener](-on-time-selected-listener/index.md) | `interface OnTimeSelectedListener` |
+| [Builder](-builder/index.md) | Used to create a new instance of the fragment.`class Builder` |
+| [OnTimeSelectedListener](-on-time-selected-listener/index.md) | Interface definition for a callback to be invoked when a time is selected.`interface OnTimeSelectedListener` |
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `TripKitDateTimePickerDialogFragment()` |
+| [&lt;init&gt;](-init-.md) | A DialogFragment which allows a user to set a time and choose whether it is a departure time or an arrival time.
+
+```
+DialogFragment fragment = TripKitDateTimePickerDialogFragment.Builder()
+          .withLocations(toLocation, fromLocation)
+          .withTimeTag(timeTagForQuery)
+          .build();
+ 
+  fragment.show(supportFragmentManager, "timePicker")  <br>```
+<br>`TripKitDateTimePickerDialogFragment()` |
 
 ### Properties
 

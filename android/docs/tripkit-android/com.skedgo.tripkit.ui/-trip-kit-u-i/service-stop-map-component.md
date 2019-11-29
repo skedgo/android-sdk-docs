@@ -2,4 +2,4 @@
 
 # serviceStopMapComponent
 
-`abstract fun serviceStopMapComponent(): `[`ServiceStopMapComponent`](../../com.skedgo.tripkit.ui.core.module/-service-stop-map-component/index.md)`!`
+`abstract fun serviceStopMapComponent(): ServiceStopMapComponent!`

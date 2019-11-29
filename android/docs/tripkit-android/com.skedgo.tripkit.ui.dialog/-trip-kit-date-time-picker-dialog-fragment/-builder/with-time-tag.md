@@ -3,3 +3,13 @@
 # withTimeTag
 
 `fun withTimeTag(tag: `[`TimeTag`](../../../com.skedgo.android.common.model/-time-tag/index.md)`!): Builder!`
+
+Automatically populates the fragment using an existing TimeTag.
+
+### Parameters
+
+`tag` - [TimeTag](../../../com.skedgo.android.common.model/-time-tag/index.md)!:
+
+**Return**
+Builder!: this builder
+

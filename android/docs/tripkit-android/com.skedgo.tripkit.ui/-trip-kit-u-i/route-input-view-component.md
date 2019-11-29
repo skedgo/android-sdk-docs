@@ -2,4 +2,4 @@
 
 # routeInputViewComponent
 
-`abstract fun routeInputViewComponent(): `[`RouteInputViewComponent`](../../com.skedgo.tripkit.ui.core.module/-route-input-view-component/index.md)`!`
+`abstract fun routeInputViewComponent(): RouteInputViewComponent!`

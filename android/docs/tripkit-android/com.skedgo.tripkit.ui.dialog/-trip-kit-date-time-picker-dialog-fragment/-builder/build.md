@@ -3,3 +3,9 @@
 # build
 
 `fun build(): `[`TripKitDateTimePickerDialogFragment`](../index.md)`!`
+
+Builds a new instance of the fragment.
+
+**Return**
+[TripKitDateTimePickerDialogFragment](../index.md)!: A new instance
+

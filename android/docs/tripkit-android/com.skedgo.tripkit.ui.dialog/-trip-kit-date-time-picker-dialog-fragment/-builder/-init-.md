@@ -3,3 +3,6 @@
 # &lt;init&gt;
 
 `Builder()`
+
+Used to create a new instance of the fragment.
+

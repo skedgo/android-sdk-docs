@@ -2,4 +2,4 @@
 
 # timePickerComponent
 
-`abstract fun timePickerComponent(): `[`TimePickerComponent`](../../com.skedgo.tripkit.ui.core.module/-time-picker-component/index.md)`!`
+`abstract fun timePickerComponent(): TimePickerComponent!`

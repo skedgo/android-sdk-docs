@@ -3,3 +3,9 @@
 # locationFound
 
 `abstract fun locationFound(location: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+
+Called when a location is found.
+
+### Parameters
+
+`location` - The user's current location.

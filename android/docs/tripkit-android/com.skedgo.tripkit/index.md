@@ -14,7 +14,6 @@
 | [DefaultCo2Preferences](-default-co2-preferences/index.md) | `class DefaultCo2Preferences : `[`Co2Preferences`](-co2-preferences/index.md) |
 | [DefaultTripPreferences](-default-trip-preferences/index.md) | `class DefaultTripPreferences : `[`TripPreferences`](-trip-preferences/index.md) |
 | [ExternalActionParams](-external-action-params/index.md) | `abstract class ExternalActionParams` |
-| [HttpClientModule](-http-client-module/index.md) | `open class HttpClientModule` |
 | [LineSegment](-line-segment/index.md) | Represents a segment of a polyline denoting a ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md).`class LineSegment` |
 | [LocationInfo](-location-info/index.md) | `interface LocationInfo` |
 | [LocationInfoDetails](-location-info-details/index.md) | `abstract class LocationInfoDetails` |

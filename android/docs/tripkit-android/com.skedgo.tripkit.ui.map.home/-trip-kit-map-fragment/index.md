@@ -4,17 +4,19 @@
 
 `open class TripKitMapFragment : `[`LocationEnhancedMapFragment`](../../com.skedgo.tripkit.ui.map/-location-enhanced-map-fragment/index.md)`, OnInfoWindowClickListener, OnMapLongClickListener, OnCameraChangeListener, OnMarkerClickListener`
 
+A map component for an app. It automatically integrates with SkedGo's backend, display transit information without any additional intervention. Being a fragment, it can very easily be added to an activity's layout. ```  ``` You **must** provide a TripGo API token as R.string.skedgo_api_key.
+
 ### Types
 
 | Name | Summary |
 |---|---|
-| [OnInfoWindowClickListener](-on-info-window-click-listener/index.md) | `interface OnInfoWindowClickListener` |
+| [OnInfoWindowClickListener](-on-info-window-click-listener/index.md) | When an icon in the map is clicked, an information window is displayed. When that information window is clicked, this interface is used as a callback to notify the app of the click.`interface OnInfoWindowClickListener` |
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `TripKitMapFragment()` |
+| [&lt;init&gt;](-init-.md) | A map component for an app. It automatically integrates with SkedGo's backend, display transit information without any additional intervention. Being a fragment, it can very easily be added to an activity's layout. ```  ``` You **must** provide a TripGo API token as R.string.skedgo_api_key.`TripKitMapFragment()` |
 
 ### Functions
 

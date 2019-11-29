@@ -2,4 +2,4 @@
 
 # timetableComponent
 
-`abstract fun timetableComponent(module: `[`TimetableModule`](../../com.skedgo.tripkit.ui.core.module/-timetable-module/index.md)`!): `[`TimetableComponent`](../../com.skedgo.tripkit.ui.core.module/-timetable-component/index.md)`!`
+`abstract fun timetableComponent(module: TimetableModule!): TimetableComponent!`

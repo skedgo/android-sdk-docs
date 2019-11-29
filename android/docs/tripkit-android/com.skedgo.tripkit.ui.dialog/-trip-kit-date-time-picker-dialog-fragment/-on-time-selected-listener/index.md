@@ -4,8 +4,10 @@
 
 `interface OnTimeSelectedListener`
 
+Interface definition for a callback to be invoked when a time is selected.
+
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [onTimeSelected](on-time-selected.md) | `abstract fun onTimeSelected(timeTag: `[`TimeTag`](../../../com.skedgo.android.common.model/-time-tag/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [onTimeSelected](on-time-selected.md) | Called when the user presses the "Done" button.`abstract fun onTimeSelected(timeTag: `[`TimeTag`](../../../com.skedgo.android.common.model/-time-tag/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

@@ -2,4 +2,4 @@
 
 # tripDetailsComponent
 
-`abstract fun tripDetailsComponent(): `[`TripDetailsComponent`](../../com.skedgo.tripkit.ui.core.module/-trip-details-component/index.md)`!`
+`abstract fun tripDetailsComponent(): TripDetailsComponent!`

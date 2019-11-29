@@ -3,3 +3,9 @@
 # locationError
 
 `abstract fun locationError(error: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+
+Called when an error occurred.
+
+### Parameters
+
+`error` - An error string.

@@ -2,4 +2,4 @@
 
 # homeMapFragmentComponent
 
-`abstract fun homeMapFragmentComponent(module: `[`HomeMapFragmentModule`](../../com.skedgo.tripkit.ui.core.module/-home-map-fragment-module/index.md)`!): `[`HomeMapFragmentComponent`](../../com.skedgo.tripkit.ui.core.module/-home-map-fragment-component/index.md)`!`
+`abstract fun homeMapFragmentComponent(module: HomeMapFragmentModule!): HomeMapFragmentComponent!`

@@ -1,5 +1,0 @@
-[tripkit-android](../../index.md) / [com.skedgo.tripkit.ui.core.module](../index.md) / [TripKitModule](index.md) / [&lt;init&gt;](./-init-.md)
-
-# &lt;init&gt;
-
-`TripKitModule()`

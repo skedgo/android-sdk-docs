@@ -57,11 +57,6 @@ Lifecycle events that can be emitted by Activities.
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.ActivityScope](../com.skedgo.tripkit.ui.core.module/-activity-scope/index.md)
-
-
-|
-
 ##### [com.skedgo.android.common.model.AlertAction](../com.skedgo.android.common.model/-alert-action/index.md)
 
 
@@ -100,11 +95,6 @@ Lifecycle events that can be emitted by Activities.
 ##### [com.skedgo.tripkit.android.AnalyticsComponent](../com.skedgo.tripkit.android/-analytics-component/index.md)
 
 Creates UseCases and Repositories related to the Analytics feature.
-
-
-|
-
-##### [com.skedgo.tripkit.analytics.AnalyticsDataModule](../com.skedgo.tripkit.analytics/-analytics-data-module/index.md)
 
 
 |
@@ -157,13 +147,6 @@ Zoom level that is compatible with the locations.json API
 |
 
 ##### [com.skedgo.tripkit.ui.geocoding.AutoCompleteTask](../com.skedgo.tripkit.ui.geocoding/-auto-complete-task/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.AutoCompleteTaskModule](../com.skedgo.tripkit.ui.core.module/-auto-complete-task-module/index.md)
-
-Defines components for the search list
 
 
 |
@@ -313,11 +296,6 @@ Defines components for the search list
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.CameraPositionDataModule](../com.skedgo.tripkit.ui.core.module/-camera-position-data-module/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.ui.core.permissions.CanRequestPermission](../com.skedgo.tripkit.ui.core.permissions/-can-request-permission/index.md)
 
 
@@ -458,19 +436,9 @@ Represents configuration parameters.
 ##### [com.skedgo.tripkit.data.connectivity.ConnectivityServiceImpl](../com.skedgo.tripkit.data.connectivity/-connectivity-service-impl/index.md)
 
 
-|
-
-##### [com.skedgo.tripkit.ui.core.module.ConnectivityServiceModule](../com.skedgo.tripkit.ui.core.module/-connectivity-service-module/index.md)
-
-
 | (extensions in package com.skedgo.tripkit.ui.utils)
 
 ##### [android.content.Context](../com.skedgo.tripkit.ui.utils/android.content.-context/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.ContextModule](../com.skedgo.tripkit.ui.core.module/-context-module/index.md)
 
 
 |
@@ -577,11 +545,6 @@ Creates UseCases and Repositories related to the DateTime feature.
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.DbHelperModule](../com.skedgo.tripkit.ui.core.module/-db-helper-module/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.data.database.DbTables](../com.skedgo.tripkit.data.database/-db-tables/index.md)
 
 
@@ -597,17 +560,7 @@ Creates UseCases and Repositories related to the DateTime feature.
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.DefaultLoadPOILocationsByViewPortModule](../com.skedgo.tripkit.ui.core.module/-default-load-p-o-i-locations-by-view-port-module/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.ui.map.DefaultStopInfoWindowAdapter](../com.skedgo.tripkit.ui.map/-default-stop-info-window-adapter/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.DefaultStopInfoWindowAdapterModule](../com.skedgo.tripkit.ui.core.module/-default-stop-info-window-adapter-module/index.md)
 
 
 |
@@ -623,11 +576,6 @@ Creates UseCases and Repositories related to the DateTime feature.
 |
 
 ##### [com.skedgo.tripkit.ui.timetables.data.DeparturesApi](../com.skedgo.tripkit.ui.timetables.data/-departures-api/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.DeparturesModule](../com.skedgo.tripkit.ui.core.module/-departures-module/index.md)
 
 
 |
@@ -663,16 +611,6 @@ Creates UseCases and Repositories related to the DateTime feature.
 |
 
 ##### [com.skedgo.tripkit.ui.core.ErrorLoggerImpl](../com.skedgo.tripkit.ui.core/-error-logger-impl/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.ErrorLoggerModule](../com.skedgo.tripkit.ui.core.module/-error-logger-module/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.EventTrackerModule](../com.skedgo.tripkit.ui.core.module/-event-tracker-module/index.md)
 
 
 |
@@ -796,11 +734,6 @@ A wrapper of ``[`A2bRoutingApi`](../com.skedgo.tripkit.a2brouting/-a2b-routing-a
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.FetchSuggestionsModule](../com.skedgo.tripkit.ui.core.module/-fetch-suggestions-module/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.ui.timetables.FetchTimetable](../com.skedgo.tripkit.ui.timetables/-fetch-timetable/index.md)
 
 
@@ -846,11 +779,6 @@ Fills id for ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md).
 ##### [com.skedgo.tripkit.ui.core.rxlifecyclecomponents.FragmentEvent](../com.skedgo.tripkit.ui.core.rxlifecyclecomponents/-fragment-event/index.md)
 
 Lifecycle events that can be emitted by Fragments.
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.FragmentScope](../com.skedgo.tripkit.ui.core.module/-fragment-scope/index.md)
 
 
 |
@@ -1004,11 +932,6 @@ Nothing more!
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.GetExcludedTransitModesModule](../com.skedgo.tripkit.ui.core.module/-get-excluded-transit-modes-module/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.ui.timetables.GetFrequencyText](../com.skedgo.tripkit.ui.timetables/-get-frequency-text/index.md)
 
 
@@ -1133,11 +1056,6 @@ to make the code more testable.
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.GooglePlacesModule](../com.skedgo.tripkit.ui.core.module/-google-places-module/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.ui.geocoding.GoogleResultLocationAdapter](../com.skedgo.tripkit.ui.geocoding/-google-result-location-adapter/index.md)
 
 
@@ -1171,21 +1089,6 @@ scored result with duplicates
 |
 
 ##### [com.skedgo.tripkit.ui.geocoding.HasResults](../com.skedgo.tripkit.ui.geocoding/-has-results/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.HomeMapFragmentComponent](../com.skedgo.tripkit.ui.core.module/-home-map-fragment-component/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.HomeMapFragmentModule](../com.skedgo.tripkit.ui.core.module/-home-map-fragment-module/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.HttpClientModule](../com.skedgo.tripkit/-http-client-module/index.md)
 
 
 |
@@ -1237,27 +1140,12 @@ Signifies a class is able to fetch timetable information
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.IsModeIncludedInTripsRepositoryModule](../com.skedgo.tripkit.ui.core.module/-is-mode-included-in-trips-repository-module/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.IsModeMinimizedRepositoryModule](../com.skedgo.tripkit.ui.core.module/-is-mode-minimized-repository-module/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.ui.core.modeprefs.IsTransitModeIncluded](../com.skedgo.tripkit.ui.core.modeprefs/-is-transit-mode-included/index.md)
 
 
 |
 
 ##### [com.skedgo.tripkit.ui.core.modeprefs.IsTransitModeIncludedRepository](../com.skedgo.tripkit.ui.core.modeprefs/-is-transit-mode-included-repository/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.IsTransitModeIncludedRepositoryModule](../com.skedgo.tripkit.ui.core.module/-is-transit-mode-included-repository-module/index.md)
 
 
 |
@@ -1383,6 +1271,8 @@ TODO Should find an appropriate class name
 
 ##### [com.skedgo.tripkit.ui.locationhelper.LocationHelper](../com.skedgo.tripkit.ui.locationhelper/-location-helper/index.md)
 
+A simple wrapper around [FusedLocationProviderClient](https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderClient).
+
 
 |
 
@@ -1427,11 +1317,6 @@ TODO Should find an appropriate class name
 |
 
 ##### [com.skedgo.tripkit.data.locations.LocationsResponse](../com.skedgo.tripkit.data.locations/-locations-response/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.LocationStuffModule](../com.skedgo.tripkit.ui.core.module/-location-stuff-module/index.md)
 
 
 |
@@ -1515,11 +1400,6 @@ this class represents a scored result, it could be single or have duplicates
 ##### [com.skedgo.geocoding.agregator.MultiSourceGeocodingAggregator](../com.skedgo.geocoding.agregator/-multi-source-geocoding-aggregator/index.md)
 
 Scoring formulas Favourites: max(title, address) Search history: max(title, address) Regions: distance Address book: (title + address) / 2 Calendar: (title + address) / 2 SkedGo transit stops: popularity -&gt; ((min(popularity, GOOD_SCORE)) / (GOOD_SCORE / 100)) * 2 SkedGo others: title Google: (max(title, address) * 3 + distance) / 4 Google Autocomplete: (title * 3) / 4 Foursquare: ((title * 3 + distance) / 4) * suburb Title score: score based on input string against the title of the result Address score: score based on input string against address of the result Distance score: score based on distance to center or provided region Suburb score: bonus score if result is a suburb Popularity score: score based on popularity of result as determined by server
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.MyPersonalDataModule](../com.skedgo.tripkit.ui.core.module/-my-personal-data-module/index.md)
 
 
 |
@@ -1836,19 +1716,7 @@ FIXME: Should move this into TripGoDomainLegacy module.
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.PicassoModule](../com.skedgo.tripkit.ui.core.module/-picasso-module/index.md)
-
-Defines components fetching and loading images.
-
-
-|
-
 ##### [com.skedgo.tripkit.ui.map.PinUpdateRepositoryImpl](../com.skedgo.tripkit.ui.map/-pin-update-repository-impl/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.PinUpdateRepositoryModule](../com.skedgo.tripkit.ui.core.module/-pin-update-repository-module/index.md)
 
 
 |
@@ -1874,11 +1742,6 @@ Defines components fetching and loading images.
 |
 
 ##### [com.skedgo.tripkit.ui.routing.PreferredTransferTimeRepository](../com.skedgo.tripkit.ui.routing/-preferred-transfer-time-repository/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.PreferredTransferTimeRepositoryModule](../com.skedgo.tripkit.ui.core.module/-preferred-transfer-time-repository-module/index.md)
 
 
 |
@@ -1927,11 +1790,6 @@ An UseCase to print time with respect of 24-hour
 |
 
 ##### [com.skedgo.tripkit.ui.routing.settings.PrioritiesRepository](../com.skedgo.tripkit.ui.routing.settings/-priorities-repository/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.PrioritiesRepositoryModule](../com.skedgo.tripkit.ui.core.module/-priorities-repository-module/index.md)
 
 
 |
@@ -2011,11 +1869,6 @@ Use ``[`RealtimeAlertService`](../com.skedgo.tripkit.alerts/-realtime-alert-serv
 |
 
 ##### [skedgo.tripkit.locations.RealTimeInfo](../skedgo.tripkit.locations/-real-time-info/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.RealTimeRepositoryModule](../com.skedgo.tripkit.ui.core.module/-real-time-repository-module/index.md)
 
 
 |
@@ -2176,10 +2029,7 @@ A facade of ``[`RegionInfoApi`](../com.skedgo.tripkit.tsp/-region-info-api/index
 
 ##### [com.skedgo.tripkit.ui.routeinput.RouteInputView](../com.skedgo.tripkit.ui.routeinput/-route-input-view/index.md)
 
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.RouteInputViewComponent](../com.skedgo.tripkit.ui.core.module/-route-input-view-component/index.md)
+A widget for display start and destination locations, as well as departure/arrival times and a "Route" button.
 
 
 |
@@ -2189,22 +2039,7 @@ A facade of ``[`RegionInfoApi`](../com.skedgo.tripkit.tsp/-region-info-api/index
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.RouteInputViewModule](../com.skedgo.tripkit.ui.core.module/-route-input-view-module/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.RoutesComponent](../com.skedgo.tripkit.ui.core.module/-routes-component/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.a2brouting.RouteService](../com.skedgo.tripkit.a2brouting/-route-service/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.RoutesModule](../com.skedgo.tripkit.ui.core.module/-routes-module/index.md)
 
 
 |
@@ -2294,11 +2129,6 @@ A facade of ``[`RegionInfoApi`](../com.skedgo.tripkit.tsp/-region-info-api/index
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.ScheduledStopServiceModule](../com.skedgo.tripkit.ui.core.module/-scheduled-stop-service-module/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.ui.provider.ScheduledStopsProvider](../com.skedgo.tripkit.ui.provider/-scheduled-stops-provider/index.md)
 
 
@@ -2310,11 +2140,6 @@ A facade of ``[`RegionInfoApi`](../com.skedgo.tripkit.tsp/-region-info-api/index
 |
 
 ##### [com.skedgo.tripkit.ui.core.SchedulerFactoryImpl](../com.skedgo.tripkit.ui.core/-scheduler-factory-impl/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.SchedulerFactoryModule](../com.skedgo.tripkit.ui.core.module/-scheduler-factory-module/index.md)
 
 
 |
@@ -2408,11 +2233,6 @@ Selects display trip which has lowest weighted score.
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.ServiceAlertDataModule](../com.skedgo.tripkit.ui.core.module/-service-alert-data-module/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.data.database.timetables.ServiceAlertDataModule](../com.skedgo.tripkit.data.database.timetables/-service-alert-data-module/index.md)
 
 
@@ -2464,16 +2284,6 @@ Selects display trip which has lowest weighted score.
 |
 
 ##### [com.skedgo.tripkit.ui.servicedetail.ServiceDetailItemViewModel](../com.skedgo.tripkit.ui.servicedetail/-service-detail-item-view-model/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.ServiceDetailItemViewModelModule](../com.skedgo.tripkit.ui.core.module/-service-detail-item-view-model-module/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.ServiceDetailsModule](../com.skedgo.tripkit.ui.core.module/-service-details-module/index.md)
 
 
 |
@@ -2530,11 +2340,6 @@ Represents a future stop of a service in a trip.
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.ServiceStopMapComponent](../com.skedgo.tripkit.ui.core.module/-service-stop-map-component/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.ui.map.servicestop.ServiceStopMapFragment](../com.skedgo.tripkit.ui.map.servicestop/-service-stop-map-fragment/index.md)
 
 
@@ -2561,11 +2366,6 @@ Represents a future stop of a service in a trip.
 |
 
 ##### [com.skedgo.tripkit.ui.timetables.ServiceViewModel](../com.skedgo.tripkit.ui.timetables/-service-view-model/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.ServiceViewModelModule](../com.skedgo.tripkit.ui.core.module/-service-view-model-module/index.md)
 
 
 |
@@ -2774,22 +2574,7 @@ Handles downloading trip via ``[`Trip#getTemporaryURL()`](../skedgo.tripkit.rout
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.TimePickerComponent](../com.skedgo.tripkit.ui.core.module/-time-picker-component/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.TimePickerModule](../com.skedgo.tripkit.ui.core.module/-time-picker-module/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.ui.utils.TimeSpanUtils](../com.skedgo.tripkit.ui.utils/-time-span-utils/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.TimetableComponent](../com.skedgo.tripkit.ui.core.module/-timetable-component/index.md)
 
 
 |
@@ -2817,11 +2602,6 @@ Handles downloading trip via ``[`Trip#getTemporaryURL()`](../skedgo.tripkit.rout
 |
 
 ##### [com.skedgo.tripkit.ui.timetables.domain.TimetableLoaderFactory](../com.skedgo.tripkit.ui.timetables.domain/-timetable-loader-factory/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.TimetableModule](../com.skedgo.tripkit.ui.core.module/-timetable-module/index.md)
 
 
 |
@@ -2881,11 +2661,6 @@ Handles downloading trip via ``[`Trip#getTemporaryURL()`](../skedgo.tripkit.rout
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.TransportationIconTintStrategyModule](../com.skedgo.tripkit.ui.core.module/-transportation-icon-tint-strategy-module/index.md)
-
-
-|
-
 ##### [com.skedgo.android.common.model.TransportMode](../com.skedgo.android.common.model/-transport-mode/index.md)
 
 
@@ -2923,16 +2698,6 @@ A ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md) will mainly hold a list o
 
 |
 
-##### [com.skedgo.tripkit.ui.core.module.TripDetailsComponent](../com.skedgo.tripkit.ui.core.module/-trip-details-component/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.TripDetailsModule](../com.skedgo.tripkit.ui.core.module/-trip-details-module/index.md)
-
-
-|
-
 ##### [com.skedgo.tripkit.ui.TripGoStyleKit](../com.skedgo.tripkit.ui/-trip-go-style-kit/index.md)
 
 Created by Adrian Schoenig on 3. May 2018. CopyrightW 2018 SkedGo Pty Ltd. All rights reserved.
@@ -2953,11 +2718,6 @@ Represents a list of ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md)s. A li
 |
 
 ##### [skedgo.tripkit.routing.TripGroupComparators](../skedgo.tripkit.routing/-trip-group-comparators/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.TripGroupRepositoryModule](../com.skedgo.tripkit.ui.core.module/-trip-group-repository-module/index.md)
 
 
 |
@@ -2994,6 +2754,17 @@ Represents a list of ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md)s. A li
 
 ##### [com.skedgo.tripkit.ui.dialog.TripKitDateTimePickerDialogFragment](../com.skedgo.tripkit.ui.dialog/-trip-kit-date-time-picker-dialog-fragment/index.md)
 
+A DialogFragment which allows a user to set a time and choose whether it is a departure time or an arrival time.
+
+```
+DialogFragment fragment = TripKitDateTimePickerDialogFragment.Builder()
+          .withLocations(toLocation, fromLocation)
+          .withTimeTag(timeTagForQuery)
+          .build();
+ 
+  fragment.show(supportFragmentManager, "timePicker")
+```
+
 
 |
 
@@ -3004,20 +2775,12 @@ Represents a list of ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md)s. A li
 
 ##### [com.skedgo.tripkit.ui.map.home.TripKitMapFragment](../com.skedgo.tripkit.ui.map.home/-trip-kit-map-fragment/index.md)
 
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.TripKitModule](../com.skedgo.tripkit.ui.core.module/-trip-kit-module/index.md)
+A map component for an app. It automatically integrates with SkedGo's backend, display transit information without any additional intervention. Being a fragment, it can very easily be added to an activity's layout. ```  ``` You **must** provide a TripGo API token as R.string.skedgo_api_key.
 
 
 |
 
 ##### [com.skedgo.tripkit.ui.TripKitUI](../com.skedgo.tripkit.ui/-trip-kit-u-i/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.TripKitUIModule](../com.skedgo.tripkit.ui.core.module/-trip-kit-u-i-module/index.md)
 
 
 |
@@ -3033,11 +2796,6 @@ Represents a list of ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md)s. A li
 |
 
 ##### [com.skedgo.tripkit.TripPreferences](../com.skedgo.tripkit/-trip-preferences/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.TripProgressModule](../com.skedgo.tripkit.ui.core.module/-trip-progress-module/index.md)
 
 
 |
@@ -3137,11 +2895,6 @@ Puts a Departure segment before head of, and puts an Arrival segment after tail 
 |
 
 ##### [com.skedgo.tripkit.ui.tripresults.TripSegmentViewModel](../com.skedgo.tripkit.ui.tripresults/-trip-segment-view-model/index.md)
-
-
-|
-
-##### [com.skedgo.tripkit.ui.core.module.TripSegmentViewModelComponent](../com.skedgo.tripkit.ui.core.module/-trip-segment-view-model-component/index.md)
 
 
 |

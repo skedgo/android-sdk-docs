@@ -47,7 +47,6 @@ com.skedgo.rxtry
 com.skedgo.tripkit
 com.skedgo.tripkit.a2brouting
 com.skedgo.tripkit.alerts
-com.skedgo.tripkit.analytics
 com.skedgo.tripkit.android
 com.skedgo.tripkit.bookingproviders
 com.skedgo.tripkit.data.connectivity
@@ -73,7 +72,6 @@ com.skedgo.tripkit.ui.booking
 com.skedgo.tripkit.ui.core
 com.skedgo.tripkit.ui.core.binding
 com.skedgo.tripkit.ui.core.modeprefs
-com.skedgo.tripkit.ui.core.module
 com.skedgo.tripkit.ui.core.permissions
 com.skedgo.tripkit.ui.core.rxlifecyclecomponents
 com.skedgo.tripkit.ui.core.rxproperty

@@ -6,4 +6,4 @@
 
 | Name | Summary |
 |---|---|
-| [LocationHelper](-location-helper/index.md) | `class LocationHelper` |
+| [LocationHelper](-location-helper/index.md) | A simple wrapper around [FusedLocationProviderClient](https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderClient).`class LocationHelper` |

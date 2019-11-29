@@ -2,4 +2,4 @@
 
 # routesComponent
 
-`abstract fun routesComponent(): `[`RoutesComponent`](../../com.skedgo.tripkit.ui.core.module/-routes-component/index.md)`!`
+`abstract fun routesComponent(): RoutesComponent!`

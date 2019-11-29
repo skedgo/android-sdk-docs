@@ -3,3 +3,13 @@
 # timeMillis
 
 `fun timeMillis(millis: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`): Builder!`
+
+The time in milliseconds to display.
+
+### Parameters
+
+`millis` - [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html):
+
+**Return**
+Builder!: this builder
+

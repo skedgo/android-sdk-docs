@@ -4,8 +4,10 @@
 
 `interface OnInfoWindowClickListener`
 
+When an icon in the map is clicked, an information window is displayed. When that information window is clicked, this interface is used as a callback to notify the app of the click.
+
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [onInfoWindowClick](on-info-window-click.md) | `abstract fun onInfoWindowClick(location: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [onInfoWindowClick](on-info-window-click.md) | Called when an info window is clicked.`abstract fun onInfoWindowClick(location: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
