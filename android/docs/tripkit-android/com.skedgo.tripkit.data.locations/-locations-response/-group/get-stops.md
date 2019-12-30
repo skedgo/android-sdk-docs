@@ -2,4 +2,4 @@
 
 # getStops
 
-`open fun getStops(): `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`ScheduledStop`](../../../com.skedgo.android.common.model/-scheduled-stop/index.md)`!>!`
+`open fun getStops(): `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`ScheduledStop`](../../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`!>!`

@@ -58,5 +58,5 @@
 
 | Name | Summary |
 |---|---|
-| [createStopMarkerOptions](create-stop-marker-options.md) | `fun `[`ScheduledStop`](../com.skedgo.android.common.model/-scheduled-stop/index.md)`.createStopMarkerOptions(): Single<MarkerOptions>` |
-| [getStopDisplayName](get-stop-display-name.md) | `fun `[`ScheduledStop`](../com.skedgo.android.common.model/-scheduled-stop/index.md)`.getStopDisplayName(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
+| [createStopMarkerOptions](create-stop-marker-options.md) | `fun `[`ScheduledStop`](../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`.createStopMarkerOptions(): Single<MarkerOptions>` |
+| [getStopDisplayName](get-stop-display-name.md) | `fun `[`ScheduledStop`](../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`.getStopDisplayName(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |

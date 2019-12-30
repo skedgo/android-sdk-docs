@@ -2,5 +2,5 @@
 
 # getUpdateAsync
 
-`@NonNull abstract fun getUpdateAsync(@NonNull trip: `[`Trip`](../../skedgo.tripkit.routing/-trip/index.md)`): Observable<`[`Trip`](../../skedgo.tripkit.routing/-trip/index.md)`!>`
-`@NonNull abstract fun getUpdateAsync(@NonNull tripUrl: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): Observable<`[`Trip`](../../skedgo.tripkit.routing/-trip/index.md)`!>`
+`@NonNull abstract fun getUpdateAsync(@NonNull trip: `[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md)`): Observable<`[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md)`!>`
+`@NonNull abstract fun getUpdateAsync(@NonNull tripUrl: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): Observable<`[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md)`!>`

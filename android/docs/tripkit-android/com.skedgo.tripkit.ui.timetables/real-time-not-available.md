@@ -2,4 +2,4 @@
 
 # realTimeNotAvailable
 
-`fun realTimeNotAvailable(service: `[`TimetableEntry`](../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, vehicle: `[`RealTimeVehicle`](../skedgo.tripkit.routing/-real-time-vehicle/index.md)`?): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)
+`fun realTimeNotAvailable(service: `[`TimetableEntry`](../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, vehicle: `[`RealTimeVehicle`](../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`?): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)

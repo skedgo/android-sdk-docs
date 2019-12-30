@@ -2,4 +2,4 @@
 
 # group
 
-`abstract fun group(group: `[`TripGroup`](../../../skedgo.tripkit.routing/-trip-group/index.md)`!): Builder!`
+`abstract fun group(group: `[`TripGroup`](../../../com.skedgo.tripkit.routing/-trip-group/index.md)`!): Builder!`

@@ -2,4 +2,4 @@
 
 # query
 
-`fun query(): `[`Query`](../../com.skedgo.android.common.model/-query/index.md)
+`fun query(): `[`Query`](../../com.skedgo.tripkit.common.model/-query/index.md)

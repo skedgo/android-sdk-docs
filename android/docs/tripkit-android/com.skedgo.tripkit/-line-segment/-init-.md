@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`LineSegment(start: `[`TripKitLatLng`](../../com.skedgo.android.common.util/-trip-kit-lat-lng/index.md)`!, end: `[`TripKitLatLng`](../../com.skedgo.android.common.util/-trip-kit-lat-lng/index.md)`!, color: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`)`
+`LineSegment(start: `[`TripKitLatLng`](../../com.skedgo.tripkit.common.util/-trip-kit-lat-lng/index.md)`!, end: `[`TripKitLatLng`](../../com.skedgo.tripkit.common.util/-trip-kit-lat-lng/index.md)`!, color: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`)`

@@ -2,4 +2,4 @@
 
 # getCitiesAsync
 
-`abstract fun getCitiesAsync(): Observable<`[`Location`](../../com.skedgo.android.common.model/-location/index.md)`>`
+`abstract fun getCitiesAsync(): Observable<`[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`>`

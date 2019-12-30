@@ -2,4 +2,4 @@
 
 # query
 
-`open fun query(query: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!>!`
+`open fun query(query: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!>!`

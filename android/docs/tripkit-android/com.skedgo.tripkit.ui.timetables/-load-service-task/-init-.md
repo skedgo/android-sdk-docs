@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`LoadServiceTask(stop: `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`!, cursor: Cursor!)`
+`LoadServiceTask(stop: `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`!, cursor: Cursor!)`

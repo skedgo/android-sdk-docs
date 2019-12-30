@@ -2,4 +2,4 @@
 
 # key
 
-`abstract fun key(): `[`Callable`](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Callable.html)`<`[`Key`](../../skedgo.tripkit.configuration/-key/index.md)`!>!`
+`abstract fun key(): `[`Callable`](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Callable.html)`<`[`Key`](../../com.skedgo.tripkit.configuration/-key/index.md)`!>!`

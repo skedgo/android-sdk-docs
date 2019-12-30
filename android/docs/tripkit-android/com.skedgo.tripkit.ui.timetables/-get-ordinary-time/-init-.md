@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`GetOrdinaryTime(context: Context, printTime: `[`PrintTime`](../../skedgo.tripkit.datetime/-print-time/index.md)`)`
+`GetOrdinaryTime(context: Context, printTime: `[`PrintTime`](../../com.skedgo.tripkit.datetime/-print-time/index.md)`)`

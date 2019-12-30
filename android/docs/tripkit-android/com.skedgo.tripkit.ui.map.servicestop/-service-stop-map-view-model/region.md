@@ -2,4 +2,4 @@
 
 # region
 
-`val region: Observable<`[`Region`](../../com.skedgo.android.common.model/-region/index.md)`!>`
+`val region: Observable<`[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md)`!>`

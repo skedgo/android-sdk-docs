@@ -2,4 +2,4 @@
 
 # getModeInfo
 
-`@Nullable open fun getModeInfo(): `[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md)`?`
+`@Nullable open fun getModeInfo(): `[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md)`?`

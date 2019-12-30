@@ -2,7 +2,7 @@
 
 # CursorToStopConverter
 
-`open class CursorToStopConverter : `[`CursorToEntityConverter`](../-cursor-to-entity-converter.md)`<`[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`!>`
+`open class CursorToStopConverter : `[`CursorToEntityConverter`](../-cursor-to-entity-converter.md)`<`[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`!>`
 
 ### Constructors
 
@@ -22,4 +22,4 @@
 
 | Name | Summary |
 |---|---|
-| [apply](apply.md) | `open fun apply(cursor: Cursor): `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`!` |
+| [apply](apply.md) | `open fun apply(cursor: Cursor): `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`!` |

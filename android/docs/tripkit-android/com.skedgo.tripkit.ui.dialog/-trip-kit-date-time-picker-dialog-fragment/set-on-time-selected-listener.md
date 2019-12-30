@@ -2,4 +2,5 @@
 
 # setOnTimeSelectedListener
 
-`open fun setOnTimeSelectedListener(listener: OnTimeSelectedListener!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`fun setOnTimeSelectedListener(listener: OnTimeSelectedListener): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`fun setOnTimeSelectedListener(listener: (`[`TimeTag`](../../com.skedgo.tripkit.common.model/-time-tag/index.md)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

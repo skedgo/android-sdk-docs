@@ -2,4 +2,4 @@
 
 # query
 
-`lateinit var query: `[`Query`](../../com.skedgo.android.common.model/-query/index.md)
+`lateinit var query: `[`Query`](../../com.skedgo.tripkit.common.model/-query/index.md)

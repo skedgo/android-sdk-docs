@@ -2,4 +2,4 @@
 
 # errorLogger
 
-`abstract fun errorLogger(): `[`ErrorLogger`](../../skedgo.tripkit.logging/-error-logger/index.md)`!`
+`abstract fun errorLogger(): `[`ErrorLogger`](../../com.skedgo.tripkit.logging/-error-logger/index.md)`!`

@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [routeAsync](route-async.md) | To find routes from A to B asynchronously.`abstract fun routeAsync(query: `[`Query`](../../com.skedgo.android.common.model/-query/index.md)`, transportModeFilter: `[`TransportModeFilter`](../../com.skedgo.tripkit/-transport-mode-filter/index.md)` = object : TransportModeFilter {}, transitModeFilter: `[`TransitModeFilter`](../../com.skedgo.tripkit/-transit-mode-filter/index.md)` = object : TransitModeFilter {}): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`>>` |
+| [routeAsync](route-async.md) | To find routes from A to B asynchronously.`abstract fun routeAsync(query: `[`Query`](../../com.skedgo.tripkit.common.model/-query/index.md)`, transportModeFilter: `[`TransportModeFilter`](../../com.skedgo.tripkit/-transport-mode-filter/index.md)` = object : TransportModeFilter {}, transitModeFilter: `[`TransitModeFilter`](../../com.skedgo.tripkit/-transit-mode-filter/index.md)` = object : TransitModeFilter {}): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`>>` |
 
 ### Inheritors
 

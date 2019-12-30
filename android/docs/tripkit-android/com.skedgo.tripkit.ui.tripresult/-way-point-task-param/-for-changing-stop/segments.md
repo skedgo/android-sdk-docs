@@ -2,4 +2,4 @@
 
 # segments
 
-`val segments: `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`TripSegment`](../../../skedgo.tripkit.routing/-trip-segment/index.md)`>`
+`val segments: `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`TripSegment`](../../../com.skedgo.tripkit.routing/-trip-segment/index.md)`>`

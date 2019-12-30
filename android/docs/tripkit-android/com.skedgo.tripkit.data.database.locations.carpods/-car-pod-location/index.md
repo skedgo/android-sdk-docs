@@ -28,5 +28,5 @@
 | [id](id.md) | `lateinit var id: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [lat](lat.md) | `var lat: `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html) |
 | [lng](lng.md) | `var lng: `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html) |
-| [modeInfo](mode-info.md) | `lateinit var modeInfo: `[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md) |
+| [modeInfo](mode-info.md) | `lateinit var modeInfo: `[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md) |
 | [name](name.md) | `lateinit var name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

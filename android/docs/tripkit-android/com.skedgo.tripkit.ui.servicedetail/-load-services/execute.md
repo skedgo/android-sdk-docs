@@ -2,4 +2,4 @@
 
 # execute
 
-`fun execute(service: `[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, stop: `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`): Flowable<`[`ServiceStopAndLine`](../-service-stop-and-line.md)`>`
+`fun execute(service: `[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, stop: `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`): Flowable<`[`ServiceStopAndLine`](../-service-stop-and-line.md)`>`

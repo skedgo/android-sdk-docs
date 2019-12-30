@@ -2,4 +2,4 @@
 
 # getColorForWheelchairAndBicycle
 
-`fun getColorForWheelchairAndBicycle(street: `[`Street`](../../com.skedgo.android.common.model/-street/index.md)`, modeId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`?`
+`fun getColorForWheelchairAndBicycle(street: `[`Street`](../../com.skedgo.tripkit.common.model/-street/index.md)`, modeId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`?`

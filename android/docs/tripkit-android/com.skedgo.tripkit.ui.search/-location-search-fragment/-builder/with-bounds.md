@@ -3,3 +3,13 @@
 # withBounds
 
 `fun withBounds(bounds: LatLngBounds?): Builder`
+
+Used for Google Places searches. For example, a map's visible boundaries.
+
+### Parameters
+
+`bounds` - The boundaries for Google Places
+
+**Return**
+this Builder
+

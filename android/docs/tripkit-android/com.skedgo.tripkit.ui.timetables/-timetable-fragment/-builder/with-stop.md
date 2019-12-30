@@ -2,4 +2,4 @@
 
 # withStop
 
-`fun withStop(stop: `[`ScheduledStop`](../../../com.skedgo.android.common.model/-scheduled-stop/index.md)`?): Builder`
+`fun withStop(stop: `[`ScheduledStop`](../../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`?): Builder`

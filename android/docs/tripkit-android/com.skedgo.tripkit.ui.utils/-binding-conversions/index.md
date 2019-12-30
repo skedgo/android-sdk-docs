@@ -8,5 +8,5 @@
 
 | Name | Summary |
 |---|---|
-| [convertLocationToAlpha](convert-location-to-alpha.md) | `static fun convertLocationToAlpha(location: `[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
-| [convertStopTypeToMapIconRes](convert-stop-type-to-map-icon-res.md) | `static fun convertStopTypeToMapIconRes(stopType: `[`StopType`](../../com.skedgo.android.common.model/-stop-type/index.md)`?): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
+| [convertLocationToAlpha](convert-location-to-alpha.md) | `static fun convertLocationToAlpha(location: `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
+| [convertStopTypeToMapIconRes](convert-stop-type-to-map-icon-res.md) | `static fun convertStopTypeToMapIconRes(stopType: `[`StopType`](../../com.skedgo.tripkit.common.model/-stop-type/index.md)`?): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |

@@ -2,4 +2,4 @@
 
 # getCarPod
 
-`fun getCarPod(id: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): Single<`[`CarPod`](../../skedgo.tripkit.locations/-car-pod/index.md)`>`
+`fun getCarPod(id: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): Single<`[`CarPod`](../../com.skedgo.tripkit.locations/-car-pod/index.md)`>`

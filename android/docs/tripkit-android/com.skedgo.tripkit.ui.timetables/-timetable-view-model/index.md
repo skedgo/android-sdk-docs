@@ -18,9 +18,9 @@
 | [filter](filter.md) | `val filter: BehaviorRelay<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [itemBinding](item-binding.md) | `val itemBinding: ItemBinding<`[`ServiceViewModel`](../-service-view-model/index.md)`!>` |
 | [minStartTime](min-start-time.md) | `val minStartTime: Observable<`[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`!>!` |
-| [onAlertClicks](on-alert-clicks.md) | `val onAlertClicks: Observable<`[`ArrayList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html)`<`[`RealtimeAlert`](../../com.skedgo.android.common.model/-realtime-alert/index.md)`>>` |
+| [onAlertClicks](on-alert-clicks.md) | `val onAlertClicks: Observable<`[`ArrayList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html)`<`[`RealtimeAlert`](../../com.skedgo.tripkit.common.model/-realtime-alert/index.md)`>>` |
 | [onDateChanged](on-date-changed.md) | `val onDateChanged: PublishRelay<`[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`>` |
-| [onServiceClick](on-service-click.md) | `val onServiceClick: Observable<`[`Triple`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-triple/index.html)`<`[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`, `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`!>!>!` |
+| [onServiceClick](on-service-click.md) | `val onServiceClick: Observable<`[`Triple`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-triple/index.html)`<`[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`, `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`!>!>!` |
 | [scrollToNow](scroll-to-now.md) | `val scrollToNow: PublishRelay<`[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`>` |
 | [serviceItemBinding](service-item-binding.md) | `val serviceItemBinding: ItemBinding<`[`TimetableHeaderLineItem`](../../com.skedgo.tripkit.ui.model/-timetable-header-line-item/index.md)`!>` |
 | [serviceNumbers](service-numbers.md) | `val serviceNumbers: ObservableField<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TimetableHeaderLineItem`](../../com.skedgo.tripkit.ui.model/-timetable-header-line-item/index.md)`>>` |
@@ -29,7 +29,7 @@
 | [showLoading](show-loading.md) | `val showLoading: ObservableBoolean` |
 | [stationName](station-name.md) | `val stationName: ObservableField<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [stationType](station-type.md) | `val stationType: ObservableField<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
-| [stop](stop.md) | `var stop: BehaviorRelay<`[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`>` |
+| [stop](stop.md) | `var stop: BehaviorRelay<`[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`>` |
 
 ### Functions
 

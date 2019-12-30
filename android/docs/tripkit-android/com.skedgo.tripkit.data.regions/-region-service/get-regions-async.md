@@ -2,4 +2,4 @@
 
 # getRegionsAsync
 
-`abstract fun getRegionsAsync(): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Region`](../../com.skedgo.android.common.model/-region/index.md)`>>`
+`abstract fun getRegionsAsync(): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md)`>>`

@@ -2,4 +2,4 @@
 
 # scheduledStop
 
-`val scheduledStop: `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)
+`val scheduledStop: `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)

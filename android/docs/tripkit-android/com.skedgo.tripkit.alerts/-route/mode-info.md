@@ -2,4 +2,4 @@
 
 # modeInfo
 
-`@Nullable abstract fun modeInfo(): `[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md)`?`
+`@Nullable abstract fun modeInfo(): `[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md)`?`

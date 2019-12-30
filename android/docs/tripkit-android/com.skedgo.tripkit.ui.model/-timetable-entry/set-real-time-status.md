@@ -2,4 +2,4 @@
 
 # setRealTimeStatus
 
-`open fun setRealTimeStatus(realTimeStatus: `[`RealTimeStatus`](../../com.skedgo.android.common.model/-real-time-status/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`open fun setRealTimeStatus(realTimeStatus: `[`RealTimeStatus`](../../com.skedgo.tripkit.common.model/-real-time-status/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

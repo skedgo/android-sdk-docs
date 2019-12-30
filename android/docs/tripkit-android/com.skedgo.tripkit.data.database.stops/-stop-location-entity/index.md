@@ -30,4 +30,4 @@
 
 | Name | Summary |
 |---|---|
-| [toScheduledStop](../to-scheduled-stop.md) | `fun `[`StopLocationEntity`](./index.md)`.toScheduledStop(): `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md) |
+| [toScheduledStop](../to-scheduled-stop.md) | `fun `[`StopLocationEntity`](./index.md)`.toScheduledStop(): `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md) |

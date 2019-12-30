@@ -2,4 +2,4 @@
 
 # execute
 
-`open fun execute(stop: `[`ServiceStop`](../../com.skedgo.android.common.model/-service-stop/index.md)`): Observable<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>`
+`open fun execute(stop: `[`ServiceStop`](../../com.skedgo.tripkit.common.model/-service-stop/index.md)`): Observable<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>`

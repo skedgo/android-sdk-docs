@@ -2,4 +2,4 @@
 
 # getTransportModesAsync
 
-`abstract fun getTransportModesAsync(): Observable<`[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`TransportMode`](../../com.skedgo.android.common.model/-transport-mode/index.md)`>>`
+`abstract fun getTransportModesAsync(): Observable<`[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`TransportMode`](../../com.skedgo.tripkit.common.model/-transport-mode/index.md)`>>`

@@ -10,4 +10,4 @@ Interface definition for a callback to be invoked when a time is selected.
 
 | Name | Summary |
 |---|---|
-| [onTimeSelected](on-time-selected.md) | Called when the user presses the "Done" button.`abstract fun onTimeSelected(timeTag: `[`TimeTag`](../../../com.skedgo.android.common.model/-time-tag/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [onTimeSelected](on-time-selected.md) | Called when the user presses the "Done" button.`abstract fun onTimeSelected(timeTag: `[`TimeTag`](../../../com.skedgo.tripkit.common.model/-time-tag/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

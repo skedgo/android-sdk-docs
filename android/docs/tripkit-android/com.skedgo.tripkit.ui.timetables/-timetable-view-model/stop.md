@@ -2,4 +2,4 @@
 
 # stop
 
-`var stop: BehaviorRelay<`[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`>`
+`var stop: BehaviorRelay<`[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`>`

@@ -2,4 +2,4 @@
 
 # printTime
 
-`@Provides fun printTime(context: Context): `[`PrintTime`](../../skedgo.tripkit.datetime/-print-time/index.md)
+`@Provides fun printTime(context: Context): `[`PrintTime`](../../com.skedgo.tripkit.datetime/-print-time/index.md)

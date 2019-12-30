@@ -2,4 +2,4 @@
 
 # getIconUrlForModeInfo
 
-`open fun getIconUrlForModeInfo(resources: Resources!, modeInfo: `[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md)`!): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!`
+`open fun getIconUrlForModeInfo(resources: Resources!, modeInfo: `[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md)`!): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!`

@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`FetchLocalLocationsImpl(errorLogger: `[`ErrorLogger`](../../skedgo.tripkit.logging/-error-logger/index.md)`)`
+`FetchLocalLocationsImpl(errorLogger: `[`ErrorLogger`](../../com.skedgo.tripkit.logging/-error-logger/index.md)`)`

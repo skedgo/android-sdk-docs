@@ -2,4 +2,4 @@
 
 # stop
 
-`val stop: `[`ServiceStop`](../../com.skedgo.android.common.model/-service-stop/index.md)`!`
+`val stop: `[`ServiceStop`](../../com.skedgo.tripkit.common.model/-service-stop/index.md)`!`

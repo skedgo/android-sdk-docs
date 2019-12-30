@@ -12,4 +12,4 @@
 | [details](details.md) | `abstract fun details(): `[`LocationInfoDetails`](../-location-info-details/index.md)`?` |
 | [lat](lat.md) | `abstract fun lat(): `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html) |
 | [lng](lng.md) | `abstract fun lng(): `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html) |
-| [stop](stop.md) | `abstract fun stop(): `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`?` |
+| [stop](stop.md) | `abstract fun stop(): `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`?` |

@@ -14,4 +14,4 @@
 
 | Name | Summary |
 |---|---|
-| [execute](execute.md) | `fun execute(service: `[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, stop: `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`): Completable` |
+| [execute](execute.md) | `fun execute(service: `[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, stop: `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`): Completable` |

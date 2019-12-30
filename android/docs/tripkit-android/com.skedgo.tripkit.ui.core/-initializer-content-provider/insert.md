@@ -2,4 +2,4 @@
 
 # insert
 
-`fun insert(uri: Uri, values: ContentValues): Uri?`
+`fun insert(uri: Uri, values: ContentValues?): Uri?`

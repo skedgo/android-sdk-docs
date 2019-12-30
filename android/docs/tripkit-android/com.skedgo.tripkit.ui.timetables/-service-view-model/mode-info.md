@@ -2,4 +2,4 @@
 
 # modeInfo
 
-`abstract val modeInfo: ObservableField<`[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md)`>`
+`abstract val modeInfo: ObservableField<`[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md)`>`

@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`BookViewClickEvent(@NonNull bus: Bus, @NonNull segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`)`
+`BookViewClickEvent(@NonNull bus: Bus, @NonNull segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`)`

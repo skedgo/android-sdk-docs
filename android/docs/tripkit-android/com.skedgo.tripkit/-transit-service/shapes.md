@@ -2,4 +2,4 @@
 
 # shapes
 
-`abstract fun shapes(): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`Shape`](../../skedgo.tripkit.routing/-shape/index.md)`!>!`
+`abstract fun shapes(): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`Shape`](../../com.skedgo.tripkit.routing/-shape/index.md)`!>!`

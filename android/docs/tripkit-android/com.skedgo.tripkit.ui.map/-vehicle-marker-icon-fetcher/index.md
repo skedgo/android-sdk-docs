@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [call](call.md) | `open fun call(marker: Marker!, vehicle: `[`RealTimeVehicle`](../../skedgo.tripkit.routing/-real-time-vehicle/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [call](call.md) | `open fun call(marker: Marker!, vehicle: `[`RealTimeVehicle`](../../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

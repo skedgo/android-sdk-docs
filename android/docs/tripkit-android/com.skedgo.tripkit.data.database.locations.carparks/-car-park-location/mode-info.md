@@ -2,4 +2,4 @@
 
 # modeInfo
 
-`abstract fun modeInfo(): `[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md)
+`abstract fun modeInfo(): `[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md)

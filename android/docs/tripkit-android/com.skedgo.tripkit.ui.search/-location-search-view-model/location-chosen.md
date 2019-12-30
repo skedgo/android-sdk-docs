@@ -2,4 +2,4 @@
 
 # locationChosen
 
-`val locationChosen: PublishRelay<`[`Location`](../../com.skedgo.android.common.model/-location/index.md)`>`
+`val locationChosen: PublishRelay<`[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`>`

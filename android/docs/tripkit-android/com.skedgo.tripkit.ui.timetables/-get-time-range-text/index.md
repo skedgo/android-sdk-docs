@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `GetTimeRangeText(printTime: `[`PrintTime`](../../skedgo.tripkit.datetime/-print-time/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `GetTimeRangeText(printTime: `[`PrintTime`](../../com.skedgo.tripkit.datetime/-print-time/index.md)`)` |
 
 ### Functions
 

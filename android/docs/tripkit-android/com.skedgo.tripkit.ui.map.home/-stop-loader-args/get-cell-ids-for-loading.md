@@ -2,7 +2,7 @@
 
 # getCellIdsForLoading
 
-`@NonNull static fun getCellIdsForLoading(@NonNull cellIds: `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!>, @NonNull region: `[`Region`](../../com.skedgo.android.common.model/-region/index.md)`): `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!>`
+`@NonNull static fun getCellIdsForLoading(@NonNull cellIds: `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!>, @NonNull region: `[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md)`): `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!>`
 
 Defines proper cell ids so that the loader can load up stops that should be visible at corresponding level.
 

@@ -31,7 +31,7 @@
 | [getNearLatitude](get-near-latitude.md) | `open fun getNearLatitude(): `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html) |
 | [getNearLongitude](get-near-longitude.md) | `open fun getNearLongitude(): `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html) |
 | [getServiceUrl](get-service-url.md) | `open fun getServiceUrl(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!` |
-| [query](query.md) | `open fun query(query: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!>!` |
+| [query](query.md) | `open fun query(query: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!>!` |
 | [setNearLatitude](set-near-latitude.md) | `open fun setNearLatitude(nearLatitude: `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`): `[`Geocoder`](./index.md)`!` |
 | [setNearLongitude](set-near-longitude.md) | `open fun setNearLongitude(nearLongitude: `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`): `[`Geocoder`](./index.md)`!` |
 

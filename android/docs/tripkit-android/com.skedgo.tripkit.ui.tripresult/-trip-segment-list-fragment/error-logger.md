@@ -2,4 +2,4 @@
 
 # errorLogger
 
-`lateinit var errorLogger: `[`ErrorLogger`](../../skedgo.tripkit.logging/-error-logger/index.md)
+`lateinit var errorLogger: `[`ErrorLogger`](../../com.skedgo.tripkit.logging/-error-logger/index.md)

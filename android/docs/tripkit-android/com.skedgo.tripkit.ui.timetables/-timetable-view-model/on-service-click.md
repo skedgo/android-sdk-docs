@@ -2,4 +2,4 @@
 
 # onServiceClick
 
-`val onServiceClick: Observable<`[`Triple`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-triple/index.html)`<`[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`, `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`!>!>!`
+`val onServiceClick: Observable<`[`Triple`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-triple/index.html)`<`[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`, `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`!>!>!`

@@ -9,9 +9,9 @@
 | [AbstractTripKitFragment](-abstract-trip-kit-fragment/index.md) | `abstract class AbstractTripKitFragment : `[`RxFragment`](../com.skedgo.tripkit.ui.core.rxlifecyclecomponents/-rx-fragment/index.md) |
 | [CellsLoader](-cells-loader/index.md) | `open class CellsLoader : ICellsLoader` |
 | [CellsPersistor](-cells-persistor/index.md) | `open class CellsPersistor : ICellsPersistor` |
-| [ConfigCreator](-config-creator/index.md) | Represents configuration parameters. `class ConfigCreator : `[`ConfigRepository`](../skedgo.tripkit.agenda/-config-repository/index.md) |
+| [ConfigCreator](-config-creator/index.md) | Represents configuration parameters. `class ConfigCreator : `[`ConfigRepository`](../com.skedgo.tripkit.agenda/-config-repository/index.md) |
 | [Converters](-converters/index.md) | `class Converters` |
-| [ErrorLoggerImpl](-error-logger-impl/index.md) | `class ErrorLoggerImpl : `[`ErrorLogger`](../skedgo.tripkit.logging/-error-logger/index.md) |
+| [ErrorLoggerImpl](-error-logger-impl/index.md) | `class ErrorLoggerImpl : `[`ErrorLogger`](../com.skedgo.tripkit.logging/-error-logger/index.md) |
 | [ExternalActionParams](-external-action-params/index.md) | `abstract class ExternalActionParams` |
 | [InitializerContentProvider](-initializer-content-provider/index.md) | `class InitializerContentProvider : ContentProvider` |
 | [RxViewModel](-rx-view-model/index.md) | `abstract class RxViewModel : ViewModel` |

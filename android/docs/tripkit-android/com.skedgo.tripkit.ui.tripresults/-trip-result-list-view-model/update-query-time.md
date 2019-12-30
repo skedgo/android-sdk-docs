@@ -2,4 +2,4 @@
 
 # updateQueryTime
 
-`fun updateQueryTime(timeTag: `[`TimeTag`](../../com.skedgo.android.common.model/-time-tag/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`fun updateQueryTime(timeTag: `[`TimeTag`](../../com.skedgo.tripkit.common.model/-time-tag/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

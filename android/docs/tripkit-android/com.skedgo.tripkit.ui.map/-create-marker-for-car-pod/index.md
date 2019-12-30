@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [execute](execute.md) | `fun execute(resources: Resources, picasso: Picasso, carPod: `[`CarPod`](../../skedgo.tripkit.locations/-car-pod/index.md)`): Single<MarkerOptions>` |
+| [execute](execute.md) | `fun execute(resources: Resources, picasso: Picasso, carPod: `[`CarPod`](../../com.skedgo.tripkit.locations/-car-pod/index.md)`): Single<MarkerOptions>` |

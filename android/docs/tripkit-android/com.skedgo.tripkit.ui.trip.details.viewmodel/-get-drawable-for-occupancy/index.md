@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [execute](execute.md) | `fun execute(occupancy: `[`Occupancy`](../../skedgo.tripkit.routing/-occupancy/index.md)`?): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
+| [execute](execute.md) | `fun execute(occupancy: `[`Occupancy`](../../com.skedgo.tripkit.routing/-occupancy/index.md)`?): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |

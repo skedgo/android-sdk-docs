@@ -2,4 +2,4 @@
 
 # getRegionByNameAsync
 
-`abstract fun getRegionByNameAsync(regionName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): Observable<`[`Region`](../../com.skedgo.android.common.model/-region/index.md)`>`
+`abstract fun getRegionByNameAsync(regionName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): Observable<`[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md)`>`

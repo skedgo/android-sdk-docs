@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `FetchLocalLocationsImpl(errorLogger: `[`ErrorLogger`](../../skedgo.tripkit.logging/-error-logger/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `FetchLocalLocationsImpl(errorLogger: `[`ErrorLogger`](../../com.skedgo.tripkit.logging/-error-logger/index.md)`)` |
 
 ### Functions
 

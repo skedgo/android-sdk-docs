@@ -2,7 +2,7 @@
 
 # WaypointTask
 
-`open class WaypointTask : SingleOnSubscribe<`[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`!>!>`
+`open class WaypointTask : SingleOnSubscribe<`[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`!>!>`
 
 https://redmine.buzzhives.com/projects/buzzhives/wiki/Routing_API#Trips-from-waypoint
 
@@ -10,7 +10,7 @@ https://redmine.buzzhives.com/projects/buzzhives/wiki/Routing_API#Trips-from-way
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `WaypointTask(context: Context, configCreator: `[`ConfigRepository`](../../skedgo.tripkit.agenda/-config-repository/index.md)`, param: `[`WayPointTaskParam`](../-way-point-task-param/index.md)`!)` |
+| [&lt;init&gt;](-init-.md) | `WaypointTask(context: Context, configCreator: `[`ConfigRepository`](../../com.skedgo.tripkit.agenda/-config-repository/index.md)`, param: `[`WayPointTaskParam`](../-way-point-task-param/index.md)`!)` |
 
 ### Properties
 
@@ -32,4 +32,4 @@ https://redmine.buzzhives.com/projects/buzzhives/wiki/Routing_API#Trips-from-way
 
 | Name | Summary |
 |---|---|
-| [subscribe](subscribe.md) | `open fun subscribe(singleSubscriber: SingleEmitter<`[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`!>!>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [subscribe](subscribe.md) | `open fun subscribe(singleSubscriber: SingleEmitter<`[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`!>!>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

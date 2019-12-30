@@ -8,14 +8,14 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `HasOneLocation(id: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`, location: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `HasOneLocation(id: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`, location: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)`)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
 | [id](id.md) | `val id: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
-| [location](location.md) | `val location: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md) |
+| [location](location.md) | `val location: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md) |
 
 ### Functions
 

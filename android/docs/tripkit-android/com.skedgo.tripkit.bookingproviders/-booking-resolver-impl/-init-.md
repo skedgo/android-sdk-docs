@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`BookingResolverImpl(@NonNull resources: Resources, @NonNull packageManager: PackageManager, @NonNull geocoderFactory: `[`ReverseGeocodable`](../../skedgo.tripkit.geocoding/-reverse-geocodable/index.md)`)`
+`BookingResolverImpl(@NonNull resources: Resources, @NonNull packageManager: PackageManager, @NonNull geocoderFactory: `[`ReverseGeocodable`](../../com.skedgo.tripkit.geocoding/-reverse-geocodable/index.md)`)`

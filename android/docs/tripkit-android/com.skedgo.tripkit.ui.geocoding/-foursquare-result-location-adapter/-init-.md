@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`FoursquareResultLocationAdapter(location: `[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!, resultInterface: `[`GCFoursquareResultInterface`](../../com.skedgo.geocoding.agregator/-g-c-foursquare-result-interface/index.md)`!)`
+`FoursquareResultLocationAdapter(location: `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!, resultInterface: `[`GCFoursquareResultInterface`](../../com.skedgo.geocoding.agregator/-g-c-foursquare-result-interface/index.md)`!)`

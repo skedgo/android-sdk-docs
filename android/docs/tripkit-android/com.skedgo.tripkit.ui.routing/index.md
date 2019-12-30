@@ -12,7 +12,7 @@
 | [GetStopsByTravelType](-get-stops-by-travel-type/index.md) | `open class GetStopsByTravelType` |
 | [PerformRouting](-perform-routing/index.md) | FIXME: Should move this into TripGoDomainLegacy module.`open class PerformRouting` |
 | [PreferredTransferTimeRepository](-preferred-transfer-time-repository/index.md) | `interface PreferredTransferTimeRepository` |
-| [QueryLocationResolver](-query-location-resolver/index.md) | `open class QueryLocationResolver : Function<`[`Query`](../com.skedgo.android.common.model/-query/index.md)`, Observable<`[`Query`](../com.skedgo.android.common.model/-query/index.md)`>>` |
+| [QueryLocationResolver](-query-location-resolver/index.md) | `open class QueryLocationResolver : Function<`[`Query`](../com.skedgo.tripkit.common.model/-query/index.md)`, Observable<`[`Query`](../com.skedgo.tripkit.common.model/-query/index.md)`>>` |
 | [RoutingConfig](-routing-config/index.md) | `data class RoutingConfig` |
 | [SegmentCameraUpdate](-segment-camera-update/index.md) | `sealed class SegmentCameraUpdate` |
 | [SegmentCameraUpdateMapper](-segment-camera-update-mapper/index.md) | `open class SegmentCameraUpdateMapper` |

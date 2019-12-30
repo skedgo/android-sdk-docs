@@ -2,4 +2,4 @@
 
 # setServiceColor
 
-`open fun setServiceColor(serviceColor: `[`ServiceColor`](../../skedgo.tripkit.routing/-service-color/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`open fun setServiceColor(serviceColor: `[`ServiceColor`](../../com.skedgo.tripkit.routing/-service-color/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

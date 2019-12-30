@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ServiceStop(code: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, position: `[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)`, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null, platform: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null, departureDateTime: DateTime? = null, arrivalDateTime: DateTime? = null, isWheelchairAccessible: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`? = null)` |
+| [&lt;init&gt;](-init-.md) | `ServiceStop(code: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, position: `[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md)`, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null, platform: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null, departureDateTime: DateTime? = null, arrivalDateTime: DateTime? = null, isWheelchairAccessible: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`? = null)` |
 
 ### Properties
 
@@ -20,4 +20,4 @@
 | [isWheelchairAccessible](is-wheelchair-accessible.md) | `val isWheelchairAccessible: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`?` |
 | [name](name.md) | `val name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [platform](platform.md) | `val platform: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
-| [position](position.md) | `val position: `[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md) |
+| [position](position.md) | `val position: `[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md) |

@@ -10,4 +10,4 @@ This callback will be invoked when a search result is clicked.
 
 | Name | Summary |
 |---|---|
-| [onLocationSelected](on-location-selected.md) | `abstract fun onLocationSelected(location: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [onLocationSelected](on-location-selected.md) | `abstract fun onLocationSelected(location: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

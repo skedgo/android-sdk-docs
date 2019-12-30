@@ -2,4 +2,4 @@
 
 # trip
 
-`lateinit var trip: `[`Trip`](../../skedgo.tripkit.routing/-trip/index.md)
+`lateinit var trip: `[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md)

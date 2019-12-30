@@ -2,4 +2,4 @@
 
 # ignoreOutOfRegionsException
 
-`fun Observable<`[`Region`](../../com.skedgo.android.common.model/-region/index.md)`>.ignoreOutOfRegionsException(): Observable<`[`Region`](../../com.skedgo.android.common.model/-region/index.md)`>`
+`fun Observable<`[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md)`>.ignoreOutOfRegionsException(): Observable<`[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md)`>`

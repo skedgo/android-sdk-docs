@@ -2,4 +2,4 @@
 
 # modeInfo
 
-`lateinit var modeInfo: `[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md)
+`lateinit var modeInfo: `[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md)

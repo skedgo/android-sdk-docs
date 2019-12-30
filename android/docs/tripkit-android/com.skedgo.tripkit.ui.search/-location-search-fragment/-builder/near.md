@@ -3,3 +3,13 @@
 # near
 
 `fun near(near: LatLng?): Builder`
+
+Used for TripGo searches. For example, the center of a map.
+
+### Parameters
+
+`near` - Where to center TripGo searches on
+
+**Return**
+this Builder
+

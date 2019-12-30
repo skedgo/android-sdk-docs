@@ -2,4 +2,4 @@
 
 # execute
 
-`open fun execute(viewPort: `[`ViewPort`](../../com.skedgo.tripkit.ui.map.home/-view-port/index.md)`): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`>>`
+`open fun execute(viewPort: `[`ViewPort`](../../com.skedgo.tripkit.ui.map.home/-view-port/index.md)`): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`>>`

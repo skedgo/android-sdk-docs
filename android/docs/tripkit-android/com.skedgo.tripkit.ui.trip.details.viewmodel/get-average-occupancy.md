@@ -2,4 +2,4 @@
 
 # getAverageOccupancy
 
-`fun `[`RealTimeVehicle`](../skedgo.tripkit.routing/-real-time-vehicle/index.md)`.getAverageOccupancy(): `[`Occupancy`](../skedgo.tripkit.routing/-occupancy/index.md)`?`
+`fun `[`RealTimeVehicle`](../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`.getAverageOccupancy(): `[`Occupancy`](../com.skedgo.tripkit.routing/-occupancy/index.md)`?`

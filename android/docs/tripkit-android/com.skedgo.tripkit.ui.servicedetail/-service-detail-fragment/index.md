@@ -28,7 +28,7 @@
 
 | Name | Summary |
 |---|---|
-| [addOnScheduledStopClickListener](add-on-scheduled-stop-click-listener.md) | `fun addOnScheduledStopClickListener(callback: OnScheduledStopClickListener): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`fun addOnScheduledStopClickListener(listener: (`[`ServiceStop`](../../com.skedgo.android.common.model/-service-stop/index.md)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [addOnScheduledStopClickListener](add-on-scheduled-stop-click-listener.md) | `fun addOnScheduledStopClickListener(callback: OnScheduledStopClickListener): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`fun addOnScheduledStopClickListener(listener: (`[`ServiceStop`](../../com.skedgo.tripkit.common.model/-service-stop/index.md)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [onActivityCreated](on-activity-created.md) | `fun onActivityCreated(savedInstanceState: Bundle?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [onAttach](on-attach.md) | `fun onAttach(context: Context): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [onCreateView](on-create-view.md) | `fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View?` |

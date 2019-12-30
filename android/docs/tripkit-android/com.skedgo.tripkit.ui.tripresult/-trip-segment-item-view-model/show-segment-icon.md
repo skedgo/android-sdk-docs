@@ -2,4 +2,4 @@
 
 # showSegmentIcon
 
-`protected fun showSegmentIcon(segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`, tintWhite: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`protected fun showSegmentIcon(segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`, tintWhite: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

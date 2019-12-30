@@ -6,6 +6,6 @@
 
 ### Parameters
 
-`baseUrls` - [MutableList](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)!&gt;!: Can be ``[`Region#getURLs()`](../../com.skedgo.android.common.model/-region/get-u-r-ls.md).
+`baseUrls` - [MutableList](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)!&gt;!: Can be ``[`Region#getURLs()`](../../com.skedgo.tripkit.common.model/-region/get-u-r-ls.md).
 
-`regionName` - [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)!: Can be ``[`Region#getName()`](../../com.skedgo.android.common.model/-region/get-name.md).
+`regionName` - [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)!: Can be ``[`Region#getName()`](../../com.skedgo.tripkit.common.model/-region/get-name.md).

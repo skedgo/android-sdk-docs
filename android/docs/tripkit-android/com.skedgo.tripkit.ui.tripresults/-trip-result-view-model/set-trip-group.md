@@ -2,4 +2,4 @@
 
 # setTripGroup
 
-`fun setTripGroup(context: Context, tripgroup: `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`, classification: Classification): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`fun setTripGroup(context: Context, tripgroup: `[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`, classification: Classification): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

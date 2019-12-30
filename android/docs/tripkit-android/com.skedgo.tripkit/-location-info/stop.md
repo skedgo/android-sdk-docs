@@ -2,4 +2,4 @@
 
 # stop
 
-`@Nullable abstract fun stop(): `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`?`
+`@Nullable abstract fun stop(): `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`?`

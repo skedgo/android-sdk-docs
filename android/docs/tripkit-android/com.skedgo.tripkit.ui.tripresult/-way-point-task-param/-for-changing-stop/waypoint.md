@@ -2,4 +2,4 @@
 
 # waypoint
 
-`val waypoint: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)
+`val waypoint: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)

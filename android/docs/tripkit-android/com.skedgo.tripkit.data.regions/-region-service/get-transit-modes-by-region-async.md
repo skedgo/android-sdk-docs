@@ -2,4 +2,4 @@
 
 # getTransitModesByRegionAsync
 
-`abstract fun getTransitModesByRegionAsync(region: `[`Region`](../../com.skedgo.android.common.model/-region/index.md)`): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md)`>>`
+`abstract fun getTransitModesByRegionAsync(region: `[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md)`): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md)`>>`

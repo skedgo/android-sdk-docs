@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`GetTimeRangeText(printTime: `[`PrintTime`](../../skedgo.tripkit.datetime/-print-time/index.md)`)`
+`GetTimeRangeText(printTime: `[`PrintTime`](../../com.skedgo.tripkit.datetime/-print-time/index.md)`)`

@@ -14,7 +14,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `TripGroupClassifier(tripGroups: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`>)` |
+| [&lt;init&gt;](-init-.md) | `TripGroupClassifier(tripGroups: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`>)` |
 
 ### Properties
 
@@ -27,4 +27,4 @@
 
 | Name | Summary |
 |---|---|
-| [classify](classify.md) | `fun classify(tripGroup: `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`): Classification` |
+| [classify](classify.md) | `fun classify(tripGroup: `[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`): Classification` |

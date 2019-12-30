@@ -28,11 +28,11 @@
 | [startTime](start-time.md) | `val startTime: ObservableField<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [title](title.md) | `val title: ObservableField<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [topLineTint](top-line-tint.md) | `val topLineTint: ObservableField<`[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`>` |
-| [tripSegment](trip-segment.md) | `var tripSegment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`?` |
+| [tripSegment](trip-segment.md) | `var tripSegment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`?` |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
 | [setupSegment](setup-segment.md) | `fun setupSegment(viewType: SegmentViewType, title: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null, startTime: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null, endTime: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null, lineColor: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = Color.TRANSPARENT, topConnectionColor: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = lineColor, bottomConnectionColor: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = lineColor): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [showSegmentIcon](show-segment-icon.md) | `fun showSegmentIcon(segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`, tintWhite: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [showSegmentIcon](show-segment-icon.md) | `fun showSegmentIcon(segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`, tintWhite: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

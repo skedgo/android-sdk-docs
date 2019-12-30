@@ -24,4 +24,4 @@
 | Name | Summary |
 |---|---|
 | [onItemClick](on-item-click.md) | `fun onItemClick(view: View): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [setup](setup.md) | `fun setup(mode: `[`TransportMode`](../../com.skedgo.android.common.model/-transport-mode/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [setup](setup.md) | `fun setup(mode: `[`TransportMode`](../../com.skedgo.tripkit.common.model/-transport-mode/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

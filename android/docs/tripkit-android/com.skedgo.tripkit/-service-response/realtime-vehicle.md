@@ -2,4 +2,4 @@
 
 # realtimeVehicle
 
-`@Nullable abstract fun realtimeVehicle(): `[`RealTimeVehicle`](../../skedgo.tripkit.routing/-real-time-vehicle/index.md)`?`
+`@Nullable abstract fun realtimeVehicle(): `[`RealTimeVehicle`](../../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`?`

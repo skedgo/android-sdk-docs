@@ -1,5 +1,0 @@
-[tripkit-android](../../index.md) / [com.skedgo.android.common.model](../index.md) / [ScheduledStop](index.md) / [fillFrom](./fill-from.md)
-
-# fillFrom
-
-`open fun fillFrom(location: `[`Location`](../-location/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

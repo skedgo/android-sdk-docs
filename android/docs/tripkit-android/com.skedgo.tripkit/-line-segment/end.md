@@ -2,4 +2,4 @@
 
 # end
 
-`val end: `[`TripKitLatLng`](../../com.skedgo.android.common.util/-trip-kit-lat-lng/index.md)`!`
+`val end: `[`TripKitLatLng`](../../com.skedgo.tripkit.common.util/-trip-kit-lat-lng/index.md)`!`

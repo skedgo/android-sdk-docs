@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [toWeightingProfileString](to-weighting-profile-string.md) | `fun toWeightingProfileString(query: `[`Query`](../../com.skedgo.android.common.model/-query/index.md)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [toWeightingProfileString](to-weighting-profile-string.md) | `fun toWeightingProfileString(query: `[`Query`](../../com.skedgo.tripkit.common.model/-query/index.md)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

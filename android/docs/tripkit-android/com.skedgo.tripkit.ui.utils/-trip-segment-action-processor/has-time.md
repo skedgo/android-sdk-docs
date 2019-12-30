@@ -2,4 +2,4 @@
 
 # hasTime
 
-`fun hasTime(segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)
+`fun hasTime(segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)

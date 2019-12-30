@@ -2,4 +2,4 @@
 
 # setup
 
-`fun setup(mode: `[`TransportMode`](../../com.skedgo.android.common.model/-transport-mode/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`fun setup(mode: `[`TransportMode`](../../com.skedgo.tripkit.common.model/-transport-mode/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

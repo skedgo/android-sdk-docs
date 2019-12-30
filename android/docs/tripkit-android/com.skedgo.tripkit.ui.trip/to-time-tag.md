@@ -2,4 +2,4 @@
 
 # toTimeTag
 
-`fun `[`RoutingTime`](-routing-time.md)`.toTimeTag(): `[`TimeTag`](../com.skedgo.android.common.model/-time-tag/index.md)
+`fun `[`RoutingTime`](-routing-time.md)`.toTimeTag(): `[`TimeTag`](../com.skedgo.tripkit.common.model/-time-tag/index.md)

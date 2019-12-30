@@ -2,4 +2,4 @@
 
 # convertLocationToAlpha
 
-`static fun convertLocationToAlpha(location: `[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+`static fun convertLocationToAlpha(location: `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)

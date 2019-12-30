@@ -2,4 +2,4 @@
 
 # putSegment
 
-`fun putSegment(segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`fun putSegment(segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

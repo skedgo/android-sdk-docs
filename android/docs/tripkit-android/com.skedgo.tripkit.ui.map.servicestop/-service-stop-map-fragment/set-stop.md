@@ -2,4 +2,4 @@
 
 # setStop
 
-`open fun setStop(stop: `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`open fun setStop(stop: `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

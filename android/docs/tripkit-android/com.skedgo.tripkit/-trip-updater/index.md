@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [getUpdateAsync](get-update-async.md) | `abstract fun getUpdateAsync(trip: `[`Trip`](../../skedgo.tripkit.routing/-trip/index.md)`): Observable<`[`Trip`](../../skedgo.tripkit.routing/-trip/index.md)`!>`<br>`abstract fun getUpdateAsync(tripUrl: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): Observable<`[`Trip`](../../skedgo.tripkit.routing/-trip/index.md)`!>` |
+| [getUpdateAsync](get-update-async.md) | `abstract fun getUpdateAsync(trip: `[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md)`): Observable<`[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md)`!>`<br>`abstract fun getUpdateAsync(tripUrl: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): Observable<`[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md)`!>` |

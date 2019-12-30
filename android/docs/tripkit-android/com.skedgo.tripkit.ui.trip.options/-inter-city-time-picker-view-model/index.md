@@ -24,11 +24,11 @@
 | Name | Summary |
 |---|---|
 | [dates](dates.md) | `open fun dates(): ObservableField<`[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!>!>!` |
-| [done](done.md) | `open fun done(): `[`TimeTag`](../../com.skedgo.android.common.model/-time-tag/index.md)`!` |
+| [done](done.md) | `open fun done(): `[`TimeTag`](../../com.skedgo.tripkit.common.model/-time-tag/index.md)`!` |
 | [getHour](get-hour.md) | `open fun getHour(): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 | [getMinute](get-minute.md) | `open fun getMinute(): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 | [handleArguments](handle-arguments.md) | `open fun handleArguments(args: Bundle!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [isLeaveAfter](is-leave-after.md) | `open fun isLeaveAfter(): ObservableBoolean!` |
-| [leaveNow](leave-now.md) | `open fun leaveNow(): `[`TimeTag`](../../com.skedgo.android.common.model/-time-tag/index.md)`!` |
+| [leaveNow](leave-now.md) | `open fun leaveNow(): `[`TimeTag`](../../com.skedgo.tripkit.common.model/-time-tag/index.md)`!` |
 | [selectedPosition](selected-position.md) | `open fun selectedPosition(): ObservableInt!` |
 | [updateTime](update-time.md) | `open fun updateTime(hour: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, minute: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(wheelchairAccessible: `[`WheelchairAccessible`](../../com.skedgo.android.common.model/-wheelchair-accessible/index.md)`): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+`operator fun invoke(wheelchairAccessible: `[`WheelchairAccessible`](../../com.skedgo.tripkit.common.model/-wheelchair-accessible/index.md)`): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)

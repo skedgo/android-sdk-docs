@@ -2,7 +2,7 @@
 
 # SelectBestDisplayTrip
 
-`class SelectBestDisplayTrip : Function<`[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`!, `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`!>`
+`class SelectBestDisplayTrip : Function<`[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`!, `[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`!>`
 
 Selects display trip which has lowest weighted score.
 
@@ -18,4 +18,4 @@ Selects display trip which has lowest weighted score.
 
 | Name | Summary |
 |---|---|
-| [apply](apply.md) | `fun apply(group: `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`): `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md) |
+| [apply](apply.md) | `fun apply(group: `[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`): `[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md) |

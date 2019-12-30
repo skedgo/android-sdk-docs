@@ -9,5 +9,5 @@
 | Name | Summary |
 |---|---|
 | [alt](alt.md) | `abstract fun alt(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
-| [color](color.md) | `abstract fun color(): `[`ServiceColor`](../../skedgo.tripkit.routing/-service-color/index.md)`?` |
+| [color](color.md) | `abstract fun color(): `[`ServiceColor`](../../com.skedgo.tripkit.routing/-service-color/index.md)`?` |
 | [identifier](identifier.md) | `abstract fun identifier(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |

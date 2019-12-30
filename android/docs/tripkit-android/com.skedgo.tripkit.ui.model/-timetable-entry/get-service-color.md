@@ -2,4 +2,4 @@
 
 # getServiceColor
 
-`open fun getServiceColor(): `[`ServiceColor`](../../skedgo.tripkit.routing/-service-color/index.md)`!`
+`open fun getServiceColor(): `[`ServiceColor`](../../com.skedgo.tripkit.routing/-service-color/index.md)`!`

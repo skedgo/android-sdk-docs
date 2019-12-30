@@ -14,5 +14,5 @@
 
 | Name | Summary |
 |---|---|
-| [convert](convert.md) | `open static fun convert(resources: Resources, mode: `[`VehicleMode`](../../skedgo.tripkit.routing/-vehicle-mode/index.md)`!, realTimeStatus: `[`RealTimeStatus`](../../com.skedgo.android.common.model/-real-time-status/index.md)`!): Drawable!` |
+| [convert](convert.md) | `open static fun convert(resources: Resources, mode: `[`VehicleMode`](../../com.skedgo.tripkit.routing/-vehicle-mode/index.md)`!, realTimeStatus: `[`RealTimeStatus`](../../com.skedgo.tripkit.common.model/-real-time-status/index.md)`!): Drawable!` |
 | [toMarkerOptions](to-marker-options.md) | `open fun toMarkerOptions(stopInfo: `[`StopInfo`](../../com.skedgo.tripkit.ui.model/-stop-info/index.md)`, displayText: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!, timeZone: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!): MarkerOptions!` |

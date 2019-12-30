@@ -2,4 +2,4 @@
 
 # otherTripGroups
 
-`var otherTripGroups: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Trip`](../../skedgo.tripkit.routing/-trip/index.md)`>?`
+`var otherTripGroups: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md)`>?`

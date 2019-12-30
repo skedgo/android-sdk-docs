@@ -2,4 +2,4 @@
 
 # onStreetParkingRepository
 
-`@Provides fun onStreetParkingRepository(repository: `[`OnStreetParkingRepositoryImpl`](../-on-street-parking-repository-impl/index.md)`): `[`OnStreetParkingRepository`](../../skedgo.tripkit.parkingspots/-on-street-parking-repository/index.md)
+`@Provides fun onStreetParkingRepository(repository: `[`OnStreetParkingRepositoryImpl`](../-on-street-parking-repository-impl/index.md)`): `[`OnStreetParkingRepository`](../../com.skedgo.tripkit.parkingspots/-on-street-parking-repository/index.md)

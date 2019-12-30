@@ -2,4 +2,4 @@
 
 # getAlerts
 
-`@Nullable open fun getAlerts(): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`RealtimeAlert`](../../com.skedgo.android.common.model/-realtime-alert/index.md)`!>?`
+`@Nullable open fun getAlerts(): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`RealtimeAlert`](../../com.skedgo.tripkit.common.model/-realtime-alert/index.md)`!>?`

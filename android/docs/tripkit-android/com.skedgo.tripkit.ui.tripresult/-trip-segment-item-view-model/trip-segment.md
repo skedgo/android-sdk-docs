@@ -2,4 +2,4 @@
 
 # tripSegment
 
-`var tripSegment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`?`
+`var tripSegment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`?`

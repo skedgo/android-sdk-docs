@@ -8,6 +8,6 @@
 
 | Name | Summary |
 |---|---|
-| [start](start.md) | `fun start(getTripGroup: Observable<`[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [startForBooking](start-for-booking.md) | `fun startForBooking(getTripGroup: Observable<`[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [start](start.md) | `fun start(getTripGroup: Observable<`[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [startForBooking](start-for-booking.md) | `fun startForBooking(getTripGroup: Observable<`[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [stop](stop.md) | `fun stop(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

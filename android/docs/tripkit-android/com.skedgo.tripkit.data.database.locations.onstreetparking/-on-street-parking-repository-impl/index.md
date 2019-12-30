@@ -2,7 +2,7 @@
 
 # OnStreetParkingRepositoryImpl
 
-`class OnStreetParkingRepositoryImpl : `[`OnStreetParkingRepository`](../../skedgo.tripkit.parkingspots/-on-street-parking-repository/index.md)
+`class OnStreetParkingRepositoryImpl : `[`OnStreetParkingRepository`](../../com.skedgo.tripkit.parkingspots/-on-street-parking-repository/index.md)
 
 ### Constructors
 
@@ -21,5 +21,5 @@
 
 | Name | Summary |
 |---|---|
-| [getByCellIds](get-by-cell-ids.md) | `fun getByCellIds(ids: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, southWest: `[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)`, northEast: `[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)`): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`OnStreetParking`](../../skedgo.tripkit.parkingspots.models/-on-street-parking/index.md)`>>` |
-| [getParkingDetails](get-parking-details.md) | `fun getParkingDetails(onStreetParking: `[`OnStreetParking`](../../skedgo.tripkit.parkingspots.models/-on-street-parking/index.md)`): Single<`[`OnStreetParkingDetails`](../../skedgo.tripgo.parkingspots.models/-on-street-parking-details/index.md)`>` |
+| [getByCellIds](get-by-cell-ids.md) | `fun getByCellIds(ids: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, southWest: `[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md)`, northEast: `[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md)`): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`OnStreetParking`](../../com.skedgo.tripkit.parkingspots.models/-on-street-parking/index.md)`>>` |
+| [getParkingDetails](get-parking-details.md) | `fun getParkingDetails(onStreetParking: `[`OnStreetParking`](../../com.skedgo.tripkit.parkingspots.models/-on-street-parking/index.md)`): Single<`[`OnStreetParkingDetails`](../../skedgo.tripgo.parkingspots.models/-on-street-parking-details/index.md)`>` |

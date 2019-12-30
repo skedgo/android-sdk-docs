@@ -2,4 +2,4 @@
 
 # position
 
-`val position: `[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)
+`val position: `[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md)

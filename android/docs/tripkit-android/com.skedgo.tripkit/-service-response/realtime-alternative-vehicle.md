@@ -2,4 +2,4 @@
 
 # realtimeAlternativeVehicle
 
-`@Nullable abstract fun realtimeAlternativeVehicle(): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`RealTimeVehicle`](../../skedgo.tripkit.routing/-real-time-vehicle/index.md)`!>?`
+`@Nullable abstract fun realtimeAlternativeVehicle(): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`RealTimeVehicle`](../../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`!>?`

@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`TripSegmentViewModel(context: Context, printTime: `[`PrintTime`](../../skedgo.tripkit.datetime/-print-time/index.md)`)`
+`TripSegmentViewModel(context: Context, printTime: `[`PrintTime`](../../com.skedgo.tripkit.datetime/-print-time/index.md)`)`

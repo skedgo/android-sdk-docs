@@ -2,4 +2,4 @@
 
 # getVisibleGeoPointsOnMap
 
-`fun `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`>.getVisibleGeoPointsOnMap(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)`>`
+`fun `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`>.getVisibleGeoPointsOnMap(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md)`>`

@@ -15,5 +15,5 @@
 
 | Name | Summary |
 |---|---|
-| [toRoutingTime](to-routing-time.md) | `fun `[`TimeTag`](../com.skedgo.android.common.model/-time-tag/index.md)`.toRoutingTime(tz: DateTimeZone): `[`RoutingTime`](-routing-time.md) |
-| [toTimeTag](to-time-tag.md) | `fun `[`RoutingTime`](-routing-time.md)`.toTimeTag(): `[`TimeTag`](../com.skedgo.android.common.model/-time-tag/index.md) |
+| [toRoutingTime](to-routing-time.md) | `fun `[`TimeTag`](../com.skedgo.tripkit.common.model/-time-tag/index.md)`.toRoutingTime(tz: DateTimeZone): `[`RoutingTime`](-routing-time.md) |
+| [toTimeTag](to-time-tag.md) | `fun `[`RoutingTime`](-routing-time.md)`.toTimeTag(): `[`TimeTag`](../com.skedgo.tripkit.common.model/-time-tag/index.md) |

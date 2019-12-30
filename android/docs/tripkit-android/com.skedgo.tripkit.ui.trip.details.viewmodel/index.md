@@ -24,7 +24,7 @@
 
 | Name | Summary |
 |---|---|
-| [getAverageOccupancy](get-average-occupancy.md) | `fun `[`RealTimeVehicle`](../skedgo.tripkit.routing/-real-time-vehicle/index.md)`.getAverageOccupancy(): `[`Occupancy`](../skedgo.tripkit.routing/-occupancy/index.md)`?` |
-| [getOccupancy](get-occupancy.md) | `fun `[`VehicleComponent`](../skedgo.tripkit.routing/-vehicle-component/index.md)`.getOccupancy(): `[`Occupancy`](../skedgo.tripkit.routing/-occupancy/index.md)`?` |
-| [hasSingleVehicleOccupancy](has-single-vehicle-occupancy.md) | `fun `[`RealTimeVehicle`](../skedgo.tripkit.routing/-real-time-vehicle/index.md)`.hasSingleVehicleOccupancy(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
-| [hasVehiclesOccupancy](has-vehicles-occupancy.md) | `fun `[`RealTimeVehicle`](../skedgo.tripkit.routing/-real-time-vehicle/index.md)`.hasVehiclesOccupancy(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [getAverageOccupancy](get-average-occupancy.md) | `fun `[`RealTimeVehicle`](../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`.getAverageOccupancy(): `[`Occupancy`](../com.skedgo.tripkit.routing/-occupancy/index.md)`?` |
+| [getOccupancy](get-occupancy.md) | `fun `[`VehicleComponent`](../com.skedgo.tripkit.routing/-vehicle-component/index.md)`.getOccupancy(): `[`Occupancy`](../com.skedgo.tripkit.routing/-occupancy/index.md)`?` |
+| [hasSingleVehicleOccupancy](has-single-vehicle-occupancy.md) | `fun `[`RealTimeVehicle`](../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`.hasSingleVehicleOccupancy(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [hasVehiclesOccupancy](has-vehicles-occupancy.md) | `fun `[`RealTimeVehicle`](../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`.hasVehiclesOccupancy(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |

@@ -2,4 +2,4 @@
 
 # segment
 
-`abstract fun segment(): `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`!`
+`abstract fun segment(): `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`!`

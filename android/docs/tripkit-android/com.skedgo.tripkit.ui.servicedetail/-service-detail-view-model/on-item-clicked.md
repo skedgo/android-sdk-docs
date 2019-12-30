@@ -2,4 +2,4 @@
 
 # onItemClicked
 
-`val onItemClicked: PublishRelay<`[`ServiceStop`](../../com.skedgo.android.common.model/-service-stop/index.md)`!>`
+`val onItemClicked: PublishRelay<`[`ServiceStop`](../../com.skedgo.tripkit.common.model/-service-stop/index.md)`!>`

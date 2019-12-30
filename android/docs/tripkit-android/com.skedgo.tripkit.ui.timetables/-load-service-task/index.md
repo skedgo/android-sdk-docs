@@ -8,11 +8,11 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `LoadServiceTask(stop: `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`!, cursor: Cursor!)` |
+| [&lt;init&gt;](-init-.md) | `LoadServiceTask(stop: `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`!, cursor: Cursor!)` |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
 | [call](call.md) | `open fun call(): Pair<`[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`StopInfo`](../../com.skedgo.tripkit.ui.model/-stop-info/index.md)`!>!, `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<ServiceLineInfo!>!>!` |
-| [getStopFor](get-stop-for.md) | `open fun getStopFor(code: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!): `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`!` |
+| [getStopFor](get-stop-for.md) | `open fun getStopFor(code: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!): `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`!` |

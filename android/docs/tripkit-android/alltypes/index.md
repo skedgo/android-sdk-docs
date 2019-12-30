@@ -25,12 +25,12 @@ Creates UseCases and Repositories related to the A2bRouting feature.
 
 |
 
-##### [skedgo.tripkit.a2brouting.A2bRoutingRequest](../skedgo.tripkit.a2brouting/-a2b-routing-request/index.md)
+##### [com.skedgo.tripkit.a2brouting.A2bRoutingRequest](../com.skedgo.tripkit.a2brouting/-a2b-routing-request/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.util.AbstractObjectPool](../com.skedgo.android.common.util/-abstract-object-pool/index.md)
+##### [com.skedgo.tripkit.common.util.AbstractObjectPool](../com.skedgo.tripkit.common.util/-abstract-object-pool/index.md)
 
 
 |
@@ -57,7 +57,7 @@ Lifecycle events that can be emitted by Activities.
 
 |
 
-##### [com.skedgo.android.common.model.AlertAction](../com.skedgo.android.common.model/-alert-action/index.md)
+##### [com.skedgo.tripkit.common.model.AlertAction](../com.skedgo.tripkit.common.model/-alert-action/index.md)
 
 
 |
@@ -87,7 +87,7 @@ Lifecycle events that can be emitted by Activities.
 
 |
 
-##### [com.skedgo.android.common.model.AlertSeverity](../com.skedgo.android.common.model/-alert-severity/index.md)
+##### [com.skedgo.tripkit.common.model.AlertSeverity](../com.skedgo.tripkit.common.model/-alert-severity/index.md)
 
 
 |
@@ -126,7 +126,7 @@ Zoom level that is compatible with the locations.json API
 
 |
 
-##### [skedgo.tripkit.configuration.AppVersionNameRepository](../skedgo.tripkit.configuration/-app-version-name-repository/index.md)
+##### [com.skedgo.tripkit.configuration.AppVersionNameRepository](../com.skedgo.tripkit.configuration/-app-version-name-repository/index.md)
 
 
 |
@@ -151,7 +151,7 @@ Zoom level that is compatible with the locations.json API
 
 |
 
-##### [skedgo.tripkit.routing.Availability](../skedgo.tripkit.routing/-availability/index.md)
+##### [com.skedgo.tripkit.routing.Availability](../com.skedgo.tripkit.routing/-availability/index.md)
 
 
 |
@@ -166,12 +166,12 @@ Zoom level that is compatible with the locations.json API
 
 |
 
-##### [com.skedgo.android.common.agenda.BigAlgorithmResponse](../com.skedgo.android.common.agenda/-big-algorithm-response/index.md)
+##### [com.skedgo.tripkit.common.agenda.BigAlgorithmResponse](../com.skedgo.tripkit.common.agenda/-big-algorithm-response/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.agenda.BigAlgorithmResult](../com.skedgo.android.common.agenda/-big-algorithm-result/index.md)
+##### [com.skedgo.tripkit.common.agenda.BigAlgorithmResult](../com.skedgo.tripkit.common.agenda/-big-algorithm-result/index.md)
 
 
 |
@@ -216,7 +216,7 @@ Zoom level that is compatible with the locations.json API
 
 |
 
-##### [com.skedgo.android.common.model.Booking](../com.skedgo.android.common.model/-booking/index.md)
+##### [com.skedgo.tripkit.common.model.Booking](../com.skedgo.tripkit.common.model/-booking/index.md)
 
 
 |
@@ -231,32 +231,32 @@ Zoom level that is compatible with the locations.json API
 
 |
 
-##### [com.skedgo.android.common.model.BookingConfirmation](../com.skedgo.android.common.model/-booking-confirmation/index.md)
+##### [com.skedgo.tripkit.common.model.BookingConfirmation](../com.skedgo.tripkit.common.model/-booking-confirmation/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.model.BookingConfirmationAction](../com.skedgo.android.common.model/-booking-confirmation-action/index.md)
+##### [com.skedgo.tripkit.common.model.BookingConfirmationAction](../com.skedgo.tripkit.common.model/-booking-confirmation-action/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.model.BookingConfirmationImage](../com.skedgo.android.common.model/-booking-confirmation-image/index.md)
+##### [com.skedgo.tripkit.common.model.BookingConfirmationImage](../com.skedgo.tripkit.common.model/-booking-confirmation-image/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.model.BookingConfirmationPurchase](../com.skedgo.android.common.model/-booking-confirmation-purchase/index.md)
+##### [com.skedgo.tripkit.common.model.BookingConfirmationPurchase](../com.skedgo.tripkit.common.model/-booking-confirmation-purchase/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.model.BookingConfirmationStatus](../com.skedgo.android.common.model/-booking-confirmation-status/index.md)
+##### [com.skedgo.tripkit.common.model.BookingConfirmationStatus](../com.skedgo.tripkit.common.model/-booking-confirmation-status/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.model.BookingProvider](../com.skedgo.android.common.model/-booking-provider/index.md)
+##### [com.skedgo.tripkit.common.model.BookingProvider](../com.skedgo.tripkit.common.model/-booking-provider/index.md)
 
 
 |
@@ -281,7 +281,7 @@ Zoom level that is compatible with the locations.json API
 
 |
 
-##### [com.skedgo.android.common.model.BookingSource](../com.skedgo.android.common.model/-booking-source/index.md)
+##### [com.skedgo.tripkit.common.model.BookingSource](../com.skedgo.tripkit.common.model/-booking-source/index.md)
 
 
 |
@@ -336,7 +336,7 @@ Zoom level that is compatible with the locations.json API
 
 |
 
-##### [skedgo.tripkit.locations.CarPod](../skedgo.tripkit.locations/-car-pod/index.md)
+##### [com.skedgo.tripkit.locations.CarPod](../com.skedgo.tripkit.locations/-car-pod/index.md)
 
 
 |
@@ -418,7 +418,7 @@ Represents configuration parameters.
 
 |
 
-##### [skedgo.tripkit.agenda.ConfigRepository](../skedgo.tripkit.agenda/-config-repository/index.md)
+##### [com.skedgo.tripkit.agenda.ConfigRepository](../com.skedgo.tripkit.agenda/-config-repository/index.md)
 
 
 |
@@ -516,9 +516,9 @@ Represents configuration parameters.
 ##### [com.skedgo.tripkit.ui.dialog.DateSpinnerAdapter](../com.skedgo.tripkit.ui.dialog/-date-spinner-adapter/index.md)
 
 
-| (extensions in package skedgo.tripkit.routing)
+| (extensions in package com.skedgo.tripkit.routing)
 
-##### [org.joda.time.DateTime](../skedgo.tripkit.routing/org.joda.time.-date-time/index.md)
+##### [org.joda.time.DateTime](../com.skedgo.tripkit.routing/org.joda.time.-date-time/index.md)
 
 
 |
@@ -605,7 +605,7 @@ Creates UseCases and Repositories related to the DateTime feature.
 
 |
 
-##### [skedgo.tripkit.logging.ErrorLogger](../skedgo.tripkit.logging/-error-logger/index.md)
+##### [com.skedgo.tripkit.logging.ErrorLogger](../com.skedgo.tripkit.logging/-error-logger/index.md)
 
 
 |
@@ -615,7 +615,7 @@ Creates UseCases and Repositories related to the DateTime feature.
 
 |
 
-##### [com.skedgo.android.common.agenda.EventTrackItem](../com.skedgo.android.common.agenda/-event-track-item/index.md)
+##### [com.skedgo.tripkit.common.agenda.EventTrackItem](../com.skedgo.tripkit.common.agenda/-event-track-item/index.md)
 
 
 |
@@ -625,12 +625,12 @@ Creates UseCases and Repositories related to the DateTime feature.
 
 |
 
-##### [com.skedgo.tripkit.ExternalActionParams](../com.skedgo.tripkit/-external-action-params/index.md)
+##### [com.skedgo.tripkit.ui.core.ExternalActionParams](../com.skedgo.tripkit.ui.core/-external-action-params/index.md)
 
 
 |
 
-##### [com.skedgo.tripkit.ui.core.ExternalActionParams](../com.skedgo.tripkit.ui.core/-external-action-params/index.md)
+##### [com.skedgo.tripkit.ExternalActionParams](../com.skedgo.tripkit/-external-action-params/index.md)
 
 
 |
@@ -751,7 +751,7 @@ A wrapper of ``[`A2bRoutingApi`](../com.skedgo.tripkit.a2brouting/-a2b-routing-a
 
 ##### [com.skedgo.tripkit.a2brouting.FillIdentifiers](../com.skedgo.tripkit.a2brouting/-fill-identifiers/index.md)
 
-Fills id for ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md).
+Fills id for ``[`Trip`](../com.skedgo.tripkit.routing/-trip/index.md).
 
 
 |
@@ -859,7 +859,7 @@ Represents the minimum information we need to calculate the score for a foursqua
 
 |
 
-##### [skedgo.tripkit.geocoding.Geocodable](../skedgo.tripkit.geocoding/-geocodable/index.md)
+##### [com.skedgo.tripkit.geocoding.Geocodable](../com.skedgo.tripkit.geocoding/-geocodable/index.md)
 
 
 |
@@ -889,7 +889,7 @@ Represents the minimum information we need to calculate the score for a foursqua
 
 |
 
-##### [skedgo.tripkit.location.GeoPoint](../skedgo.tripkit.location/-geo-point/index.md)
+##### [com.skedgo.tripkit.location.GeoPoint](../com.skedgo.tripkit.location/-geo-point/index.md)
 
 Represents a point on the Earth's surface, in latitude and longitude coordinates.
 Nothing more!
@@ -907,7 +907,7 @@ Nothing more!
 
 |
 
-##### [skedgo.tripkit.configuration.GetAppVersion](../skedgo.tripkit.configuration/-get-app-version/index.md)
+##### [com.skedgo.tripkit.configuration.GetAppVersion](../com.skedgo.tripkit.configuration/-get-app-version/index.md)
 
 
 |
@@ -1078,12 +1078,12 @@ scored result with duplicates
 
 |
 
-##### [skedgo.tripkit.routing.GroupVisibility](../skedgo.tripkit.routing/-group-visibility/index.md)
+##### [com.skedgo.tripkit.routing.GroupVisibility](../com.skedgo.tripkit.routing/-group-visibility/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.util.Gsons](../com.skedgo.android.common.util/-gsons/index.md)
+##### [com.skedgo.tripkit.common.util.Gsons](../com.skedgo.tripkit.common.util/-gsons/index.md)
 
 
 |
@@ -1106,14 +1106,14 @@ scored result with duplicates
 ##### [com.skedgo.tripkit.ui.core.InitializerContentProvider](../com.skedgo.tripkit.ui.core/-initializer-content-provider/index.md)
 
 
-| (extensions in package com.skedgo.tripkit.a2brouting)
-
-##### [kotlin.Int](../com.skedgo.tripkit.a2brouting/kotlin.-int/index.md)
-
-
 | (extensions in package com.skedgo.tripkit.ui.routing.settings)
 
 ##### [kotlin.Int](../com.skedgo.tripkit.ui.routing.settings/kotlin.-int/index.md)
+
+
+| (extensions in package com.skedgo.tripkit.a2brouting)
+
+##### [kotlin.Int](../com.skedgo.tripkit.a2brouting/kotlin.-int/index.md)
 
 
 |
@@ -1123,7 +1123,7 @@ scored result with duplicates
 
 |
 
-##### [com.skedgo.android.common.agenda.IRealTimeElement](../com.skedgo.android.common.agenda/-i-real-time-element/index.md)
+##### [com.skedgo.tripkit.common.agenda.IRealTimeElement](../com.skedgo.tripkit.common.agenda/-i-real-time-element/index.md)
 
 Signifies a class is able to fetch timetable information
 
@@ -1155,7 +1155,7 @@ Signifies a class is able to fetch timetable information
 
 |
 
-##### [com.skedgo.android.common.model.ITimeRange](../com.skedgo.android.common.model/-i-time-range/index.md)
+##### [com.skedgo.tripkit.common.model.ITimeRange](../com.skedgo.tripkit.common.model/-i-time-range/index.md)
 
 
 |
@@ -1165,7 +1165,7 @@ Signifies a class is able to fetch timetable information
 
 |
 
-##### [skedgo.tripkit.configuration.Key](../skedgo.tripkit.configuration/-key/index.md)
+##### [com.skedgo.tripkit.configuration.Key](../com.skedgo.tripkit.configuration/-key/index.md)
 
 
 |
@@ -1192,7 +1192,7 @@ Signifies a class is able to fetch timetable information
 
 ##### [com.skedgo.tripkit.LineSegment](../com.skedgo.tripkit/-line-segment/index.md)
 
-Represents a segment of a polyline denoting a ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md).
+Represents a segment of a polyline denoting a ``[`Trip`](../com.skedgo.tripkit.routing/-trip/index.md).
 
 
 | (extensions in package com.skedgo.tripkit.ui.routing)
@@ -1249,17 +1249,17 @@ TODO Should find an appropriate class name
 
 |
 
-##### [skedgo.tripkit.routing.LocalCost](../skedgo.tripkit.routing/-local-cost/index.md)
+##### [com.skedgo.tripkit.routing.LocalCost](../com.skedgo.tripkit.routing/-local-cost/index.md)
 
 
 |
 
-##### [skedgo.tripkit.routing.LocalCostAccuracy](../skedgo.tripkit.routing/-local-cost-accuracy/index.md)
+##### [com.skedgo.tripkit.routing.LocalCostAccuracy](../com.skedgo.tripkit.routing/-local-cost-accuracy/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.model.Location](../com.skedgo.android.common.model/-location/index.md)
+##### [com.skedgo.tripkit.common.model.Location](../com.skedgo.tripkit.common.model/-location/index.md)
 
 
 |
@@ -1303,6 +1303,9 @@ A simple wrapper around [FusedLocationProviderClient](https://developers.google.
 
 ##### [com.skedgo.tripkit.ui.search.LocationSearchFragment](../com.skedgo.tripkit.ui.search/-location-search-fragment/index.md)
 
+This is a self-contained location search component which merges search results from both SkedGo's search
+results as well as Google Places.
+
 
 |
 
@@ -1321,7 +1324,7 @@ A simple wrapper around [FusedLocationProviderClient](https://developers.google.
 
 |
 
-##### [com.skedgo.android.common.util.LowercaseEnumTypeAdapterFactory](../com.skedgo.android.common.util/-lowercase-enum-type-adapter-factory/index.md)
+##### [com.skedgo.tripkit.common.util.LowercaseEnumTypeAdapterFactory](../com.skedgo.tripkit.common.util/-lowercase-enum-type-adapter-factory/index.md)
 
 
 |
@@ -1366,7 +1369,7 @@ A view model for [GoogleMap](#) to know when it should
 
 |
 
-##### [skedgo.tripkit.analytics.MarkTripAsPlannedWithUserInfo](../skedgo.tripkit.analytics/-mark-trip-as-planned-with-user-info/index.md)
+##### [com.skedgo.tripkit.analytics.MarkTripAsPlannedWithUserInfo](../com.skedgo.tripkit.analytics/-mark-trip-as-planned-with-user-info/index.md)
 
 Example use-case: Mark a trip as planned, and
 then later, get push notifications about alerts relevant to the trip,
@@ -1382,7 +1385,7 @@ this class represents a scored result, it could be single or have duplicates
 
 |
 
-##### [skedgo.tripkit.routing.ModeInfo](../skedgo.tripkit.routing/-mode-info/index.md)
+##### [com.skedgo.tripkit.routing.ModeInfo](../com.skedgo.tripkit.routing/-mode-info/index.md)
 
 
 |
@@ -1432,16 +1435,6 @@ Scoring formulas Favourites: max(title, address) Search history: max(title, addr
 ##### [com.skedgo.tripkit.ui.trip.Now](../com.skedgo.tripkit.ui.trip/-now.md)
 
 
-| (extensions in package com.skedgo.rxtry)
-
-##### [io.reactivex.Observable](../com.skedgo.rxtry/io.reactivex.-observable/index.md)
-
-
-| (extensions in package com.skedgo.tripkit.android)
-
-##### [io.reactivex.Observable](../com.skedgo.tripkit.android/io.reactivex.-observable/index.md)
-
-
 | (extensions in package com.skedgo.tripkit.ui.core)
 
 ##### [io.reactivex.Observable](../com.skedgo.tripkit.ui.core/io.reactivex.-observable/index.md)
@@ -1455,6 +1448,16 @@ Scoring formulas Favourites: max(title, address) Search history: max(title, addr
 | (extensions in package com.skedgo.tripkit.ui.utils)
 
 ##### [io.reactivex.Observable](../com.skedgo.tripkit.ui.utils/io.reactivex.-observable/index.md)
+
+
+| (extensions in package com.skedgo.rxtry)
+
+##### [io.reactivex.Observable](../com.skedgo.rxtry/io.reactivex.-observable/index.md)
+
+
+| (extensions in package com.skedgo.tripkit.android)
+
+##### [io.reactivex.Observable](../com.skedgo.tripkit.android/io.reactivex.-observable/index.md)
 
 
 | (extensions in package com.skedgo.tripkit.ui.core.rxproperty)
@@ -1479,7 +1482,7 @@ Scoring formulas Favourites: max(title, address) Search history: max(title, addr
 
 |
 
-##### [skedgo.tripkit.routing.Occupancy](../skedgo.tripkit.routing/-occupancy/index.md)
+##### [com.skedgo.tripkit.routing.Occupancy](../com.skedgo.tripkit.routing/-occupancy/index.md)
 
 
 |
@@ -1489,7 +1492,7 @@ Scoring formulas Favourites: max(title, address) Search history: max(title, addr
 
 |
 
-##### [skedgo.tripkit.parkingspots.models.OffStreetParking](../skedgo.tripkit.parkingspots.models/-off-street-parking/index.md)
+##### [com.skedgo.tripkit.parkingspots.models.OffStreetParking](../com.skedgo.tripkit.parkingspots.models/-off-street-parking/index.md)
 
 
 |
@@ -1504,7 +1507,7 @@ Scoring formulas Favourites: max(title, address) Search history: max(title, addr
 
 |
 
-##### [skedgo.tripkit.parkingspots.models.OnStreetParking](../skedgo.tripkit.parkingspots.models/-on-street-parking/index.md)
+##### [com.skedgo.tripkit.parkingspots.models.OnStreetParking](../com.skedgo.tripkit.parkingspots.models/-on-street-parking/index.md)
 
 
 |
@@ -1559,7 +1562,7 @@ Scoring formulas Favourites: max(title, address) Search history: max(title, addr
 
 |
 
-##### [skedgo.tripkit.parkingspots.OnStreetParkingRepository](../skedgo.tripkit.parkingspots/-on-street-parking-repository/index.md)
+##### [com.skedgo.tripkit.parkingspots.OnStreetParkingRepository](../com.skedgo.tripkit.parkingspots/-on-street-parking-repository/index.md)
 
 
 |
@@ -1579,7 +1582,7 @@ Scoring formulas Favourites: max(title, address) Search history: max(title, addr
 
 |
 
-##### [skedgo.tripkit.parkingspots.models.OpeningHour](../skedgo.tripkit.parkingspots.models/-opening-hour/index.md)
+##### [com.skedgo.tripkit.parkingspots.models.OpeningHour](../com.skedgo.tripkit.parkingspots.models/-opening-hour/index.md)
 
 
 |
@@ -1609,7 +1612,7 @@ Scoring formulas Favourites: max(title, address) Search history: max(title, addr
 
 |
 
-##### [skedgo.tripkit.locations.Operator](../skedgo.tripkit.locations/-operator/index.md)
+##### [com.skedgo.tripkit.locations.Operator](../com.skedgo.tripkit.locations/-operator/index.md)
 
 
 |
@@ -1639,12 +1642,12 @@ Scoring formulas Favourites: max(title, address) Search history: max(title, addr
 
 |
 
-##### [skedgo.tripkit.parkingspots.models.Parking](../skedgo.tripkit.parkingspots.models/-parking/index.md)
+##### [com.skedgo.tripkit.parkingspots.models.Parking](../com.skedgo.tripkit.parkingspots.models/-parking/index.md)
 
 
 |
 
-##### [skedgo.tripkit.parkingspots.models.ParkingDetails](../skedgo.tripkit.parkingspots.models/-parking-details/index.md)
+##### [com.skedgo.tripkit.parkingspots.models.ParkingDetails](../com.skedgo.tripkit.parkingspots.models/-parking-details/index.md)
 
 
 |
@@ -1659,7 +1662,7 @@ Scoring formulas Favourites: max(title, address) Search history: max(title, addr
 
 |
 
-##### [skedgo.tripkit.parkingspots.models.ParkingOperator](../skedgo.tripkit.parkingspots.models/-parking-operator/index.md)
+##### [com.skedgo.tripkit.parkingspots.models.ParkingOperator](../com.skedgo.tripkit.parkingspots.models/-parking-operator/index.md)
 
 
 |
@@ -1674,12 +1677,12 @@ Scoring formulas Favourites: max(title, address) Search history: max(title, addr
 
 |
 
-##### [skedgo.tripkit.parkingspots.ParkingRepository](../skedgo.tripkit.parkingspots/-parking-repository/index.md)
+##### [com.skedgo.tripkit.parkingspots.ParkingRepository](../com.skedgo.tripkit.parkingspots/-parking-repository/index.md)
 
 
 |
 
-##### [skedgo.tripkit.parkingspots.models.PaymentType](../skedgo.tripkit.parkingspots.models/-payment-type/index.md)
+##### [com.skedgo.tripkit.parkingspots.models.PaymentType](../com.skedgo.tripkit.parkingspots.models/-payment-type/index.md)
 
 
 |
@@ -1731,7 +1734,7 @@ FIXME: Should move this into TripGoDomainLegacy module.
 
 |
 
-##### [com.skedgo.android.common.util.PolyUtil](../com.skedgo.android.common.util/-poly-util/index.md)
+##### [com.skedgo.tripkit.common.util.PolyUtil](../com.skedgo.tripkit.common.util/-poly-util/index.md)
 
 
 |
@@ -1751,7 +1754,7 @@ FIXME: Should move this into TripGoDomainLegacy module.
 
 |
 
-##### [skedgo.tripkit.parkingspots.models.PricingEntry](../skedgo.tripkit.parkingspots.models/-pricing-entry/index.md)
+##### [com.skedgo.tripkit.parkingspots.models.PricingEntry](../com.skedgo.tripkit.parkingspots.models/-pricing-entry/index.md)
 
 
 |
@@ -1766,7 +1769,7 @@ FIXME: Should move this into TripGoDomainLegacy module.
 
 |
 
-##### [skedgo.tripkit.parkingspots.models.PricingTable](../skedgo.tripkit.parkingspots.models/-pricing-table/index.md)
+##### [com.skedgo.tripkit.parkingspots.models.PricingTable](../com.skedgo.tripkit.parkingspots.models/-pricing-table/index.md)
 
 
 |
@@ -1776,12 +1779,12 @@ FIXME: Should move this into TripGoDomainLegacy module.
 
 |
 
-##### [skedgo.tripkit.datetime.PrintFullDate](../skedgo.tripkit.datetime/-print-full-date/index.md)
+##### [com.skedgo.tripkit.datetime.PrintFullDate](../com.skedgo.tripkit.datetime/-print-full-date/index.md)
 
 
 |
 
-##### [skedgo.tripkit.datetime.PrintTime](../skedgo.tripkit.datetime/-print-time/index.md)
+##### [com.skedgo.tripkit.datetime.PrintTime](../com.skedgo.tripkit.datetime/-print-time/index.md)
 
 An UseCase to print time with respect of 24-hour
 (or 12-hour) setting on users' device.
@@ -1799,7 +1802,7 @@ An UseCase to print time with respect of 24-hour
 
 |
 
-##### [skedgo.tripkit.routing.Provider](../skedgo.tripkit.routing/-provider/index.md)
+##### [com.skedgo.tripkit.routing.Provider](../com.skedgo.tripkit.routing/-provider/index.md)
 
 
 |
@@ -1809,14 +1812,14 @@ An UseCase to print time with respect of 24-hour
 
 |
 
-##### [com.skedgo.android.common.model.PurchaseBrand](../com.skedgo.android.common.model/-purchase-brand/index.md)
+##### [com.skedgo.tripkit.common.model.PurchaseBrand](../com.skedgo.tripkit.common.model/-purchase-brand/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.model.Query](../com.skedgo.android.common.model/-query/index.md)
+##### [com.skedgo.tripkit.common.model.Query](../com.skedgo.tripkit.common.model/-query/index.md)
 
-Represents a query to find routes from A to B.
+Represents a query to find routes from A to B. Note that, to avoid `TransactionTooLargeException`, it's discouraged to pass any instance of `Query` to an `Intent` or a `Bundle`. The `Parcelable` is subject to deletion at anytime.
 
 
 |
@@ -1831,7 +1834,7 @@ Represents a query to find routes from A to B.
 
 |
 
-##### [com.skedgo.android.common.model.RealtimeAlert](../com.skedgo.android.common.model/-realtime-alert/index.md)
+##### [com.skedgo.tripkit.common.model.RealtimeAlert](../com.skedgo.tripkit.common.model/-realtime-alert/index.md)
 
 
 |
@@ -1848,7 +1851,7 @@ Use ``[`RealtimeAlertService`](../com.skedgo.tripkit.alerts/-realtime-alert-serv
 
 |
 
-##### [com.skedgo.android.common.model.RealtimeAlerts](../com.skedgo.android.common.model/-realtime-alerts/index.md)
+##### [com.skedgo.tripkit.common.model.RealtimeAlerts](../com.skedgo.tripkit.common.model/-realtime-alerts/index.md)
 
 
 |
@@ -1868,12 +1871,12 @@ Use ``[`RealtimeAlertService`](../com.skedgo.tripkit.alerts/-realtime-alert-serv
 
 |
 
-##### [skedgo.tripkit.locations.RealTimeInfo](../skedgo.tripkit.locations/-real-time-info/index.md)
+##### [com.skedgo.tripkit.locations.RealTimeInfo](../com.skedgo.tripkit.locations/-real-time-info/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.model.RealTimeStatus](../com.skedgo.android.common.model/-real-time-status/index.md)
+##### [com.skedgo.tripkit.common.model.RealTimeStatus](../com.skedgo.tripkit.common.model/-real-time-status/index.md)
 
 
 |
@@ -1883,7 +1886,7 @@ Use ``[`RealtimeAlertService`](../com.skedgo.tripkit.alerts/-realtime-alert-serv
 
 |
 
-##### [skedgo.tripkit.routing.RealTimeVehicle](../skedgo.tripkit.routing/-real-time-vehicle/index.md)
+##### [com.skedgo.tripkit.routing.RealTimeVehicle](../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)
 
 
 |
@@ -1893,7 +1896,7 @@ Use ``[`RealtimeAlertService`](../com.skedgo.tripkit.alerts/-realtime-alert-serv
 
 |
 
-##### [com.skedgo.android.common.model.Region](../com.skedgo.android.common.model/-region/index.md)
+##### [com.skedgo.tripkit.common.model.Region](../com.skedgo.tripkit.common.model/-region/index.md)
 
 
 |
@@ -1942,7 +1945,7 @@ A facade of ``[`RegionInfoApi`](../com.skedgo.tripkit.tsp/-region-info-api/index
 
 |
 
-##### [com.skedgo.android.common.model.Regions](../com.skedgo.android.common.model/-regions/index.md)
+##### [com.skedgo.tripkit.common.model.Regions](../com.skedgo.tripkit.common.model/-regions/index.md)
 
 
 |
@@ -1952,12 +1955,12 @@ A facade of ``[`RegionInfoApi`](../com.skedgo.tripkit.tsp/-region-info-api/index
 
 |
 
-##### [com.skedgo.android.common.model.RegionsResponse](../com.skedgo.android.common.model/-regions-response/index.md)
+##### [com.skedgo.tripkit.common.model.RegionsResponse](../com.skedgo.tripkit.common.model/-regions-response/index.md)
 
 
 |
 
-##### [skedgo.tripkit.a2brouting.RequestTime](../skedgo.tripkit.a2brouting/-request-time/index.md)
+##### [com.skedgo.tripkit.a2brouting.RequestTime](../com.skedgo.tripkit.a2brouting/-request-time/index.md)
 
 
 |
@@ -2012,7 +2015,7 @@ A facade of ``[`RegionInfoApi`](../com.skedgo.tripkit.tsp/-region-info-api/index
 
 |
 
-##### [skedgo.tripkit.geocoding.ReverseGeocodable](../skedgo.tripkit.geocoding/-reverse-geocodable/index.md)
+##### [com.skedgo.tripkit.geocoding.ReverseGeocodable](../com.skedgo.tripkit.geocoding/-reverse-geocodable/index.md)
 
 
 |
@@ -2054,17 +2057,17 @@ A widget for display start and destination locations, as well as departure/arriv
 
 |
 
-##### [skedgo.tripkit.routing.RoutingResponse](../skedgo.tripkit.routing/-routing-response/index.md)
+##### [com.skedgo.tripkit.routing.RoutingResponse](../com.skedgo.tripkit.routing/-routing-response/index.md)
 
 
 |
 
-##### [skedgo.tripkit.routingstatus.RoutingStatus](../skedgo.tripkit.routingstatus/-routing-status/index.md)
+##### [com.skedgo.tripkit.routingstatus.RoutingStatus](../com.skedgo.tripkit.routingstatus/-routing-status/index.md)
 
 
 |
 
-##### [skedgo.tripkit.routingstatus.RoutingStatusRepository](../skedgo.tripkit.routingstatus/-routing-status-repository/index.md)
+##### [com.skedgo.tripkit.routingstatus.RoutingStatusRepository](../com.skedgo.tripkit.routingstatus/-routing-status-repository/index.md)
 
 
 |
@@ -2119,7 +2122,7 @@ A widget for display start and destination locations, as well as departure/arriv
 
 |
 
-##### [com.skedgo.android.common.model.ScheduledStop](../com.skedgo.android.common.model/-scheduled-stop/index.md)
+##### [com.skedgo.tripkit.common.model.ScheduledStop](../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)
 
 
 |
@@ -2161,7 +2164,7 @@ scored single result - without duplicates
 
 |
 
-##### [skedgo.tripkit.routing.SegmentActionTemplates](../skedgo.tripkit.routing/-segment-action-templates/index.md)
+##### [com.skedgo.tripkit.routing.SegmentActionTemplates](../com.skedgo.tripkit.routing/-segment-action-templates/index.md)
 
 
 |
@@ -2186,7 +2189,7 @@ scored single result - without duplicates
 
 |
 
-##### [skedgo.tripkit.routing.SegmentJsonKeys](../skedgo.tripkit.routing/-segment-json-keys/index.md)
+##### [com.skedgo.tripkit.routing.SegmentJsonKeys](../com.skedgo.tripkit.routing/-segment-json-keys/index.md)
 
 
 |
@@ -2201,7 +2204,7 @@ scored single result - without duplicates
 
 |
 
-##### [skedgo.tripkit.routing.SegmentNotesTemplates](../skedgo.tripkit.routing/-segment-notes-templates/index.md)
+##### [com.skedgo.tripkit.routing.SegmentNotesTemplates](../com.skedgo.tripkit.routing/-segment-notes-templates/index.md)
 
 
 |
@@ -2211,7 +2214,7 @@ scored single result - without duplicates
 
 |
 
-##### [skedgo.tripkit.routing.SegmentType](../skedgo.tripkit.routing/-segment-type/index.md)
+##### [com.skedgo.tripkit.routing.SegmentType](../com.skedgo.tripkit.routing/-segment-type/index.md)
 
 
 |
@@ -2228,7 +2231,7 @@ Selects display trip which has lowest weighted score.
 
 |
 
-##### [skedgo.tripkit.configuration.Server](../skedgo.tripkit.configuration/-server/index.md)
+##### [com.skedgo.tripkit.configuration.Server](../com.skedgo.tripkit.configuration/-server/index.md)
 
 
 |
@@ -2268,7 +2271,7 @@ Selects display trip which has lowest weighted score.
 
 |
 
-##### [skedgo.tripkit.routing.ServiceColor](../skedgo.tripkit.routing/-service-color/index.md)
+##### [com.skedgo.tripkit.routing.ServiceColor](../com.skedgo.tripkit.routing/-service-color/index.md)
 
 
 |
@@ -2318,14 +2321,14 @@ Selects display trip which has lowest weighted score.
 
 |
 
-##### [com.skedgo.android.common.model.ServiceStop](../com.skedgo.android.common.model/-service-stop/index.md)
-
-Represents a future stop of a service in a trip.
+##### [com.skedgo.tripkit.ui.map.ServiceStop](../com.skedgo.tripkit.ui.map/-service-stop/index.md)
 
 
 |
 
-##### [com.skedgo.tripkit.ui.map.ServiceStop](../com.skedgo.tripkit.ui.map/-service-stop/index.md)
+##### [com.skedgo.tripkit.common.model.ServiceStop](../com.skedgo.tripkit.common.model/-service-stop/index.md)
+
+Represents a future stop of a service in a trip.
 
 
 |
@@ -2370,7 +2373,7 @@ Represents a future stop of a service in a trip.
 
 |
 
-##### [skedgo.tripkit.routing.Shape](../skedgo.tripkit.routing/-shape/index.md)
+##### [com.skedgo.tripkit.routing.Shape](../com.skedgo.tripkit.routing/-shape/index.md)
 
 
 | (extensions in package com.skedgo.tripkit.data.util)
@@ -2410,7 +2413,7 @@ the cancellation of the request A-to-B to be done to get started.
 
 |
 
-##### [com.skedgo.android.common.agenda.SkedgoifyResponseParser](../com.skedgo.android.common.agenda/-skedgoify-response-parser/index.md)
+##### [com.skedgo.tripkit.common.agenda.SkedgoifyResponseParser](../com.skedgo.tripkit.common.agenda/-skedgoify-response-parser/index.md)
 
 
 |
@@ -2430,24 +2433,24 @@ the cancellation of the request A-to-B to be done to get started.
 
 |
 
-##### [skedgo.tripkit.routing.Source](../skedgo.tripkit.routing/-source/index.md)
+##### [com.skedgo.tripkit.routing.Source](../com.skedgo.tripkit.routing/-source/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.util.SphericalUtil](../com.skedgo.android.common.util/-spherical-util/index.md)
+##### [com.skedgo.tripkit.common.util.SphericalUtil](../com.skedgo.tripkit.common.util/-spherical-util/index.md)
 
 
 |
 
-##### [skedgo.tripkit.routingstatus.Status](../skedgo.tripkit.routingstatus/-status/index.md)
+##### [com.skedgo.tripkit.routingstatus.Status](../com.skedgo.tripkit.routingstatus/-status/index.md)
 
 
 |
 
 ##### [com.skedgo.tripkit.ui.model.StopInfo](../com.skedgo.tripkit.ui.model/-stop-info/index.md)
 
-Thuy's remark: This should have been ``[`ServiceStop`](../com.skedgo.android.common.model/-service-stop/index.md). We parse network response into ServiceStops, then persist them into SQLite database. However, when loading, we use such ``[`StopInfo`](../com.skedgo.tripkit.ui.model/-stop-info/index.md) to indicate service' stops.
+Thuy's remark: This should have been ``[`ServiceStop`](../com.skedgo.tripkit.common.model/-service-stop/index.md). We parse network response into ServiceStops, then persist them into SQLite database. However, when loading, we use such ``[`StopInfo`](../com.skedgo.tripkit.ui.model/-stop-info/index.md) to indicate service' stops.
 
 
 |
@@ -2502,32 +2505,32 @@ Thuy's remark: This should have been ``[`ServiceStop`](../com.skedgo.android.com
 
 |
 
-##### [com.skedgo.android.common.model.StopType](../com.skedgo.android.common.model/-stop-type/index.md)
+##### [com.skedgo.tripkit.common.model.StopType](../com.skedgo.tripkit.common.model/-stop-type/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.model.Street](../com.skedgo.android.common.model/-street/index.md)
+##### [com.skedgo.tripkit.common.model.Street](../com.skedgo.tripkit.common.model/-street/index.md)
 
 
-| (extensions in package skedgo.tripkit.routing)
+| (extensions in package com.skedgo.tripkit.routing)
 
-##### [kotlin.String](../skedgo.tripkit.routing/kotlin.-string/index.md)
-
-
-|
-
-##### [com.skedgo.android.common.util.StringBuilderPool](../com.skedgo.android.common.util/-string-builder-pool/index.md)
+##### [kotlin.String](../com.skedgo.tripkit.routing/kotlin.-string/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.util.StringUtils](../com.skedgo.android.common.util/-string-utils/index.md)
+##### [com.skedgo.tripkit.common.util.StringBuilderPool](../com.skedgo.tripkit.common.util/-string-builder-pool/index.md)
 
 
 |
 
-##### [com.skedgo.android.common.StyleManager](../com.skedgo.android.common/-style-manager/index.md)
+##### [com.skedgo.tripkit.common.util.StringUtils](../com.skedgo.tripkit.common.util/-string-utils/index.md)
+
+
+|
+
+##### [com.skedgo.tripkit.common.StyleManager](../com.skedgo.tripkit.common/-style-manager/index.md)
 
 
 |
@@ -2547,14 +2550,14 @@ Thuy's remark: This should have been ``[`ServiceStop`](../com.skedgo.android.com
 
 |
 
-##### [skedgo.tripkit.routing.Templates](../skedgo.tripkit.routing/-templates/index.md)
+##### [com.skedgo.tripkit.routing.Templates](../com.skedgo.tripkit.routing/-templates/index.md)
 
 
 |
 
 ##### [com.skedgo.tripkit.TemporaryUrlApi](../com.skedgo.tripkit/-temporary-url-api/index.md)
 
-Handles downloading trip via ``[`Trip#getTemporaryURL()`](../skedgo.tripkit.routing/-trip/get-temporary-u-r-l.md).
+Handles downloading trip via ``[`Trip#getTemporaryURL()`](../com.skedgo.tripkit.routing/-trip/get-temporary-u-r-l.md).
 
 
 |
@@ -2621,12 +2624,14 @@ Handles downloading trip via ``[`Trip#getTemporaryURL()`](../skedgo.tripkit.rout
 
 |
 
-##### [com.skedgo.android.common.model.TimeTag](../com.skedgo.android.common.model/-time-tag/index.md)
+##### [com.skedgo.tripkit.common.model.TimeTag](../com.skedgo.tripkit.common.model/-time-tag/index.md)
+
+A TimeTag encapsulates a departure or arrival time, including a dynamic time of "now".
 
 
 |
 
-##### [com.skedgo.android.common.util.TimeUtils](../com.skedgo.android.common.util/-time-utils/index.md)
+##### [com.skedgo.tripkit.common.util.TimeUtils](../com.skedgo.tripkit.common.util/-time-utils/index.md)
 
 
 |
@@ -2636,7 +2641,7 @@ Handles downloading trip via ``[`Trip#getTemporaryURL()`](../skedgo.tripkit.rout
 
 |
 
-##### [com.skedgo.android.common.agenda.TrackItem](../com.skedgo.android.common.agenda/-track-item/index.md)
+##### [com.skedgo.tripkit.common.agenda.TrackItem](../com.skedgo.tripkit.common.agenda/-track-item/index.md)
 
 
 |
@@ -2661,7 +2666,7 @@ Handles downloading trip via ``[`Trip#getTemporaryURL()`](../skedgo.tripkit.rout
 
 |
 
-##### [com.skedgo.android.common.model.TransportMode](../com.skedgo.android.common.model/-transport-mode/index.md)
+##### [com.skedgo.tripkit.common.model.TransportMode](../com.skedgo.tripkit.common.model/-transport-mode/index.md)
 
 
 |
@@ -2676,7 +2681,7 @@ Handles downloading trip via ``[`Trip#getTemporaryURL()`](../skedgo.tripkit.rout
 
 |
 
-##### [com.skedgo.android.common.util.TransportModeUtils](../com.skedgo.android.common.util/-transport-mode-utils/index.md)
+##### [com.skedgo.tripkit.common.util.TransportModeUtils](../com.skedgo.tripkit.common.util/-transport-mode-utils/index.md)
 
 
 |
@@ -2686,14 +2691,14 @@ Handles downloading trip via ``[`Trip#getTemporaryURL()`](../skedgo.tripkit.rout
 
 |
 
-##### [skedgo.tripkit.routing.Trip](../skedgo.tripkit.routing/-trip/index.md)
+##### [com.skedgo.tripkit.routing.Trip](../com.skedgo.tripkit.routing/-trip/index.md)
 
-A ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md) will mainly hold a list of ``[`TripSegment`](../skedgo.tripkit.routing/-trip-segment/index.md)s which denotes how to go from ``[`Trip#getFrom()`](../skedgo.tripkit.routing/-trip/get-from.md) to ``[`Trip#getTo()`](../skedgo.tripkit.routing/-trip/get-to.md).
+A ``[`Trip`](../com.skedgo.tripkit.routing/-trip/index.md) will mainly hold a list of ``[`TripSegment`](../com.skedgo.tripkit.routing/-trip-segment/index.md)s which denotes how to go from ``[`Trip#getFrom()`](../com.skedgo.tripkit.routing/-trip/get-from.md) to ``[`Trip#getTo()`](../com.skedgo.tripkit.routing/-trip/get-to.md).
 
 
 |
 
-##### [skedgo.tripkit.routing.TripComparators](../skedgo.tripkit.routing/-trip-comparators/index.md)
+##### [com.skedgo.tripkit.routing.TripComparators](../com.skedgo.tripkit.routing/-trip-comparators/index.md)
 
 
 |
@@ -2705,9 +2710,9 @@ Created by Adrian Schoenig on 3. May 2018. CopyrightW 2018 SkedGo Pty Ltd. All r
 
 |
 
-##### [skedgo.tripkit.routing.TripGroup](../skedgo.tripkit.routing/-trip-group/index.md)
+##### [com.skedgo.tripkit.routing.TripGroup](../com.skedgo.tripkit.routing/-trip-group/index.md)
 
-Represents a list of ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md)s. A list of ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md)s comprises of a display trip (aka representative trip) and alternative trips. A display trip can be accessed via ``[`#getDisplayTrip()`](../skedgo.tripkit.routing/-trip-group/get-display-trip.md) while alternative trips can be retrieved via ``[`#getTrips()`](../skedgo.tripkit.routing/-trip-group/get-trips.md) minus ``[`#getDisplayTrip()`](../skedgo.tripkit.routing/-trip-group/get-display-trip.md). That's because ``[`#getTrips()`](../skedgo.tripkit.routing/-trip-group/get-trips.md) returns a list of ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md)s including alternative trips and display trip.
+Represents a list of ``[`Trip`](../com.skedgo.tripkit.routing/-trip/index.md)s. A list of ``[`Trip`](../com.skedgo.tripkit.routing/-trip/index.md)s comprises of a display trip (aka representative trip) and alternative trips. A display trip can be accessed via ``[`#getDisplayTrip()`](../com.skedgo.tripkit.routing/-trip-group/get-display-trip.md) while alternative trips can be retrieved via ``[`#getTrips()`](../com.skedgo.tripkit.routing/-trip-group/get-trips.md) minus ``[`#getDisplayTrip()`](../com.skedgo.tripkit.routing/-trip-group/get-display-trip.md). That's because ``[`#getTrips()`](../com.skedgo.tripkit.routing/-trip-group/get-trips.md) returns a list of ``[`Trip`](../com.skedgo.tripkit.routing/-trip/index.md)s including alternative trips and display trip.
 
 
 |
@@ -2717,7 +2722,7 @@ Represents a list of ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md)s. A li
 
 |
 
-##### [skedgo.tripkit.routing.TripGroupComparators](../skedgo.tripkit.routing/-trip-group-comparators/index.md)
+##### [com.skedgo.tripkit.routing.TripGroupComparators](../com.skedgo.tripkit.routing/-trip-group-comparators/index.md)
 
 
 |
@@ -2756,26 +2761,27 @@ Represents a list of ``[`Trip`](../skedgo.tripkit.routing/-trip/index.md)s. A li
 
 A DialogFragment which allows a user to set a time and choose whether it is a departure time or an arrival time.
 
-```
-DialogFragment fragment = TripKitDateTimePickerDialogFragment.Builder()
-          .withLocations(toLocation, fromLocation)
-          .withTimeTag(timeTagForQuery)
-          .build();
- 
-  fragment.show(supportFragmentManager, "timePicker")
-```
-
 
 |
 
-##### [com.skedgo.android.common.util.TripKitLatLng](../com.skedgo.android.common.util/-trip-kit-lat-lng/index.md)
+##### [com.skedgo.tripkit.common.util.TripKitLatLng](../com.skedgo.tripkit.common.util/-trip-kit-lat-lng/index.md)
 
 
 |
 
 ##### [com.skedgo.tripkit.ui.map.home.TripKitMapFragment](../com.skedgo.tripkit.ui.map.home/-trip-kit-map-fragment/index.md)
 
-A map component for an app. It automatically integrates with SkedGo's backend, display transit information without any additional intervention. Being a fragment, it can very easily be added to an activity's layout. ```  ``` You **must** provide a TripGo API token as R.string.skedgo_api_key.
+A map component for an app. It automatically integrates with SkedGo's backend, display transit information without any additional intervention. Being a fragment, it can very easily be added to an activity's layout.
+
+```
+<fragment
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/map"
+              android:name="com.skedgo.tripkit.ui.map.home.TripKitMapFragment"/>
+```
+
+ Your app **must** provide a TripGo API token as `R.string.skedgo_api_key`.
 
 
 |
@@ -2845,9 +2851,9 @@ A map component for an app. It automatically integrates with SkedGo's backend, d
 
 |
 
-##### [skedgo.tripkit.routing.TripSegment](../skedgo.tripkit.routing/-trip-segment/index.md)
+##### [com.skedgo.tripkit.routing.TripSegment](../com.skedgo.tripkit.routing/-trip-segment/index.md)
 
-To go from A to B, sometimes we have to travel X, Y, Z locations between A and B. That means, we travel A to X, then X to Y, then Y to Z, then Z to B which is the destination. To show how to travel from A to X, we use ``[`TripSegment`](../skedgo.tripkit.routing/-trip-segment/index.md). So, in this case, a trip from A to B comprises 6 segments: - A segment whose type is ``[`SegmentType#DEPARTURE`](../skedgo.tripkit.routing/-segment-type/-d-e-p-a-r-t-u-r-e.md). - A segment from A to X. - A segment from X to Y. - A segment from Y to Z. - A segment from Z to B. - A segment whose type is ``[`SegmentType#ARRIVAL`](../skedgo.tripkit.routing/-segment-type/-a-r-r-i-v-a-l.md).
+To go from A to B, sometimes we have to travel X, Y, Z locations between A and B. That means, we travel A to X, then X to Y, then Y to Z, then Z to B which is the destination. To show how to travel from A to X, we use ``[`TripSegment`](../com.skedgo.tripkit.routing/-trip-segment/index.md). So, in this case, a trip from A to B comprises 6 segments: - A segment whose type is ``[`SegmentType#DEPARTURE`](../com.skedgo.tripkit.routing/-segment-type/-d-e-p-a-r-t-u-r-e.md). - A segment from A to X. - A segment from X to Y. - A segment from Y to Z. - A segment from Z to B. - A segment whose type is ``[`SegmentType#ARRIVAL`](../com.skedgo.tripkit.routing/-segment-type/-a-r-r-i-v-a-l.md).
 
 
 |
@@ -2872,14 +2878,14 @@ To go from A to B, sometimes we have to travel X, Y, Z locations between A and B
 
 |
 
-##### [com.skedgo.android.common.util.TripSegmentListResolver](../com.skedgo.android.common.util/-trip-segment-list-resolver/index.md)
+##### [com.skedgo.tripkit.common.util.TripSegmentListResolver](../com.skedgo.tripkit.common.util/-trip-segment-list-resolver/index.md)
 
 Puts a Departure segment before head of, and puts an Arrival segment after tail of a segment list.
 
 
 |
 
-##### [skedgo.tripkit.routing.TripSegments](../skedgo.tripkit.routing/-trip-segments/index.md)
+##### [com.skedgo.tripkit.routing.TripSegments](../com.skedgo.tripkit.routing/-trip-segments/index.md)
 
 
 |
@@ -2889,7 +2895,7 @@ Puts a Departure segment before head of, and puts an Arrival segment after tail 
 
 |
 
-##### [com.skedgo.android.common.util.TripSegmentUtils](../com.skedgo.android.common.util/-trip-segment-utils/index.md)
+##### [com.skedgo.tripkit.common.util.TripSegmentUtils](../com.skedgo.tripkit.common.util/-trip-segment-utils/index.md)
 
 
 |
@@ -2899,7 +2905,7 @@ Puts a Departure segment before head of, and puts an Arrival segment after tail 
 
 |
 
-##### [com.skedgo.android.common.agenda.TripTrackItem](../com.skedgo.android.common.agenda/-trip-track-item/index.md)
+##### [com.skedgo.tripkit.common.agenda.TripTrackItem](../com.skedgo.tripkit.common.agenda/-trip-track-item/index.md)
 
 
 |
@@ -2924,7 +2930,7 @@ Puts a Departure segment before head of, and puts an Arrival segment after tail 
 
 |
 
-##### [skedgo.tripkit.routing.TurnByTurn](../skedgo.tripkit.routing/-turn-by-turn/index.md)
+##### [com.skedgo.tripkit.routing.TurnByTurn](../com.skedgo.tripkit.routing/-turn-by-turn/index.md)
 
 
 |
@@ -2949,7 +2955,7 @@ Puts a Departure segment before head of, and puts an Arrival segment after tail 
 
 |
 
-##### [com.skedgo.android.common.model.Units](../com.skedgo.android.common.model/-units/index.md)
+##### [com.skedgo.tripkit.common.model.Units](../com.skedgo.tripkit.common.model/-units/index.md)
 
 
 |
@@ -2964,17 +2970,17 @@ Puts a Departure segment before head of, and puts an Arrival segment after tail 
 
 |
 
-##### [skedgo.tripkit.locations.Vehicle](../skedgo.tripkit.locations/-vehicle/index.md)
+##### [com.skedgo.tripkit.locations.Vehicle](../com.skedgo.tripkit.locations/-vehicle/index.md)
 
 
 |
 
-##### [skedgo.tripkit.routing.VehicleComponent](../skedgo.tripkit.routing/-vehicle-component/index.md)
+##### [com.skedgo.tripkit.routing.VehicleComponent](../com.skedgo.tripkit.routing/-vehicle-component/index.md)
 
 
 |
 
-##### [skedgo.tripkit.routing.VehicleDrawables](../skedgo.tripkit.routing/-vehicle-drawables/index.md)
+##### [com.skedgo.tripkit.routing.VehicleDrawables](../com.skedgo.tripkit.routing/-vehicle-drawables/index.md)
 
 
 |
@@ -2994,7 +3000,7 @@ Puts a Departure segment before head of, and puts an Arrival segment after tail 
 
 |
 
-##### [skedgo.tripkit.routing.VehicleMode](../skedgo.tripkit.routing/-vehicle-mode/index.md)
+##### [com.skedgo.tripkit.routing.VehicleMode](../com.skedgo.tripkit.routing/-vehicle-mode/index.md)
 
 As of v11, this denotes local transport icons.
 
@@ -3026,7 +3032,7 @@ As of v11, this denotes local transport icons.
 
 |
 
-##### [skedgo.tripkit.routing.Visibilities](../skedgo.tripkit.routing/-visibilities/index.md)
+##### [com.skedgo.tripkit.routing.Visibilities](../com.skedgo.tripkit.routing/-visibilities/index.md)
 
 
 |
@@ -3068,7 +3074,7 @@ https://redmine.buzzhives.com/projects/buzzhives/wiki/Routing_API#Trips-from-way
 
 |
 
-##### [com.skedgo.android.common.model.WheelchairAccessible](../com.skedgo.android.common.model/-wheelchair-accessible/index.md)
+##### [com.skedgo.tripkit.common.model.WheelchairAccessible](../com.skedgo.tripkit.common.model/-wheelchair-accessible/index.md)
 
 
 |

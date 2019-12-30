@@ -2,4 +2,4 @@
 
 # onLocationSelected
 
-`abstract fun onLocationSelected(location: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`abstract fun onLocationSelected(location: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

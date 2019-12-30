@@ -2,4 +2,4 @@
 
 # execute
 
-`@StringRes fun execute(occupancy: `[`Occupancy`](../../skedgo.tripkit.routing/-occupancy/index.md)`?): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+`@StringRes fun execute(occupancy: `[`Occupancy`](../../com.skedgo.tripkit.routing/-occupancy/index.md)`?): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)

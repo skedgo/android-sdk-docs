@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`VehicleMarkerViewModel(segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`)`
+`VehicleMarkerViewModel(segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`)`

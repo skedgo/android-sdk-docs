@@ -2,4 +2,4 @@
 
 # done
 
-`abstract fun done(): `[`TimeTag`](../../com.skedgo.android.common.model/-time-tag/index.md)`!`
+`abstract fun done(): `[`TimeTag`](../../com.skedgo.tripkit.common.model/-time-tag/index.md)`!`

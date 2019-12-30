@@ -2,4 +2,4 @@
 
 # getTripSegmentAction
 
-`open fun getTripSegmentAction(context: Context!, tripSegment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`!): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!`
+`open fun getTripSegmentAction(context: Context!, tripSegment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`!): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!`

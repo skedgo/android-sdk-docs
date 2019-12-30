@@ -2,4 +2,4 @@
 
 # setCompatModeInfo
 
-`static fun setCompatModeInfo(view: ImageView!, @Nullable modeInfo: `[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`static fun setCompatModeInfo(view: ImageView!, @Nullable modeInfo: `[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

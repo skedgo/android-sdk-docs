@@ -14,4 +14,4 @@
 
 | Name | Summary |
 |---|---|
-| [execute](execute.md) | `open fun execute(service: `[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, dateTimeZone: DateTimeZone, vehicle: `[`RealTimeVehicle`](../../skedgo.tripkit.routing/-real-time-vehicle/index.md)`? = null): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [execute](execute.md) | `open fun execute(service: `[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, dateTimeZone: DateTimeZone, vehicle: `[`RealTimeVehicle`](../../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`? = null): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

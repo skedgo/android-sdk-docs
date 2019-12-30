@@ -7,11 +7,11 @@
 A DialogFragment which allows a user to set a time and choose whether it is a departure time or an arrival time.
 
 ```
-DialogFragment fragment = TripKitDateTimePickerDialogFragment.Builder()
-          .withLocations(toLocation, fromLocation)
-          .withTimeTag(timeTagForQuery)
-          .build();
- 
-  fragment.show(supportFragmentManager, "timePicker")
+    DialogFragment fragment = TripKitDateTimePickerDialogFragment.Builder()
+                                .withLocations(toLocation, fromLocation)
+                                .withTimeTag(timeTagForQuery)
+                                .build();
+
+    fragment.show(supportFragmentManager, "timePicker")
 ```
 

@@ -6,4 +6,4 @@
 
 | Name | Summary |
 |---|---|
-| [RoutingStatusRepositoryImpl](-routing-status-repository-impl/index.md) | `class RoutingStatusRepositoryImpl : `[`RoutingStatusRepository`](../skedgo.tripkit.routingstatus/-routing-status-repository/index.md) |
+| [RoutingStatusRepositoryImpl](-routing-status-repository-impl/index.md) | `class RoutingStatusRepositoryImpl : `[`RoutingStatusRepository`](../com.skedgo.tripkit.routingstatus/-routing-status-repository/index.md) |

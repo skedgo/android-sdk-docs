@@ -2,4 +2,4 @@
 
 # getRealTimeAlertDisplayText
 
-`open fun getRealTimeAlertDisplayText(alert: `[`RealtimeAlert`](../../com.skedgo.android.common.model/-realtime-alert/index.md)`!): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!`
+`open fun getRealTimeAlertDisplayText(alert: `[`RealtimeAlert`](../../com.skedgo.tripkit.common.model/-realtime-alert/index.md)`!): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!`

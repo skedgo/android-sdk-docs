@@ -2,4 +2,4 @@
 
 # printFullDate
 
-`@Provides fun printFullDate(): `[`PrintFullDate`](../../skedgo.tripkit.datetime/-print-full-date/index.md)
+`@Provides fun printFullDate(): `[`PrintFullDate`](../../com.skedgo.tripkit.datetime/-print-full-date/index.md)

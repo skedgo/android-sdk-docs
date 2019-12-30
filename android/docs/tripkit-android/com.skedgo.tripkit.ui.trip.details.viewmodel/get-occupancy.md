@@ -2,4 +2,4 @@
 
 # getOccupancy
 
-`fun `[`VehicleComponent`](../skedgo.tripkit.routing/-vehicle-component/index.md)`.getOccupancy(): `[`Occupancy`](../skedgo.tripkit.routing/-occupancy/index.md)`?`
+`fun `[`VehicleComponent`](../com.skedgo.tripkit.routing/-vehicle-component/index.md)`.getOccupancy(): `[`Occupancy`](../com.skedgo.tripkit.routing/-occupancy/index.md)`?`

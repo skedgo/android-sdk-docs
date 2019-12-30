@@ -2,7 +2,7 @@
 
 # GeocodeResultAdapter
 
-`open class GeocodeResultAdapter : JsonDeserializer<`[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!>`
+`open class GeocodeResultAdapter : JsonDeserializer<`[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!>`
 
 ### Constructors
 
@@ -14,4 +14,4 @@
 
 | Name | Summary |
 |---|---|
-| [deserialize](deserialize.md) | `open fun deserialize(json: JsonElement!, typeOfT: `[`Type`](https://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Type.html)`!, context: JsonDeserializationContext!): `[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!` |
+| [deserialize](deserialize.md) | `open fun deserialize(json: JsonElement!, typeOfT: `[`Type`](https://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Type.html)`!, context: JsonDeserializationContext!): `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!` |

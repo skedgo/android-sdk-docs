@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`CarPodPOILocation(carPod: `[`CarPod`](../../skedgo.tripkit.locations/-car-pod/index.md)`)`
+`CarPodPOILocation(carPod: `[`CarPod`](../../com.skedgo.tripkit.locations/-car-pod/index.md)`)`

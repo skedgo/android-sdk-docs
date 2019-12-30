@@ -15,4 +15,4 @@
 | Name | Summary |
 |---|---|
 | [getInfoContents](get-info-contents.md) | `fun getInfoContents(marker: Marker): View` |
-| [setSegmentCache](set-segment-cache.md) | `fun setSegmentCache(segmentCache: `[`HashMap`](https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)`<Marker, `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [setSegmentCache](set-segment-cache.md) | `fun setSegmentCache(segmentCache: `[`HashMap`](https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)`<Marker, `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

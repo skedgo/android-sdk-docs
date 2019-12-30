@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [tripKitButtonClicked](trip-kit-button-clicked.md) | `abstract fun tripKitButtonClicked(id: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, tripGroup: `[`TripGroup`](../../../skedgo.tripkit.routing/-trip-group/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [tripKitButtonClicked](trip-kit-button-clicked.md) | `abstract fun tripKitButtonClicked(id: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, tripGroup: `[`TripGroup`](../../../com.skedgo.tripkit.routing/-trip-group/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

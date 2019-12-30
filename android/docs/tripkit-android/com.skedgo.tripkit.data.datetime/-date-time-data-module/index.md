@@ -14,5 +14,5 @@
 
 | Name | Summary |
 |---|---|
-| [printFullDate](print-full-date.md) | `fun printFullDate(): `[`PrintFullDate`](../../skedgo.tripkit.datetime/-print-full-date/index.md) |
-| [printTime](print-time.md) | `fun printTime(context: Context): `[`PrintTime`](../../skedgo.tripkit.datetime/-print-time/index.md) |
+| [printFullDate](print-full-date.md) | `fun printFullDate(): `[`PrintFullDate`](../../com.skedgo.tripkit.datetime/-print-full-date/index.md) |
+| [printTime](print-time.md) | `fun printTime(context: Context): `[`PrintTime`](../../com.skedgo.tripkit.datetime/-print-time/index.md) |

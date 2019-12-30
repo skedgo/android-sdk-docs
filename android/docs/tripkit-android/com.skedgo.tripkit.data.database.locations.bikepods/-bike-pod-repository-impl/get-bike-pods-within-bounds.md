@@ -2,4 +2,4 @@
 
 # getBikePodsWithinBounds
 
-`fun getBikePodsWithinBounds(cellIds: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, southwest: `[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)`, northEast: `[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)`): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`BikePodLocationEntity`](../-bike-pod-location-entity/index.md)`>>`
+`fun getBikePodsWithinBounds(cellIds: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, southwest: `[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md)`, northEast: `[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md)`): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`BikePodLocationEntity`](../-bike-pod-location-entity/index.md)`>>`

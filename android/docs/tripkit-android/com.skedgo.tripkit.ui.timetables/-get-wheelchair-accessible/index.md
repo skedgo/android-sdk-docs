@@ -14,4 +14,4 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(wheelchairAccessible: `[`WheelchairAccessible`](../../com.skedgo.android.common.model/-wheelchair-accessible/index.md)`): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
+| [invoke](invoke.md) | `operator fun invoke(wheelchairAccessible: `[`WheelchairAccessible`](../../com.skedgo.tripkit.common.model/-wheelchair-accessible/index.md)`): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |

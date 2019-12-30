@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`GetAlternativeTripForAlternativeService(context: Context, tripGroupRepository: TripGroupRepository, regionService: `[`RegionService`](../../com.skedgo.tripkit.data.regions/-region-service/index.md)`, configRepository: `[`ConfigRepository`](../../skedgo.tripkit.agenda/-config-repository/index.md)`)`
+`GetAlternativeTripForAlternativeService(context: Context, tripGroupRepository: TripGroupRepository, regionService: `[`RegionService`](../../com.skedgo.tripkit.data.regions/-region-service/index.md)`, configRepository: `[`ConfigRepository`](../../com.skedgo.tripkit.agenda/-config-repository/index.md)`)`

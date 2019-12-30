@@ -2,4 +2,4 @@
 
 # realtimeVehicle
 
-`abstract fun realtimeVehicle(): `[`RealTimeVehicle`](../../skedgo.tripkit.routing/-real-time-vehicle/index.md)`!`
+`abstract fun realtimeVehicle(): `[`RealTimeVehicle`](../../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`!`

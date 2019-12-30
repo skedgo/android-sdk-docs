@@ -2,4 +2,4 @@
 
 # putRoutingStatus
 
-`fun putRoutingStatus(routingStatus: `[`RoutingStatus`](../../skedgo.tripkit.routingstatus/-routing-status/index.md)`): Completable`
+`fun putRoutingStatus(routingStatus: `[`RoutingStatus`](../../com.skedgo.tripkit.routingstatus/-routing-status/index.md)`): Completable`

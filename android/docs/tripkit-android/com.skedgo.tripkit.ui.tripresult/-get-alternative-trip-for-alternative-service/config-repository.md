@@ -2,4 +2,4 @@
 
 # configRepository
 
-`val configRepository: `[`ConfigRepository`](../../skedgo.tripkit.agenda/-config-repository/index.md)
+`val configRepository: `[`ConfigRepository`](../../com.skedgo.tripkit.agenda/-config-repository/index.md)

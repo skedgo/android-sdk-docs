@@ -2,4 +2,4 @@
 
 # apply
 
-`fun apply(remoteIconIsTemplate: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, serviceColor: `[`ServiceColor`](../../skedgo.tripkit.routing/-service-color/index.md)`?, drawable: Drawable): Drawable`
+`fun apply(remoteIconIsTemplate: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, serviceColor: `[`ServiceColor`](../../com.skedgo.tripkit.routing/-service-color/index.md)`?, drawable: Drawable): Drawable`

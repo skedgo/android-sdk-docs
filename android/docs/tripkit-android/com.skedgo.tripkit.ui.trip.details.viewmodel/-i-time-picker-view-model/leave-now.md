@@ -2,4 +2,4 @@
 
 # leaveNow
 
-`abstract fun leaveNow(): `[`TimeTag`](../../com.skedgo.android.common.model/-time-tag/index.md)`!`
+`abstract fun leaveNow(): `[`TimeTag`](../../com.skedgo.tripkit.common.model/-time-tag/index.md)`!`

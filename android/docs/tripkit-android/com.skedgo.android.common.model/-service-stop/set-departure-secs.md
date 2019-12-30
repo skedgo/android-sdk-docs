@@ -1,5 +1,0 @@
-[tripkit-android](../../index.md) / [com.skedgo.android.common.model](../index.md) / [ServiceStop](index.md) / [setDepartureSecs](./set-departure-secs.md)
-
-# setDepartureSecs
-
-`open fun setDepartureSecs(secs: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

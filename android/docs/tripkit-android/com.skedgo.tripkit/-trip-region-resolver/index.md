@@ -2,7 +2,7 @@
 
 # TripRegionResolver
 
-`abstract class TripRegionResolver : BiFunction<`[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!, `[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!, Observable<`[`Region`](../../com.skedgo.android.common.model/-region/index.md)`!>!>`
+`abstract class TripRegionResolver : BiFunction<`[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!, `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!, Observable<`[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md)`!>!>`
 
 ### Constructors
 

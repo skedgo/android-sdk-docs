@@ -2,4 +2,4 @@
 
 # segments
 
-`val segments: Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`>>`
+`val segments: Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`>>`

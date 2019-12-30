@@ -16,4 +16,4 @@
 |---|---|
 | [getHashCode](get-hash-code.md) | `open fun getHashCode(): `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
 | [getKey](get-key.md) | `open fun getKey(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!` |
-| [getStops](get-stops.md) | `open fun getStops(): `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`ScheduledStop`](../../../com.skedgo.android.common.model/-scheduled-stop/index.md)`!>!` |
+| [getStops](get-stops.md) | `open fun getStops(): `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`ScheduledStop`](../../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`!>!` |

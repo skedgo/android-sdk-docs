@@ -2,4 +2,4 @@
 
 # getCitiesByNameAsync
 
-`abstract fun getCitiesByNameAsync(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): Observable<`[`Location`](../../com.skedgo.android.common.model/-location/index.md)`>`
+`abstract fun getCitiesByNameAsync(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): Observable<`[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`>`

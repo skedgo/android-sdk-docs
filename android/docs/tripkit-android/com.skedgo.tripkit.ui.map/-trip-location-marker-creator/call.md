@@ -2,4 +2,4 @@
 
 # call
 
-`open fun call(location: `[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!): MarkerOptions!`
+`open fun call(location: `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!): MarkerOptions!`

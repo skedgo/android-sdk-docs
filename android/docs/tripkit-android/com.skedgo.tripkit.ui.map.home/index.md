@@ -12,7 +12,15 @@
 | [GetCellIdsFromViewPort](-get-cell-ids-from-view-port/index.md) | `open class GetCellIdsFromViewPort` |
 | [MapViewModel](-map-view-model/index.md) | `class MapViewModel : `[`RxViewModel`](../com.skedgo.tripkit.ui.core/-rx-view-model/index.md) |
 | [StopLoaderArgs](-stop-loader-args/index.md) | `class StopLoaderArgs` |
-| [TripKitMapFragment](-trip-kit-map-fragment/index.md) | A map component for an app. It automatically integrates with SkedGo's backend, display transit information without any additional intervention. Being a fragment, it can very easily be added to an activity's layout. ```  ``` You **must** provide a TripGo API token as R.string.skedgo_api_key.`open class TripKitMapFragment : `[`LocationEnhancedMapFragment`](../com.skedgo.tripkit.ui.map/-location-enhanced-map-fragment/index.md)`, OnInfoWindowClickListener, OnMapLongClickListener, OnCameraChangeListener, OnMarkerClickListener` |
+| [TripKitMapFragment](-trip-kit-map-fragment/index.md) | A map component for an app. It automatically integrates with SkedGo's backend, display transit information without any additional intervention. Being a fragment, it can very easily be added to an activity's layout.
+
+```
+<fragment
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/map"
+              android:name="com.skedgo.tripkit.ui.map.home.TripKitMapFragment"/>  <br>```
+<br> Your app **must** provide a TripGo API token as `R.string.skedgo_api_key`.`open class TripKitMapFragment : `[`LocationEnhancedMapFragment`](../com.skedgo.tripkit.ui.map/-location-enhanced-map-fragment/index.md)`, OnInfoWindowClickListener, OnMapLongClickListener, OnCameraChangeListener, OnMarkerClickListener` |
 | [ViewPort](-view-port/index.md) | `sealed class ViewPort` |
 | [ZoomLevel](-zoom-level/index.md) | `class ZoomLevel` |
 

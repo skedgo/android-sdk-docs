@@ -2,4 +2,4 @@
 
 # withQuery
 
-`fun withQuery(query: `[`Query`](../../../com.skedgo.android.common.model/-query/index.md)`): Builder`
+`fun withQuery(query: `[`Query`](../../../com.skedgo.tripkit.common.model/-query/index.md)`): Builder`

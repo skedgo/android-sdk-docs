@@ -2,4 +2,4 @@
 
 # createForNewlyFetching
 
-`static fun createForNewlyFetching(@NonNull region: `[`Region`](../../com.skedgo.android.common.model/-region/index.md)`, @NonNull cellIds: `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!>, level: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, @Nullable config: JsonObject?): `[`LocationsRequestBody`](index.md)`!`
+`static fun createForNewlyFetching(@NonNull region: `[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md)`, @NonNull cellIds: `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!>, level: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, @Nullable config: JsonObject?): `[`LocationsRequestBody`](index.md)`!`

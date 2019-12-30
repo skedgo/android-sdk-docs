@@ -2,4 +2,4 @@
 
 # realTimeVehicleObservable
 
-`fun realTimeVehicleObservable(service: `[`IRealTimeElement`](../../com.skedgo.android.common.agenda/-i-real-time-element/index.md)`): Observable<`[`RealTimeVehicle`](../../skedgo.tripkit.routing/-real-time-vehicle/index.md)`>`
+`fun realTimeVehicleObservable(service: `[`IRealTimeElement`](../../com.skedgo.tripkit.common.agenda/-i-real-time-element/index.md)`): Observable<`[`RealTimeVehicle`](../../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`>`

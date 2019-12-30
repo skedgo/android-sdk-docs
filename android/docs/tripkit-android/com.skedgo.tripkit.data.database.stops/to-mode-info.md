@@ -2,4 +2,4 @@
 
 # toModeInfo
 
-`fun `[`ModeInfoEntity`](../com.skedgo.tripkit.data.database.locations.bikepods/-mode-info-entity/index.md)`.toModeInfo(): `[`ModeInfo`](../skedgo.tripkit.routing/-mode-info/index.md)
+`fun `[`ModeInfoEntity`](../com.skedgo.tripkit.data.database.locations.bikepods/-mode-info-entity/index.md)`.toModeInfo(): `[`ModeInfo`](../com.skedgo.tripkit.routing/-mode-info/index.md)

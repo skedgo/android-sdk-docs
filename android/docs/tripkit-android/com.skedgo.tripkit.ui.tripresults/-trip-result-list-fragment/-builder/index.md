@@ -15,4 +15,4 @@
 | Name | Summary |
 |---|---|
 | [build](build.md) | `fun build(): `[`TripResultListFragment`](../index.md) |
-| [withQuery](with-query.md) | `fun withQuery(query: `[`Query`](../../../com.skedgo.android.common.model/-query/index.md)`): Builder` |
+| [withQuery](with-query.md) | `fun withQuery(query: `[`Query`](../../../com.skedgo.tripkit.common.model/-query/index.md)`): Builder` |

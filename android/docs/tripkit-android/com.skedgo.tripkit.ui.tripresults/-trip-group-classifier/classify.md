@@ -2,4 +2,4 @@
 
 # classify
 
-`fun classify(tripGroup: `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`): Classification`
+`fun classify(tripGroup: `[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`): Classification`

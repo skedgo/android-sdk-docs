@@ -15,4 +15,4 @@
 | Name | Summary |
 |---|---|
 | [getFromFoursquare](get-from-foursquare.md) | `open fun getFromFoursquare(): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`FoursquareResultLocationAdapter`](../-foursquare-result-location-adapter/index.md)`!>!` |
-| [getLocationsFromFoursquare](get-locations-from-foursquare.md) | `open fun getLocationsFromFoursquare(): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!>!` |
+| [getLocationsFromFoursquare](get-locations-from-foursquare.md) | `open fun getLocationsFromFoursquare(): `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!>!` |

@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `BookingResolverImpl(resources: Resources, packageManager: PackageManager, geocoderFactory: `[`ReverseGeocodable`](../../skedgo.tripkit.geocoding/-reverse-geocodable/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `BookingResolverImpl(resources: Resources, packageManager: PackageManager, geocoderFactory: `[`ReverseGeocodable`](../../com.skedgo.tripkit.geocoding/-reverse-geocodable/index.md)`)` |
 
 ### Functions
 

@@ -27,4 +27,4 @@
 | Name | Summary |
 |---|---|
 | [hasInformation](has-information.md) | `fun hasInformation(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
-| [setOccupancy](set-occupancy.md) | `open fun setOccupancy(vehicle: `[`RealTimeVehicle`](../../skedgo.tripkit.routing/-real-time-vehicle/index.md)`, showAverage: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [setOccupancy](set-occupancy.md) | `open fun setOccupancy(vehicle: `[`RealTimeVehicle`](../../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`, showAverage: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

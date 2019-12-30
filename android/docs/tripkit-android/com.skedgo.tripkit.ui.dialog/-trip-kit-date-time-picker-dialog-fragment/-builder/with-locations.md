@@ -2,16 +2,16 @@
 
 # withLocations
 
-`fun withLocations(@Nullable departureLocation: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`?, @Nullable arrivalLocation: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`?): Builder!`
+`fun withLocations(departureLocation: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)`?, arrivalLocation: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)`?): Builder`
 
 Sets the departure and arrival location so that the timezones can be supported.
 
 ### Parameters
 
-`departureLocation` - [Location](../../../com.skedgo.android.common.model/-location/index.md)?:
+`departureLocation` -
 
-`arrivalLocation` - [Location](../../../com.skedgo.android.common.model/-location/index.md)?:
+`arrivalLocation` -
 
 **Return**
-Builder!: this builder
+this builder
 

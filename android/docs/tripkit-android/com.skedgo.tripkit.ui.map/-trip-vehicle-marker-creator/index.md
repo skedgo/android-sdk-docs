@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [call](call.md) | `open fun call(resources: Resources!, segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`!): MarkerOptions!` |
+| [call](call.md) | `open fun call(resources: Resources!, segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`!): MarkerOptions!` |

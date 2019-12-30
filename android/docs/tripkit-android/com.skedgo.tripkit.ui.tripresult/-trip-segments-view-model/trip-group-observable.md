@@ -2,4 +2,4 @@
 
 # tripGroupObservable
 
-`val tripGroupObservable: Observable<`[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`>`
+`val tripGroupObservable: Observable<`[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`>`

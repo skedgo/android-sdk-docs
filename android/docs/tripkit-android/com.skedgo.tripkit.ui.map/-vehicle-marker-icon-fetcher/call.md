@@ -2,4 +2,4 @@
 
 # call
 
-`open fun call(marker: Marker!, @NonNull vehicle: `[`RealTimeVehicle`](../../skedgo.tripkit.routing/-real-time-vehicle/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`open fun call(marker: Marker!, @NonNull vehicle: `[`RealTimeVehicle`](../../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

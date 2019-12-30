@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`GetRealtimeText(context: Context, printTime: `[`PrintTime`](../../skedgo.tripkit.datetime/-print-time/index.md)`)`
+`GetRealtimeText(context: Context, printTime: `[`PrintTime`](../../com.skedgo.tripkit.datetime/-print-time/index.md)`)`

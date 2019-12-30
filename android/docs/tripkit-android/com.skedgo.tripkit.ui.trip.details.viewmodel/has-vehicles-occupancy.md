@@ -2,4 +2,4 @@
 
 # hasVehiclesOccupancy
 
-`fun `[`RealTimeVehicle`](../skedgo.tripkit.routing/-real-time-vehicle/index.md)`.hasVehiclesOccupancy(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)
+`fun `[`RealTimeVehicle`](../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`.hasVehiclesOccupancy(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)

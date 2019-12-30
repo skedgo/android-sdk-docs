@@ -10,7 +10,7 @@
 |---|---|
 | [alertMarkerViewModels](alert-marker-view-models.md) | `val alertMarkerViewModels: Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`AlertMarkerViewModel`](../-alert-marker-view-model/index.md)`>>` |
 | [nonTravelledStopMarkerViewModels](non-travelled-stop-marker-view-models.md) | `val nonTravelledStopMarkerViewModels: Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`StopMarkerViewModel`](../-stop-marker-view-model/index.md)`>>` |
-| [segments](segments.md) | `val segments: Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`>>` |
+| [segments](segments.md) | `val segments: Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`>>` |
 | [travelledStopMarkerViewModels](travelled-stop-marker-view-models.md) | `val travelledStopMarkerViewModels: Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`StopMarkerViewModel`](../-stop-marker-view-model/index.md)`>>` |
 | [tripCameraUpdate](trip-camera-update.md) | `val tripCameraUpdate: Observable<`[`MapCameraUpdate`](../../com.skedgo.tripkit.ui.tripresult/-map-camera-update/index.md)`>` |
 | [vehicleMarkerViewModels](vehicle-marker-view-models.md) | `val vehicleMarkerViewModels: Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`VehicleMarkerViewModel`](../-vehicle-marker-view-model/index.md)`>>` |

@@ -2,4 +2,4 @@
 
 # formatString
 
-`fun `[`TimeTag`](../com.skedgo.android.common.model/-time-tag/index.md)`.formatString(context: Context, timezone: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+`fun `[`TimeTag`](../com.skedgo.tripkit.common.model/-time-tag/index.md)`.formatString(context: Context, timezone: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)

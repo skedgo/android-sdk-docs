@@ -30,4 +30,4 @@
 
 | Name | Summary |
 |---|---|
-| [formatString](format-string.md) | `fun `[`TimeTag`](../com.skedgo.android.common.model/-time-tag/index.md)`.formatString(context: Context, timezone: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [formatString](format-string.md) | `fun `[`TimeTag`](../com.skedgo.tripkit.common.model/-time-tag/index.md)`.formatString(context: Context, timezone: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

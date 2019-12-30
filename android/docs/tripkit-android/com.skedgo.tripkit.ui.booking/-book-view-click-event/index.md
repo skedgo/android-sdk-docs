@@ -8,13 +8,13 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `BookViewClickEvent(bus: Bus, segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `BookViewClickEvent(bus: Bus, segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [segment](segment.md) | `val segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`!` |
+| [segment](segment.md) | `val segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`!` |
 
 ### Functions
 

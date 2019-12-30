@@ -2,4 +2,4 @@
 
 # getRealtimeVehicle
 
-`open fun getRealtimeVehicle(): `[`RealTimeVehicle`](../../skedgo.tripkit.routing/-real-time-vehicle/index.md)`!`
+`open fun getRealtimeVehicle(): `[`RealTimeVehicle`](../../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`!`

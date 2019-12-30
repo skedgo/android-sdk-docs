@@ -2,4 +2,4 @@
 
 # realTimeStatus
 
-`val realTimeStatus: `[`RealTimeStatus`](../../com.skedgo.android.common.model/-real-time-status/index.md)`!`
+`val realTimeStatus: `[`RealTimeStatus`](../../com.skedgo.tripkit.common.model/-real-time-status/index.md)`!`

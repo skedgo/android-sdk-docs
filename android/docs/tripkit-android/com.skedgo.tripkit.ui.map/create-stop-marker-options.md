@@ -2,4 +2,4 @@
 
 # createStopMarkerOptions
 
-`fun `[`ScheduledStop`](../com.skedgo.android.common.model/-scheduled-stop/index.md)`.createStopMarkerOptions(): Single<MarkerOptions>`
+`fun `[`ScheduledStop`](../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`.createStopMarkerOptions(): Single<MarkerOptions>`

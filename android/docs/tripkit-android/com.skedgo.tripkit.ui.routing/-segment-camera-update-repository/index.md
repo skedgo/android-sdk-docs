@@ -15,4 +15,4 @@
 | Name | Summary |
 |---|---|
 | [getSegmentCameraUpdate](get-segment-camera-update.md) | `fun getSegmentCameraUpdate(): Observable<`[`SegmentCameraUpdate`](../-segment-camera-update/index.md)`>` |
-| [putSegment](put-segment.md) | `fun putSegment(segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [putSegment](put-segment.md) | `fun putSegment(segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

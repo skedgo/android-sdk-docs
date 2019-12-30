@@ -15,4 +15,4 @@
 
 | Name | Summary |
 |---|---|
-| [region](region.md) | `val region: `[`Region`](../../com.skedgo.android.common.model/-region/index.md) |
+| [region](region.md) | `val region: `[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md) |

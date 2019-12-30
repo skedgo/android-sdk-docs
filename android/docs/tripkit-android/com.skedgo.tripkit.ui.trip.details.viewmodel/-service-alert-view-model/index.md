@@ -24,4 +24,4 @@
 | Name | Summary |
 |---|---|
 | [onShow](on-show.md) | `fun onShow(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [setAlerts](set-alerts.md) | `open fun setAlerts(alerts: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`RealtimeAlert`](../../com.skedgo.android.common.model/-realtime-alert/index.md)`>?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [setAlerts](set-alerts.md) | `open fun setAlerts(alerts: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`RealtimeAlert`](../../com.skedgo.tripkit.common.model/-realtime-alert/index.md)`>?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

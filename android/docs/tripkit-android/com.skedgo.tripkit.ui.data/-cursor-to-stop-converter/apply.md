@@ -2,4 +2,4 @@
 
 # apply
 
-`open fun apply(cursor: Cursor): `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`!`
+`open fun apply(cursor: Cursor): `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`!`

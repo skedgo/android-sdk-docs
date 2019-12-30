@@ -2,4 +2,4 @@
 
 # toRoutingTime
 
-`fun `[`TimeTag`](../com.skedgo.android.common.model/-time-tag/index.md)`.toRoutingTime(tz: DateTimeZone): `[`RoutingTime`](-routing-time.md)
+`fun `[`TimeTag`](../com.skedgo.tripkit.common.model/-time-tag/index.md)`.toRoutingTime(tz: DateTimeZone): `[`RoutingTime`](-routing-time.md)

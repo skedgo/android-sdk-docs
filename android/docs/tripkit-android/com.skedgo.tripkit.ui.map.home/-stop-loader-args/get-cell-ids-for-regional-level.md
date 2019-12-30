@@ -2,7 +2,7 @@
 
 # getCellIdsForRegionalLevel
 
-`@NonNull static fun getCellIdsForRegionalLevel(@NonNull region: `[`Region`](../../com.skedgo.android.common.model/-region/index.md)`): `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!>`
+`@NonNull static fun getCellIdsForRegionalLevel(@NonNull region: `[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md)`): `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!>`
 
 **Return**
 [ArrayList](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)!&gt;: A list containing region name used as cell id for regional level

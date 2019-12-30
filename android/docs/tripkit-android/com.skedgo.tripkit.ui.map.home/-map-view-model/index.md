@@ -9,7 +9,7 @@
 | Name | Summary |
 |---|---|
 | [markers](markers.md) | `val markers: Observable<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<MarkerOptions, `[`POILocation`](../../com.skedgo.tripkit.ui.map/-p-o-i-location/index.md)`>>, `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>>!>` |
-| [myLocation](my-location.md) | `val myLocation: Observable<`[`Location`](../../com.skedgo.android.common.model/-location/index.md)`>` |
+| [myLocation](my-location.md) | `val myLocation: Observable<`[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`>` |
 | [myLocationError](my-location-error.md) | `val myLocationError: Observable<`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`>` |
 
 ### Functions

@@ -2,4 +2,4 @@
 
 # printTime
 
-`abstract val printTime: `[`PrintTime`](../../skedgo.tripkit.datetime/-print-time/index.md)
+`abstract val printTime: `[`PrintTime`](../../com.skedgo.tripkit.datetime/-print-time/index.md)

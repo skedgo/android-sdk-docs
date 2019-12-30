@@ -2,4 +2,4 @@
 
 # make
 
-`fun make(alert: `[`RealtimeAlert`](../../com.skedgo.android.common.model/-realtime-alert/index.md)`): MarkerOptions`
+`fun make(alert: `[`RealtimeAlert`](../../com.skedgo.tripkit.common.model/-realtime-alert/index.md)`): MarkerOptions`

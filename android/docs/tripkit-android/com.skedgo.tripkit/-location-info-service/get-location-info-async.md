@@ -2,4 +2,4 @@
 
 # getLocationInfoAsync
 
-`abstract fun getLocationInfoAsync(location: `[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!): Observable<`[`LocationInfo`](../-location-info/index.md)`!>!`
+`abstract fun getLocationInfoAsync(location: `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!): Observable<`[`LocationInfo`](../-location-info/index.md)`!>!`

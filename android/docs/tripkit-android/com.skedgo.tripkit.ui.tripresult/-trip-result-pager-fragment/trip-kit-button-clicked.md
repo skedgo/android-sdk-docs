@@ -2,4 +2,4 @@
 
 # tripKitButtonClicked
 
-`open fun tripKitButtonClicked(@NotNull id: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, @NotNull tripGroup: `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`open fun tripKitButtonClicked(@NotNull id: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, @NotNull tripGroup: `[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

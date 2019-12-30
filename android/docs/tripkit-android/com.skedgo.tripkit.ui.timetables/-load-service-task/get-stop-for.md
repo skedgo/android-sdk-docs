@@ -2,4 +2,4 @@
 
 # getStopFor
 
-`open fun getStopFor(code: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!): `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`!`
+`open fun getStopFor(code: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!): `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`!`

@@ -2,4 +2,4 @@
 
 # markTripAsPlannedWithUserInfo
 
-`abstract val markTripAsPlannedWithUserInfo: `[`MarkTripAsPlannedWithUserInfo`](../../skedgo.tripkit.analytics/-mark-trip-as-planned-with-user-info/index.md)
+`abstract val markTripAsPlannedWithUserInfo: `[`MarkTripAsPlannedWithUserInfo`](../../com.skedgo.tripkit.analytics/-mark-trip-as-planned-with-user-info/index.md)

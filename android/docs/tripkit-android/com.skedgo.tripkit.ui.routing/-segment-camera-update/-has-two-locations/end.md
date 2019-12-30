@@ -2,4 +2,4 @@
 
 # end
 
-`val end: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)
+`val end: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)

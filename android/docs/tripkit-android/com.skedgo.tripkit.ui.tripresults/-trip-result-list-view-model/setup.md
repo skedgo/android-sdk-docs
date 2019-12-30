@@ -2,4 +2,4 @@
 
 # setup
 
-`fun setup(_query: `[`Query`](../../com.skedgo.android.common.model/-query/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`fun setup(_query: `[`Query`](../../com.skedgo.tripkit.common.model/-query/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

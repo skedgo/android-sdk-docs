@@ -2,4 +2,4 @@
 
 # call
 
-`open fun call(@NonNull marker: Marker, @Nullable modeInfo: `[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`open fun call(@NonNull marker: Marker, @Nullable modeInfo: `[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

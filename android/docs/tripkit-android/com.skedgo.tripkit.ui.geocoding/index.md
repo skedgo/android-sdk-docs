@@ -20,7 +20,7 @@
 | [FoursquareResultLocationAdapter](-foursquare-result-location-adapter/index.md) | `class FoursquareResultLocationAdapter : `[`GCFoursquareResultInterface`](../com.skedgo.geocoding.agregator/-g-c-foursquare-result-interface/index.md)`, `[`ResultLocationAdapter`](-result-location-adapter/index.md)`<TripGoPOI!>` |
 | [Geocoder](-geocoder/index.md) | `open class Geocoder` |
 | [GeocodeResponse](-geocode-response/index.md) | `open class GeocodeResponse` |
-| [GeocodeResultAdapter](-geocode-result-adapter/index.md) | `open class GeocodeResultAdapter : JsonDeserializer<`[`Location`](../com.skedgo.android.common.model/-location/index.md)`!>` |
+| [GeocodeResultAdapter](-geocode-result-adapter/index.md) | `open class GeocodeResultAdapter : JsonDeserializer<`[`Location`](../com.skedgo.tripkit.common.model/-location/index.md)`!>` |
 | [GeocoderLive](-geocoder-live/index.md) | `open class GeocoderLive : `[`RegionalGeocoder`](-regional-geocoder/index.md) |
 | [GoogleGeocoderLive](-google-geocoder-live/index.md) | `class GoogleGeocoderLive` |
 | [GoogleResultLocationAdapter](-google-result-location-adapter/index.md) | `class GoogleResultLocationAdapter : `[`GCGoogleResultInterface`](../com.skedgo.geocoding.agregator/-g-c-google-result-interface/index.md)`, `[`ResultLocationAdapter`](-result-location-adapter/index.md)`<WithoutLocation!>` |

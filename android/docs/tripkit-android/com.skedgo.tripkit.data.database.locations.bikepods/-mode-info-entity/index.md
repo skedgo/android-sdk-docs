@@ -27,4 +27,4 @@
 
 | Name | Summary |
 |---|---|
-| [toModeInfo](../../com.skedgo.tripkit.data.database.stops/to-mode-info.md) | `fun `[`ModeInfoEntity`](./index.md)`.toModeInfo(): `[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md) |
+| [toModeInfo](../../com.skedgo.tripkit.data.database.stops/to-mode-info.md) | `fun `[`ModeInfoEntity`](./index.md)`.toModeInfo(): `[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md) |

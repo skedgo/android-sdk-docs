@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`HasTwoLocations(id: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`, start: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`, end: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`)`
+`HasTwoLocations(id: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`, start: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)`, end: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)`)`

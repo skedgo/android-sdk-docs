@@ -2,7 +2,7 @@
 
 # QueryLocationResolver
 
-`open class QueryLocationResolver : Function<`[`Query`](../../com.skedgo.android.common.model/-query/index.md)`, Observable<`[`Query`](../../com.skedgo.android.common.model/-query/index.md)`>>`
+`open class QueryLocationResolver : Function<`[`Query`](../../com.skedgo.tripkit.common.model/-query/index.md)`, Observable<`[`Query`](../../com.skedgo.tripkit.common.model/-query/index.md)`>>`
 
 ### Constructors
 
@@ -14,4 +14,4 @@
 
 | Name | Summary |
 |---|---|
-| [apply](apply.md) | `open fun apply(query: `[`Query`](../../com.skedgo.android.common.model/-query/index.md)`): Observable<`[`Query`](../../com.skedgo.android.common.model/-query/index.md)`>` |
+| [apply](apply.md) | `open fun apply(query: `[`Query`](../../com.skedgo.tripkit.common.model/-query/index.md)`): Observable<`[`Query`](../../com.skedgo.tripkit.common.model/-query/index.md)`>` |

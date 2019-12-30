@@ -16,7 +16,7 @@
 | [OnStreetParkingMapper](-on-street-parking-mapper/index.md) | `open class OnStreetParkingMapper` |
 | [OnStreetParkingModule](-on-street-parking-module/index.md) | `class OnStreetParkingModule` |
 | [OnStreetParkingPersistor](-on-street-parking-persistor/index.md) | `open class OnStreetParkingPersistor` |
-| [OnStreetParkingRepositoryImpl](-on-street-parking-repository-impl/index.md) | `class OnStreetParkingRepositoryImpl : `[`OnStreetParkingRepository`](../skedgo.tripkit.parkingspots/-on-street-parking-repository/index.md) |
+| [OnStreetParkingRepositoryImpl](-on-street-parking-repository-impl/index.md) | `class OnStreetParkingRepositoryImpl : `[`OnStreetParkingRepository`](../com.skedgo.tripkit.parkingspots/-on-street-parking-repository/index.md) |
 | [ParkingProvider](-parking-provider/index.md) | `interface ParkingProvider` |
 | [RestrictionDayAndTimeDto](-restriction-day-and-time-dto/index.md) | `interface RestrictionDayAndTimeDto` |
 | [RestrictionDayDto](-restriction-day-dto/index.md) | `interface RestrictionDayDto` |

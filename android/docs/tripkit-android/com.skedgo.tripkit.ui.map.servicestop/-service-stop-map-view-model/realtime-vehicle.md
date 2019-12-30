@@ -2,4 +2,4 @@
 
 # realtimeVehicle
 
-`val realtimeVehicle: Observable<Optional<`[`RealTimeVehicle`](../../skedgo.tripkit.routing/-real-time-vehicle/index.md)`>!>`
+`val realtimeVehicle: Observable<Optional<`[`RealTimeVehicle`](../../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`>!>`

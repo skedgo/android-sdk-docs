@@ -8,14 +8,14 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `StopPOILocation(scheduledStop: `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`, stopInfoWindowAdapter: `[`StopInfoWindowAdapter`](../../com.skedgo.tripkit.ui.map.adapter/-stop-info-window-adapter/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `StopPOILocation(scheduledStop: `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`, stopInfoWindowAdapter: `[`StopInfoWindowAdapter`](../../com.skedgo.tripkit.ui.map.adapter/-stop-info-window-adapter/index.md)`)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
 | [identifier](identifier.md) | `val identifier: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [scheduledStop](scheduled-stop.md) | `val scheduledStop: `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md) |
+| [scheduledStop](scheduled-stop.md) | `val scheduledStop: `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md) |
 
 ### Functions
 
@@ -24,4 +24,4 @@
 | [createMarkerOptions](create-marker-options.md) | `fun createMarkerOptions(resources: Resources, picasso: Picasso): Single<MarkerOptions>` |
 | [getInfoWindowAdapter](get-info-window-adapter.md) | `fun getInfoWindowAdapter(context: Context): `[`StopInfoWindowAdapter`](../../com.skedgo.tripkit.ui.map.adapter/-stop-info-window-adapter/index.md)`?` |
 | [onMarkerClick](on-marker-click.md) | `fun onMarkerClick(bus: Bus, eventTracker: EventTracker): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [toLocation](to-location.md) | `fun toLocation(): `[`Location`](../../com.skedgo.android.common.model/-location/index.md) |
+| [toLocation](to-location.md) | `fun toLocation(): `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md) |

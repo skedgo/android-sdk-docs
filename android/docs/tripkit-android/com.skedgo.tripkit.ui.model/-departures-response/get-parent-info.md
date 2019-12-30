@@ -2,4 +2,4 @@
 
 # getParentInfo
 
-`@Nullable open fun getParentInfo(): `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`?`
+`@Nullable open fun getParentInfo(): `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`?`

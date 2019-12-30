@@ -18,9 +18,9 @@
 | [countDownTimeText](count-down-time-text.md) | `abstract val countDownTimeText: ObservableField<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [countDownTimeTextBack](count-down-time-text-back.md) | `abstract val countDownTimeTextBack: ObservableField<Drawable>` |
 | [dateTimeZone](date-time-zone.md) | `abstract var dateTimeZone: DateTimeZone` |
-| [modeInfo](mode-info.md) | `abstract val modeInfo: ObservableField<`[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md)`>` |
+| [modeInfo](mode-info.md) | `abstract val modeInfo: ObservableField<`[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md)`>` |
 | [occupancyViewModel](occupancy-view-model.md) | `abstract val occupancyViewModel: `[`OccupancyViewModel`](../../com.skedgo.tripkit.ui.trip.details.viewmodel/-occupancy-view-model/index.md) |
-| [onAlertsClick](on-alerts-click.md) | `abstract val onAlertsClick: `[`TapAction`](../../com.skedgo.tripkit.ui.utils/-tap-action/index.md)`<`[`ArrayList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html)`<`[`RealtimeAlert`](../../com.skedgo.android.common.model/-realtime-alert/index.md)`>>` |
+| [onAlertsClick](on-alerts-click.md) | `abstract val onAlertsClick: `[`TapAction`](../../com.skedgo.tripkit.ui.utils/-tap-action/index.md)`<`[`ArrayList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html)`<`[`RealtimeAlert`](../../com.skedgo.tripkit.common.model/-realtime-alert/index.md)`>>` |
 | [onItemClick](on-item-click.md) | `abstract val onItemClick: `[`TapAction`](../../com.skedgo.tripkit.ui.utils/-tap-action/index.md)`<`[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`>` |
 | [secondaryText](secondary-text.md) | `abstract val secondaryText: ObservableField<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [secondaryTextColor](secondary-text-color.md) | `abstract val secondaryTextColor: ObservableInt` |

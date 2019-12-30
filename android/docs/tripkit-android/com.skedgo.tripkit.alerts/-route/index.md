@@ -15,6 +15,6 @@
 | Name | Summary |
 |---|---|
 | [id](id.md) | `abstract fun id(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!` |
-| [modeInfo](mode-info.md) | `abstract fun modeInfo(): `[`ModeInfo`](../../skedgo.tripkit.routing/-mode-info/index.md)`?` |
+| [modeInfo](mode-info.md) | `abstract fun modeInfo(): `[`ModeInfo`](../../com.skedgo.tripkit.routing/-mode-info/index.md)`?` |
 | [name](name.md) | `abstract fun name(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [number](number.md) | `abstract fun number(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |

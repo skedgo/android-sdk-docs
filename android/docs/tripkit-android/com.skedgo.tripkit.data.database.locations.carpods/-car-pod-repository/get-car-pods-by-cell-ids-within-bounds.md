@@ -2,4 +2,4 @@
 
 # getCarPodsByCellIdsWithinBounds
 
-`fun getCarPodsByCellIdsWithinBounds(cellIds: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, southwest: `[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)`, northEast: `[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)`): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`CarPod`](../../skedgo.tripkit.locations/-car-pod/index.md)`>>`
+`fun getCarPodsByCellIdsWithinBounds(cellIds: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, southwest: `[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md)`, northEast: `[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md)`): Observable<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`CarPod`](../../com.skedgo.tripkit.locations/-car-pod/index.md)`>>`

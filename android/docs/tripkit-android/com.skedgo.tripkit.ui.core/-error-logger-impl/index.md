@@ -2,7 +2,7 @@
 
 # ErrorLoggerImpl
 
-`class ErrorLoggerImpl : `[`ErrorLogger`](../../skedgo.tripkit.logging/-error-logger/index.md)
+`class ErrorLoggerImpl : `[`ErrorLogger`](../../com.skedgo.tripkit.logging/-error-logger/index.md)
 
 ### Functions
 

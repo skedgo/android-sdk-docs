@@ -25,9 +25,9 @@
 | [getEndTimeInSecs](get-end-time-in-secs.md) | `open fun getEndTimeInSecs(): `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
 | [getFrequency](get-frequency.md) | `open fun getFrequency(): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 | [getId](get-id.md) | `open fun getId(): `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
-| [getMode](get-mode.md) | `open fun getMode(): `[`VehicleMode`](../../skedgo.tripkit.routing/-vehicle-mode/index.md)`!` |
+| [getMode](get-mode.md) | `open fun getMode(): `[`VehicleMode`](../../com.skedgo.tripkit.routing/-vehicle-mode/index.md)`!` |
 | [getPairIdentifier](get-pair-identifier.md) | `open fun getPairIdentifier(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!` |
-| [getRealTimeStatus](get-real-time-status.md) | `open fun getRealTimeStatus(): `[`RealTimeStatus`](../../com.skedgo.android.common.model/-real-time-status/index.md)`!` |
+| [getRealTimeStatus](get-real-time-status.md) | `open fun getRealTimeStatus(): `[`RealTimeStatus`](../../com.skedgo.tripkit.common.model/-real-time-status/index.md)`!` |
 | [getSearchString](get-search-string.md) | `open fun getSearchString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!` |
 | [getServiceColorBlue](get-service-color-blue.md) | `open fun getServiceColorBlue(): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 | [getServiceColorGreen](get-service-color-green.md) | `open fun getServiceColorGreen(): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |

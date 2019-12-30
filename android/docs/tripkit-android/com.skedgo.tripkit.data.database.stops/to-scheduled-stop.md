@@ -2,4 +2,4 @@
 
 # toScheduledStop
 
-`fun `[`StopLocationEntity`](-stop-location-entity/index.md)`.toScheduledStop(): `[`ScheduledStop`](../com.skedgo.android.common.model/-scheduled-stop/index.md)
+`fun `[`StopLocationEntity`](-stop-location-entity/index.md)`.toScheduledStop(): `[`ScheduledStop`](../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)

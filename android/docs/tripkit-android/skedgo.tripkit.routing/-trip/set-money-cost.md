@@ -1,5 +1,0 @@
-[tripkit-android](../../index.md) / [skedgo.tripkit.routing](../index.md) / [Trip](index.md) / [setMoneyCost](./set-money-cost.md)
-
-# setMoneyCost
-
-`open fun setMoneyCost(moneyCost: `[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

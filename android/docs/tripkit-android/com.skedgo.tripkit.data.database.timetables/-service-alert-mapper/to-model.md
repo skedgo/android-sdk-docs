@@ -2,4 +2,4 @@
 
 # toModel
 
-`fun toModel(serviceAlertsEntity: `[`ServiceAlertsEntity`](../-service-alerts-entity/index.md)`): `[`RealtimeAlert`](../../com.skedgo.android.common.model/-realtime-alert/index.md)
+`fun toModel(serviceAlertsEntity: `[`ServiceAlertsEntity`](../-service-alerts-entity/index.md)`): `[`RealtimeAlert`](../../com.skedgo.tripkit.common.model/-realtime-alert/index.md)

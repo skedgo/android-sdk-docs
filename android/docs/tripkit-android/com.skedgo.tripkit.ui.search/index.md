@@ -17,7 +17,7 @@
 | [FetchTripGoLocations](-fetch-trip-go-locations/index.md) | `interface FetchTripGoLocations : `[`FetchLocations`](-fetch-locations/index.md) |
 | [GoogleSuggestionViewModel](-google-suggestion-view-model/index.md) | `class GoogleSuggestionViewModel : `[`SuggestionViewModel`](-suggestion-view-model/index.md) |
 | [LocationSearchErrorViewModel](-location-search-error-view-model/index.md) | `class LocationSearchErrorViewModel` |
-| [LocationSearchFragment](-location-search-fragment/index.md) | `class LocationSearchFragment : `[`AbstractTripKitFragment`](../com.skedgo.tripkit.ui.core/-abstract-trip-kit-fragment/index.md) |
+| [LocationSearchFragment](-location-search-fragment/index.md) | This is a self-contained location search component which merges search results from both SkedGo's search results as well as Google Places.`class LocationSearchFragment : `[`AbstractTripKitFragment`](../com.skedgo.tripkit.ui.core/-abstract-trip-kit-fragment/index.md) |
 | [LocationSearchViewModel](-location-search-view-model/index.md) | `class LocationSearchViewModel : `[`RxViewModel`](../com.skedgo.tripkit.ui.core/-rx-view-model/index.md) |
 | [SearchErrorType](-search-error-type/index.md) | `sealed class SearchErrorType` |
 | [SearchSuggestionChoice](-search-suggestion-choice/index.md) | `sealed class SearchSuggestionChoice` |

@@ -2,4 +2,4 @@
 
 # segment
 
-`abstract fun segment(segment: `[`TripSegment`](../../../skedgo.tripkit.routing/-trip-segment/index.md)`!): Builder!`
+`abstract fun segment(segment: `[`TripSegment`](../../../com.skedgo.tripkit.routing/-trip-segment/index.md)`!): Builder!`

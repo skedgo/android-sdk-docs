@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `LocationSearchViewModel(context: Context, regionService: `[`RegionService`](../../com.skedgo.tripkit.data.regions/-region-service/index.md)`, bus: Bus, placeSearchRepository: PlaceSearchRepository, fetchSuggestions: `[`FetchSuggestions`](../-fetch-suggestions/index.md)`, errorLogger: `[`ErrorLogger`](../../skedgo.tripkit.logging/-error-logger/index.md)`, picasso: Picasso, schedulerFactory: `[`SchedulerFactory`](../../com.skedgo.tripkit.ui.core/-scheduler-factory/index.md)`, errorViewModel: `[`LocationSearchErrorViewModel`](../-location-search-error-view-model/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `LocationSearchViewModel(context: Context, regionService: `[`RegionService`](../../com.skedgo.tripkit.data.regions/-region-service/index.md)`, bus: Bus, placeSearchRepository: PlaceSearchRepository, fetchSuggestions: `[`FetchSuggestions`](../-fetch-suggestions/index.md)`, errorLogger: `[`ErrorLogger`](../../com.skedgo.tripkit.logging/-error-logger/index.md)`, picasso: Picasso, schedulerFactory: `[`SchedulerFactory`](../../com.skedgo.tripkit.ui.core/-scheduler-factory/index.md)`, errorViewModel: `[`LocationSearchErrorViewModel`](../-location-search-error-view-model/index.md)`)` |
 
 ### Properties
 
@@ -22,7 +22,7 @@
 | [fixedSuggestions](fixed-suggestions.md) | `val fixedSuggestions: ObservableList<`[`SuggestionViewModel`](../-suggestion-view-model/index.md)`>` |
 | [googleSuggestions](google-suggestions.md) | `val googleSuggestions: ObservableList<`[`GoogleSuggestionViewModel`](../-google-suggestion-view-model/index.md)`>` |
 | [itemBinding](item-binding.md) | `val itemBinding: ItemBinding<`[`SuggestionViewModel`](../-suggestion-view-model/index.md)`!>` |
-| [locationChosen](location-chosen.md) | `val locationChosen: PublishRelay<`[`Location`](../../com.skedgo.android.common.model/-location/index.md)`>` |
+| [locationChosen](location-chosen.md) | `val locationChosen: PublishRelay<`[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`>` |
 | [pinDropChosen](pin-drop-chosen.md) | `val pinDropChosen: PublishRelay<`[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`>` |
 | [queries](queries.md) | `val queries: PublishRelay<`[`FetchLocationsParameters`](../-fetch-locations-parameters/index.md)`>` |
 | [showError](show-error.md) | `val showError: ObservableBoolean` |

@@ -2,4 +2,4 @@
 
 # startAsync
 
-`open fun startAsync(): Flowable<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`Trip`](../../skedgo.tripkit.routing/-trip/index.md)`!, `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`!>!>!`
+`open fun startAsync(): Flowable<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md)`!, `[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`!>!>!`

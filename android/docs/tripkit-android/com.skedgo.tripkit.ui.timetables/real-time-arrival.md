@@ -2,4 +2,4 @@
 
 # realTimeArrival
 
-`fun realTimeArrival(service: `[`TimetableEntry`](../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, vehicle: `[`RealTimeVehicle`](../skedgo.tripkit.routing/-real-time-vehicle/index.md)`? = null): `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)
+`fun realTimeArrival(service: `[`TimetableEntry`](../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, vehicle: `[`RealTimeVehicle`](../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`? = null): `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)

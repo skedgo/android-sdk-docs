@@ -2,4 +2,4 @@
 
 # trip
 
-`val trip: `[`Trip`](../../skedgo.tripkit.routing/-trip/index.md)
+`val trip: `[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md)

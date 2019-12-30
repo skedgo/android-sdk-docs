@@ -2,7 +2,7 @@
 
 # printFullDate
 
-`abstract val printFullDate: `[`PrintFullDate`](../../skedgo.tripkit.datetime/-print-full-date/index.md)
+`abstract val printFullDate: `[`PrintFullDate`](../../com.skedgo.tripkit.datetime/-print-full-date/index.md)
 
 For example, `Monday, 1 May 2017`
 if the default locale is [java.util.Locale.US](https://docs.oracle.com/javase/7/docs/api/java/util/Locale.html#US).

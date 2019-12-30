@@ -10,4 +10,4 @@ Creates UseCases and Repositories related to the Analytics feature.
 
 | Name | Summary |
 |---|---|
-| [markTripAsPlannedWithUserInfo](mark-trip-as-planned-with-user-info.md) | `abstract val markTripAsPlannedWithUserInfo: `[`MarkTripAsPlannedWithUserInfo`](../../skedgo.tripkit.analytics/-mark-trip-as-planned-with-user-info/index.md) |
+| [markTripAsPlannedWithUserInfo](mark-trip-as-planned-with-user-info.md) | `abstract val markTripAsPlannedWithUserInfo: `[`MarkTripAsPlannedWithUserInfo`](../../com.skedgo.tripkit.analytics/-mark-trip-as-planned-with-user-info/index.md) |

@@ -5,6 +5,10 @@ $dokka.location:com.skedgo.rxtry$toTry(io.reactivex.Single((com.skedgo.rxtry.toT
 $dokka.location:com.skedgo.tripkit.a2brouting$toProfileWeight(kotlin.Int)com.skedgo.tripkit.a2brouting/kotlin.-int/to-profile-weight.md
 $dokka.location:com.skedgo.tripkit.android$refreshRegions(io.reactivex.Observable((com.skedgo.TripKit)))com.skedgo.tripkit.android/io.reactivex.-observable/refresh-regions.md
 $dokka.location:com.skedgo.tripkit.data.util$onChanged(android.content.SharedPreferences)com.skedgo.tripkit.data.util/android.content.-shared-preferences/on-changed.md
+$dokka.location:com.skedgo.tripkit.routing$from(kotlin.String)com.skedgo.tripkit.routing/kotlin.-string/from.md
+$dokka.location:com.skedgo.tripkit.routing$toAvailability(kotlin.String)com.skedgo.tripkit.routing/kotlin.-string/to-availability.md
+$dokka.location:com.skedgo.tripkit.routing$toOccupancy(kotlin.String)com.skedgo.tripkit.routing/kotlin.-string/to-occupancy.md
+$dokka.location:com.skedgo.tripkit.routing$toSeconds(org.joda.time.DateTime)com.skedgo.tripkit.routing/org.joda.time.-date-time/to-seconds.md
 $dokka.location:com.skedgo.tripkit.tsp$hasWheelChairInformation(com.skedgo.tripkit.data.tsp.RegionInfo)com.skedgo.tripkit.tsp/com.skedgo.tripkit.data.tsp.-region-info/has-wheel-chair-information.md
 $dokka.location:com.skedgo.tripkit.ui.core$afterMeasured(android.view.View)com.skedgo.tripkit.ui.core/android.view.-view/after-measured.md
 $dokka.location:com.skedgo.tripkit.ui.core$fetchAsync(com.squareup.picasso.Picasso, kotlin.String)com.skedgo.tripkit.ui.core/com.squareup.picasso.-picasso/fetch-async.md
@@ -20,35 +24,34 @@ $dokka.location:com.skedgo.tripkit.ui.core.rxproperty$asObservable(androidx.data
 $dokka.location:com.skedgo.tripkit.ui.core.rxproperty$asObservable(androidx.databinding.ObservableInt)com.skedgo.tripkit.ui.core.rxproperty/androidx.databinding.-observable-int/as-observable.md
 $dokka.location:com.skedgo.tripkit.ui.core.rxproperty$asObservable(androidx.databinding.ObservableList((com.skedgo.tripkit.ui.core.rxproperty.asObservable.T)))com.skedgo.tripkit.ui.core.rxproperty/androidx.databinding.-observable-list/as-observable.md
 $dokka.location:com.skedgo.tripkit.ui.map$convertToDomainLatLngBounds(com.google.android.gms.maps.model.LatLngBounds)com.skedgo.tripkit.ui.map/com.google.android.gms.maps.model.-lat-lng-bounds/convert-to-domain-lat-lng-bounds.md
-$dokka.location:com.skedgo.tripkit.ui.map.home$ignoreOutOfRegionsException(io.reactivex.Observable((com.skedgo.android.common.model.Region)))com.skedgo.tripkit.ui.map.home/io.reactivex.-observable/ignore-out-of-regions-exception.md
-$dokka.location:com.skedgo.tripkit.ui.routing$getVisibleGeoPointsOnMap(kotlin.collections.List((skedgo.tripkit.routing.TripSegment)))com.skedgo.tripkit.ui.routing/kotlin.collections.-list/get-visible-geo-points-on-map.md
+$dokka.location:com.skedgo.tripkit.ui.map.home$ignoreOutOfRegionsException(io.reactivex.Observable((com.skedgo.tripkit.common.model.Region)))com.skedgo.tripkit.ui.map.home/io.reactivex.-observable/ignore-out-of-regions-exception.md
+$dokka.location:com.skedgo.tripkit.ui.routing$getVisibleGeoPointsOnMap(kotlin.collections.List((com.skedgo.tripkit.routing.TripSegment)))com.skedgo.tripkit.ui.routing/kotlin.collections.-list/get-visible-geo-points-on-map.md
 $dokka.location:com.skedgo.tripkit.ui.routing$updateCamera(com.google.android.gms.maps.GoogleMap, com.skedgo.tripkit.ui.tripresult.MapCameraUpdate)com.skedgo.tripkit.ui.routing/com.google.android.gms.maps.-google-map/update-camera.md
 $dokka.location:com.skedgo.tripkit.ui.routing.settings$toCyclingSpeed(kotlin.Int)com.skedgo.tripkit.ui.routing.settings/kotlin.-int/to-cycling-speed.md
 $dokka.location:com.skedgo.tripkit.ui.routing.settings$toWalkingSpeed(kotlin.Int)com.skedgo.tripkit.ui.routing.settings/kotlin.-int/to-walking-speed.md
-$dokka.location:com.skedgo.tripkit.ui.trip.details.viewmodel$getMostSevereAlert(kotlin.collections.List((com.skedgo.android.common.model.RealtimeAlert)))com.skedgo.tripkit.ui.trip.details.viewmodel/kotlin.collections.-list/get-most-severe-alert.md
+$dokka.location:com.skedgo.tripkit.ui.trip.details.viewmodel$getMostSevereAlert(kotlin.collections.List((com.skedgo.tripkit.common.model.RealtimeAlert)))com.skedgo.tripkit.ui.trip.details.viewmodel/kotlin.collections.-list/get-most-severe-alert.md
 $dokka.location:com.skedgo.tripkit.ui.tripresult$toCameraUpdate(com.google.android.gms.maps.model.LatLngBounds, kotlin.Int)com.skedgo.tripkit.ui.tripresult/com.google.android.gms.maps.model.-lat-lng-bounds/to-camera-update.md
-$dokka.location:com.skedgo.tripkit.ui.tripresult$toCameraUpdate(kotlin.collections.List((skedgo.tripkit.location.GeoPoint)))com.skedgo.tripkit.ui.tripresult/kotlin.collections.-list/to-camera-update.md
+$dokka.location:com.skedgo.tripkit.ui.tripresult$toCameraUpdate(kotlin.collections.List((com.skedgo.tripkit.location.GeoPoint)))com.skedgo.tripkit.ui.tripresult/kotlin.collections.-list/to-camera-update.md
 $dokka.location:com.skedgo.tripkit.ui.utils$ignoreNetworkErrors(io.reactivex.Observable((com.skedgo.tripkit.ui.utils.ignoreNetworkErrors.T)))com.skedgo.tripkit.ui.utils/io.reactivex.-observable/ignore-network-errors.md
 $dokka.location:com.skedgo.tripkit.ui.utils$isNetworkConnected(android.content.Context)com.skedgo.tripkit.ui.utils/android.content.-context/is-network-connected.md
 $dokka.location:com.skedgo.tripkit.ui.utils$tint(android.graphics.drawable.Drawable, kotlin.Int)com.skedgo.tripkit.ui.utils/android.graphics.drawable.-drawable/tint.md
 $dokka.location:com.skedgo.tripkit.ui.utils$viewAppDetailsSettingsIntent(android.content.Context)com.skedgo.tripkit.ui.utils/android.content.-context/view-app-details-settings-intent.md
-$dokka.location:skedgo.tripkit.routing$from(kotlin.String)skedgo.tripkit.routing/kotlin.-string/from.md
-$dokka.location:skedgo.tripkit.routing$toAvailability(kotlin.String)skedgo.tripkit.routing/kotlin.-string/to-availability.md
-$dokka.location:skedgo.tripkit.routing$toOccupancy(kotlin.String)skedgo.tripkit.routing/kotlin.-string/to-occupancy.md
-$dokka.location:skedgo.tripkit.routing$toSeconds(org.joda.time.DateTime)skedgo.tripkit.routing/org.joda.time.-date-time/to-seconds.md
 com.skedgo
-com.skedgo.android.common
-com.skedgo.android.common.agenda
-com.skedgo.android.common.model
-com.skedgo.android.common.util
 com.skedgo.geocoding
 com.skedgo.geocoding.agregator
 com.skedgo.rxtry
 com.skedgo.tripkit
 com.skedgo.tripkit.a2brouting
+com.skedgo.tripkit.agenda
 com.skedgo.tripkit.alerts
+com.skedgo.tripkit.analytics
 com.skedgo.tripkit.android
 com.skedgo.tripkit.bookingproviders
+com.skedgo.tripkit.common
+com.skedgo.tripkit.common.agenda
+com.skedgo.tripkit.common.model
+com.skedgo.tripkit.common.util
+com.skedgo.tripkit.configuration
 com.skedgo.tripkit.data.connectivity
 com.skedgo.tripkit.data.database
 com.skedgo.tripkit.data.database.locations.bikepods
@@ -63,7 +66,15 @@ com.skedgo.tripkit.data.regions
 com.skedgo.tripkit.data.routingstatus
 com.skedgo.tripkit.data.tsp
 com.skedgo.tripkit.data.util
+com.skedgo.tripkit.datetime
+com.skedgo.tripkit.geocoding
+com.skedgo.tripkit.location
+com.skedgo.tripkit.locations
+com.skedgo.tripkit.logging
+com.skedgo.tripkit.parkingspots
+com.skedgo.tripkit.parkingspots.models
 com.skedgo.tripkit.routing
+com.skedgo.tripkit.routingstatus
 com.skedgo.tripkit.scope
 com.skedgo.tripkit.time
 com.skedgo.tripkit.tsp
@@ -105,16 +116,3 @@ com.skedgo.tripkit.ui.views
 skedgo.tripgo.agenda.legacy
 skedgo.tripgo.data.timetables
 skedgo.tripgo.parkingspots.models
-skedgo.tripkit.a2brouting
-skedgo.tripkit.agenda
-skedgo.tripkit.analytics
-skedgo.tripkit.configuration
-skedgo.tripkit.datetime
-skedgo.tripkit.geocoding
-skedgo.tripkit.location
-skedgo.tripkit.locations
-skedgo.tripkit.logging
-skedgo.tripkit.parkingspots
-skedgo.tripkit.parkingspots.models
-skedgo.tripkit.routing
-skedgo.tripkit.routingstatus

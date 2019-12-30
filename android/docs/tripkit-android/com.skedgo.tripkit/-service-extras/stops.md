@@ -2,4 +2,4 @@
 
 # stops
 
-`@Nullable val stops: `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`ServiceStop`](../../com.skedgo.android.common.model/-service-stop/index.md)`!>?`
+`@Nullable val stops: `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`ServiceStop`](../../com.skedgo.tripkit.common.model/-service-stop/index.md)`!>?`

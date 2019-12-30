@@ -23,4 +23,4 @@
 | [action](action.md) | `abstract fun action(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!` |
 | [builder](builder.md) | `open static fun builder(): Builder!` |
 | [flitWaysPartnerKey](flit-ways-partner-key.md) | `abstract fun flitWaysPartnerKey(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
-| [segment](segment.md) | `abstract fun segment(): `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`!` |
+| [segment](segment.md) | `abstract fun segment(): `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`!` |

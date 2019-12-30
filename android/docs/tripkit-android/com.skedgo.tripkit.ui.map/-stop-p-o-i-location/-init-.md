@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`StopPOILocation(scheduledStop: `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`, stopInfoWindowAdapter: `[`StopInfoWindowAdapter`](../../com.skedgo.tripkit.ui.map.adapter/-stop-info-window-adapter/index.md)`)`
+`StopPOILocation(scheduledStop: `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`, stopInfoWindowAdapter: `[`StopInfoWindowAdapter`](../../com.skedgo.tripkit.ui.map.adapter/-stop-info-window-adapter/index.md)`)`

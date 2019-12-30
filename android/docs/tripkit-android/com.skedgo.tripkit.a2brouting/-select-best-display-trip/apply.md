@@ -2,4 +2,4 @@
 
 # apply
 
-`@NonNull fun apply(@NonNull group: `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`): `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)
+`@NonNull fun apply(@NonNull group: `[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`): `[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)

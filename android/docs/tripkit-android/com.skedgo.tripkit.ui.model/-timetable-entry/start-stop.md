@@ -2,7 +2,7 @@
 
 # startStop
 
-`var startStop: `[`ScheduledStop`](../../com.skedgo.android.common.model/-scheduled-stop/index.md)`!`
+`var startStop: `[`ScheduledStop`](../../com.skedgo.tripkit.common.model/-scheduled-stop/index.md)`!`
 
 For A2B-timetable-related stuff.
 

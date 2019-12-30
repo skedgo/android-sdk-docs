@@ -17,7 +17,7 @@
 | [createMarkerOptions](create-marker-options.md) | `abstract fun createMarkerOptions(resources: Resources, picasso: Picasso): Single<MarkerOptions>` |
 | [getInfoWindowAdapter](get-info-window-adapter.md) | `abstract fun getInfoWindowAdapter(context: Context): `[`StopInfoWindowAdapter`](../../com.skedgo.tripkit.ui.map.adapter/-stop-info-window-adapter/index.md)`?` |
 | [onMarkerClick](on-marker-click.md) | `abstract fun onMarkerClick(bus: Bus, eventTracker: EventTracker): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [toLocation](to-location.md) | `abstract fun toLocation(): `[`Location`](../../com.skedgo.android.common.model/-location/index.md) |
+| [toLocation](to-location.md) | `abstract fun toLocation(): `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md) |
 
 ### Inheritors
 

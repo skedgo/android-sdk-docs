@@ -2,4 +2,4 @@
 
 # getRealTimeStatus
 
-`open fun getRealTimeStatus(): `[`RealTimeStatus`](../../com.skedgo.android.common.model/-real-time-status/index.md)`!`
+`open fun getRealTimeStatus(): `[`RealTimeStatus`](../../com.skedgo.tripkit.common.model/-real-time-status/index.md)`!`

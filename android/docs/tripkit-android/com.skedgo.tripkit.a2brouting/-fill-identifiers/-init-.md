@@ -4,5 +4,5 @@
 
 `FillIdentifiers()`
 
-Fills id for ``[`Trip`](../../skedgo.tripkit.routing/-trip/index.md).
+Fills id for ``[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md).
 

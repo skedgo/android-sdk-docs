@@ -14,4 +14,4 @@
 
 | Name | Summary |
 |---|---|
-| [call](call.md) | `open fun call(location: `[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!): MarkerOptions!` |
+| [call](call.md) | `open fun call(location: `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!): MarkerOptions!` |

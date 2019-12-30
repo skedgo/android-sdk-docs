@@ -3,3 +3,9 @@
 # build
 
 `fun build(): `[`LocationSearchFragment`](../index.md)
+
+Finalize and build the Fragment
+
+**Return**
+A usable LocationSearchFragment
+

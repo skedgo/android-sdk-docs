@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [startAsync](start-async.md) | `abstract fun startAsync(): Flowable<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`Trip`](../../skedgo.tripkit.routing/-trip/index.md)`!, `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`!>!>!` |
+| [startAsync](start-async.md) | `abstract fun startAsync(): Flowable<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md)`!, `[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`!>!>!` |
 | [stop](stop.md) | `abstract fun stop(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 
 ### Inheritors

@@ -31,5 +31,5 @@
 
 | Name | Summary |
 |---|---|
-| [hasTime](has-time.md) | `fun hasTime(segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
-| [processText](process-text.md) | `fun processText(context: Context, segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`, text: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, withTime: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [hasTime](has-time.md) | `fun hasTime(segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [processText](process-text.md) | `fun processText(context: Context, segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`, text: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, withTime: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

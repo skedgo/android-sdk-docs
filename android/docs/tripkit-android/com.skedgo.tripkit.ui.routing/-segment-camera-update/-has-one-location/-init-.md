@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`HasOneLocation(id: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`, location: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`)`
+`HasOneLocation(id: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`, location: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)`)`

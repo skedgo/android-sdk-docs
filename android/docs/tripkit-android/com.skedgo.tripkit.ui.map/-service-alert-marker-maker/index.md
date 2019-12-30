@@ -14,4 +14,4 @@
 
 | Name | Summary |
 |---|---|
-| [make](make.md) | `fun make(alert: `[`RealtimeAlert`](../../com.skedgo.android.common.model/-realtime-alert/index.md)`): MarkerOptions` |
+| [make](make.md) | `fun make(alert: `[`RealtimeAlert`](../../com.skedgo.tripkit.common.model/-realtime-alert/index.md)`): MarkerOptions` |

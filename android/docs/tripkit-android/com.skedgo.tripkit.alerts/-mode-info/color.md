@@ -2,4 +2,4 @@
 
 # color
 
-`@Nullable abstract fun color(): `[`ServiceColor`](../../skedgo.tripkit.routing/-service-color/index.md)`?`
+`@Nullable abstract fun color(): `[`ServiceColor`](../../com.skedgo.tripkit.routing/-service-color/index.md)`?`

@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [execute](execute.md) | `open fun execute(region: `[`Region`](../../com.skedgo.android.common.model/-region/index.md)`): Observable<`[`TransportModePreference`](../../com.skedgo.tripkit.ui.core.modeprefs/-transport-mode-preference/index.md)`>` |
+| [execute](execute.md) | `open fun execute(region: `[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md)`): Observable<`[`TransportModePreference`](../../com.skedgo.tripkit.ui.core.modeprefs/-transport-mode-preference/index.md)`>` |

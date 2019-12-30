@@ -2,4 +2,4 @@
 
 # getMode
 
-`open fun getMode(): `[`VehicleMode`](../../skedgo.tripkit.routing/-vehicle-mode/index.md)`!`
+`open fun getMode(): `[`VehicleMode`](../../com.skedgo.tripkit.routing/-vehicle-mode/index.md)`!`

@@ -2,4 +2,4 @@
 
 # findSegmentPosition
 
-`fun findSegmentPosition(tripSegment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+`fun findSegmentPosition(tripSegment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)

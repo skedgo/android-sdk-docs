@@ -2,4 +2,4 @@
 
 # call
 
-`open fun call(resources: Resources!, segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`!): MarkerOptions!`
+`open fun call(resources: Resources!, segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`!): MarkerOptions!`

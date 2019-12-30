@@ -8,15 +8,15 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `HasTwoLocations(id: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`, start: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`, end: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `HasTwoLocations(id: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`, start: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)`, end: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)`)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [end](end.md) | `val end: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md) |
+| [end](end.md) | `val end: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md) |
 | [id](id.md) | `val id: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
-| [start](start.md) | `val start: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md) |
+| [start](start.md) | `val start: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md) |
 
 ### Functions
 

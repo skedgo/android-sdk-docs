@@ -10,8 +10,8 @@
 |---|---|
 | [currentPage](current-page.md) | `val currentPage: ObservableInt` |
 | [fetchingRealtimeStatus](fetching-realtime-status.md) | `val fetchingRealtimeStatus: ObservableBoolean` |
-| [selectedTripGroup](selected-trip-group.md) | `val selectedTripGroup: Observable<`[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`>` |
-| [tripGroupsBinding](trip-groups-binding.md) | `val tripGroupsBinding: ObservableField<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)`>>` |
+| [selectedTripGroup](selected-trip-group.md) | `val selectedTripGroup: Observable<`[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`>` |
+| [tripGroupsBinding](trip-groups-binding.md) | `val tripGroupsBinding: ObservableField<`[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)`>>` |
 | [tripSource](trip-source.md) | `val tripSource: BehaviorRelay<TripSource!>` |
 
 ### Functions

@@ -2,4 +2,4 @@
 
 # execute
 
-`open fun execute(dateTimeZone: DateTimeZone, service: `[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, vehicle: `[`RealTimeVehicle`](../../skedgo.tripkit.routing/-real-time-vehicle/index.md)`? = null): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+`open fun execute(dateTimeZone: DateTimeZone, service: `[`TimetableEntry`](../../com.skedgo.tripkit.ui.model/-timetable-entry/index.md)`, vehicle: `[`RealTimeVehicle`](../../com.skedgo.tripkit.routing/-real-time-vehicle/index.md)`? = null): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)

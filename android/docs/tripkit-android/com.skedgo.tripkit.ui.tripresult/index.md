@@ -17,7 +17,7 @@
 | [TripSegmentListFragment](-trip-segment-list-fragment/index.md) | `class TripSegmentListFragment : `[`RxFragment`](../com.skedgo.tripkit.ui.core.rxlifecyclecomponents/-rx-fragment/index.md)`, OnClickListener` |
 | [TripSegmentsViewModel](-trip-segments-view-model/index.md) | `class TripSegmentsViewModel : `[`RxViewModel`](../com.skedgo.tripkit.ui.core/-rx-view-model/index.md) |
 | [UpdateTripForRealtime](-update-trip-for-realtime/index.md) | `open class UpdateTripForRealtime` |
-| [WaypointTask](-waypoint-task/index.md) | https://redmine.buzzhives.com/projects/buzzhives/wiki/Routing_API#Trips-from-waypoint`open class WaypointTask : SingleOnSubscribe<`[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`TripGroup`](../skedgo.tripkit.routing/-trip-group/index.md)`!>!>` |
+| [WaypointTask](-waypoint-task/index.md) | https://redmine.buzzhives.com/projects/buzzhives/wiki/Routing_API#Trips-from-waypoint`open class WaypointTask : SingleOnSubscribe<`[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`TripGroup`](../com.skedgo.tripkit.routing/-trip-group/index.md)`!>!>` |
 | [WayPointTaskParam](-way-point-task-param/index.md) | `sealed class WayPointTaskParam` |
 
 ### Extensions for External Classes

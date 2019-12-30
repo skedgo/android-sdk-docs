@@ -2,4 +2,4 @@
 
 # fetchParatransitByRegionAsync
 
-`abstract fun fetchParatransitByRegionAsync(region: `[`Region`](../../com.skedgo.android.common.model/-region/index.md)`): Observable<`[`Paratransit`](../../com.skedgo.tripkit.data.tsp/-paratransit/index.md)`>`
+`abstract fun fetchParatransitByRegionAsync(region: `[`Region`](../../com.skedgo.tripkit.common.model/-region/index.md)`): Observable<`[`Paratransit`](../../com.skedgo.tripkit.data.tsp/-paratransit/index.md)`>`

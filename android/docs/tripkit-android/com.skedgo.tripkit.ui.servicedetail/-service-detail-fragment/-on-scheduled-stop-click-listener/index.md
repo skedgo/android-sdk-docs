@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [onScheduledStopClicked](on-scheduled-stop-clicked.md) | `abstract fun onScheduledStopClicked(stop: `[`ServiceStop`](../../../com.skedgo.android.common.model/-service-stop/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [onScheduledStopClicked](on-scheduled-stop-clicked.md) | `abstract fun onScheduledStopClicked(stop: `[`ServiceStop`](../../../com.skedgo.tripkit.common.model/-service-stop/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

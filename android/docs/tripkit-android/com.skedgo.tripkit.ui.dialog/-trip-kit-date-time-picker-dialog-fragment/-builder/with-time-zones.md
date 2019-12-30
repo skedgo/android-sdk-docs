@@ -2,16 +2,16 @@
 
 # withTimeZones
 
-`fun withTimeZones(@Nullable departureTimezone: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, @Nullable arrivalTimezone: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): Builder!`
+`fun withTimeZones(departureTimezone: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, arrivalTimezone: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): Builder`
 
 Sets the timezones.
 
 ### Parameters
 
-`departureTimezone` - [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?:
+`departureTimezone` -
 
-`arrivalTimezone` - [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?:
+`arrivalTimezone` -
 
 **Return**
-Builder!: this builder
+this builder
 

@@ -2,4 +2,4 @@
 
 # tripGroup
 
-`var tripGroup: `[`TripGroup`](../../skedgo.tripkit.routing/-trip-group/index.md)
+`var tripGroup: `[`TripGroup`](../../com.skedgo.tripkit.routing/-trip-group/index.md)

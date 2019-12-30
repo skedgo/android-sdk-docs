@@ -18,12 +18,6 @@ A widget for display start and destination locations, as well as departure/arriv
 |---|---|
 | [&lt;init&gt;](-init-.md) | `RouteInputView(context: Context)`<br>`RouteInputView(context: Context, attrs: AttributeSet?)` |
 
-### Properties
-
-| Name | Summary |
-|---|---|
-| [viewModel](view-model.md) | `lateinit var viewModel: `[`RouteInputViewModel`](../-route-input-view-model/index.md) |
-
 ### Functions
 
 | Name | Summary |

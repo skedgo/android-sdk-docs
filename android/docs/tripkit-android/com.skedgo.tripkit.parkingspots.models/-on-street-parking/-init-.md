@@ -1,0 +1,5 @@
+[tripkit-android](../../index.md) / [com.skedgo.tripkit.parkingspots.models](../index.md) / [OnStreetParking](index.md) / [&lt;init&gt;](./-init-.md)
+
+# &lt;init&gt;
+
+`OnStreetParking(id: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, location: `[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md)`, address: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, parkingOperator: `[`ParkingOperator`](../-parking-operator/index.md)`, info: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, encodedPolygon: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md)`>, hasRestrictions: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, parkingVacancy: Vacancy)`

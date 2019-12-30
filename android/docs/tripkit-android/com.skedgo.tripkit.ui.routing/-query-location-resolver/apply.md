@@ -2,4 +2,4 @@
 
 # apply
 
-`open fun apply(query: `[`Query`](../../com.skedgo.android.common.model/-query/index.md)`): Observable<`[`Query`](../../com.skedgo.android.common.model/-query/index.md)`>`
+`open fun apply(query: `[`Query`](../../com.skedgo.tripkit.common.model/-query/index.md)`): Observable<`[`Query`](../../com.skedgo.tripkit.common.model/-query/index.md)`>`

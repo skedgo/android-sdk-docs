@@ -2,7 +2,7 @@
 
 # AndroidGeocoder
 
-`class AndroidGeocoder : `[`ReverseGeocodable`](../../skedgo.tripkit.geocoding/-reverse-geocodable/index.md)
+`class AndroidGeocoder : `[`ReverseGeocodable`](../../com.skedgo.tripkit.geocoding/-reverse-geocodable/index.md)
 
 ### Constructors
 

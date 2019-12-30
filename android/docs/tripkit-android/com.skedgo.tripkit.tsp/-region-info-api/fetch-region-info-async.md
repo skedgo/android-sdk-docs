@@ -6,4 +6,4 @@
 
 ### Parameters
 
-`url` - [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)!: The url is a composition of an URL from ``[`Region#getURLs()`](../../com.skedgo.android.common.model/-region/get-u-r-ls.md) and 'regionInfo.json'.
+`url` - [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)!: The url is a composition of an URL from ``[`Region#getURLs()`](../../com.skedgo.tripkit.common.model/-region/get-u-r-ls.md) and 'regionInfo.json'.

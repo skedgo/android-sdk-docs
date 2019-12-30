@@ -2,4 +2,4 @@
 
 # alert
 
-`@Nullable abstract fun alert(): `[`RealtimeAlert`](../../com.skedgo.android.common.model/-realtime-alert/index.md)`?`
+`@Nullable abstract fun alert(): `[`RealtimeAlert`](../../com.skedgo.tripkit.common.model/-realtime-alert/index.md)`?`

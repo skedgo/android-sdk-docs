@@ -8,10 +8,10 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `VehicleMarkerViewModel(segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `VehicleMarkerViewModel(segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [segment](segment.md) | `val segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md) |
+| [segment](segment.md) | `val segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md) |

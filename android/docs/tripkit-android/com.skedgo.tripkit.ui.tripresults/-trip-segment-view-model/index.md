@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `TripSegmentViewModel(context: Context, printTime: `[`PrintTime`](../../skedgo.tripkit.datetime/-print-time/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `TripSegmentViewModel(context: Context, printTime: `[`PrintTime`](../../com.skedgo.tripkit.datetime/-print-time/index.md)`)` |
 
 ### Properties
 
@@ -25,4 +25,4 @@
 
 | Name | Summary |
 |---|---|
-| [setSegment](set-segment.md) | `fun setSegment(trip: `[`Trip`](../../skedgo.tripkit.routing/-trip/index.md)`, segment: `[`TripSegment`](../../skedgo.tripkit.routing/-trip-segment/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [setSegment](set-segment.md) | `fun setSegment(trip: `[`Trip`](../../com.skedgo.tripkit.routing/-trip/index.md)`, segment: `[`TripSegment`](../../com.skedgo.tripkit.routing/-trip-segment/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

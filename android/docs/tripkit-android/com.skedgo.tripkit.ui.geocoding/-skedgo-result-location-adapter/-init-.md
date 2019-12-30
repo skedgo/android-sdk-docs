@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`SkedgoResultLocationAdapter(location: `[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!, resultInterface: `[`GCSkedGoResultInterface`](../../com.skedgo.geocoding.agregator/-g-c-sked-go-result-interface/index.md)`!)`
+`SkedgoResultLocationAdapter(location: `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!, resultInterface: `[`GCSkedGoResultInterface`](../../com.skedgo.geocoding.agregator/-g-c-sked-go-result-interface/index.md)`!)`

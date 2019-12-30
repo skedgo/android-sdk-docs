@@ -2,4 +2,4 @@
 
 # deserialize
 
-`open fun deserialize(json: JsonElement!, typeOfT: `[`Type`](https://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Type.html)`!, context: JsonDeserializationContext!): `[`Location`](../../com.skedgo.android.common.model/-location/index.md)`!`
+`open fun deserialize(json: JsonElement!, typeOfT: `[`Type`](https://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Type.html)`!, context: JsonDeserializationContext!): `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)`!`

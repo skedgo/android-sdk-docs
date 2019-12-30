@@ -15,7 +15,7 @@
 | Name | Summary |
 |---|---|
 | [canOpenTimetable](can-open-timetable.md) | `val canOpenTimetable: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
-| [location](location.md) | `val location: `[`Location`](../../com.skedgo.android.common.model/-location/index.md) |
+| [location](location.md) | `val location: `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md) |
 | [onItemClicked](on-item-clicked.md) | `val onItemClicked: `[`TapAction`](../../com.skedgo.tripkit.ui.utils/-tap-action/index.md)`<`[`SuggestionViewModel`](../-suggestion-view-model/index.md)`>` |
 | [picasso](picasso.md) | `val picasso: Picasso` |
 | [place](place.md) | `val place: Place` |

@@ -2,7 +2,7 @@
 
 # ConfigCreator
 
-`class ConfigCreator : `[`ConfigRepository`](../../skedgo.tripkit.agenda/-config-repository/index.md)
+`class ConfigCreator : `[`ConfigRepository`](../../com.skedgo.tripkit.agenda/-config-repository/index.md)
 
 Represents configuration parameters.
 

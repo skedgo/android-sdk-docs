@@ -2,4 +2,4 @@
 
 # toLocation
 
-`abstract fun toLocation(): `[`Location`](../../com.skedgo.android.common.model/-location/index.md)
+`abstract fun toLocation(): `[`Location`](../../com.skedgo.tripkit.common.model/-location/index.md)

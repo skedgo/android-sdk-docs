@@ -10,4 +10,4 @@ When an icon in the map is clicked, an information window is displayed. When tha
 
 | Name | Summary |
 |---|---|
-| [onInfoWindowClick](on-info-window-click.md) | Called when an info window is clicked.`abstract fun onInfoWindowClick(location: `[`Location`](../../../com.skedgo.android.common.model/-location/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [onInfoWindowClick](on-info-window-click.md) | Called when an info window is clicked.`abstract fun onInfoWindowClick(location: `[`Location`](../../../com.skedgo.tripkit.common.model/-location/index.md)`!): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

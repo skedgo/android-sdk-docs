@@ -2,4 +2,4 @@
 
 # paymentTypes
 
-`val paymentTypes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`PaymentType`](../../skedgo.tripkit.parkingspots.models/-payment-type/index.md)`>?`
+`val paymentTypes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`PaymentType`](../../com.skedgo.tripkit.parkingspots.models/-payment-type/index.md)`>?`

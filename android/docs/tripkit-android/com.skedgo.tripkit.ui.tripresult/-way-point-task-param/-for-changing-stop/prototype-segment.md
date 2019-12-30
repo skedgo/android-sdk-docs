@@ -2,4 +2,4 @@
 
 # prototypeSegment
 
-`val prototypeSegment: `[`TripSegment`](../../../skedgo.tripkit.routing/-trip-segment/index.md)
+`val prototypeSegment: `[`TripSegment`](../../../com.skedgo.tripkit.routing/-trip-segment/index.md)

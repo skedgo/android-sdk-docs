@@ -2,7 +2,7 @@
 
 # getCellIdsForLocalLevel
 
-`@NonNull static fun getCellIdsForLocalLevel(@NonNull geoPoint: `[`GeoPoint`](../../skedgo.tripkit.location/-geo-point/index.md)`, @NonNull span: LatLngBounds): `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!>`
+`@NonNull static fun getCellIdsForLocalLevel(@NonNull geoPoint: `[`GeoPoint`](../../com.skedgo.tripkit.location/-geo-point/index.md)`, @NonNull span: LatLngBounds): `[`ArrayList`](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!>`
 
 **Return**
 [ArrayList](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)!&gt;: A list of cell ids for local level
