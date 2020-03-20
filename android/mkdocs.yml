@@ -8,7 +8,7 @@ nav:
   - Class Documentation: tripkit-android/index.md
 theme:
     name: null
-    custom_dir: ../theme/
+    custom_dir: ../skedgo_theme/
     language: en
     extra_css:
       - 'stylesheets/extra.css'
@@ -22,7 +22,7 @@ theme:
     feature:
       tabs: false
     include_search_page: false
-    search_index_only: true
+    search_index_only: false
     static_templates:
       - 404.html
 
