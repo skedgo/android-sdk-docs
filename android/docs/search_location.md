@@ -135,6 +135,26 @@ search results as well as Google Places.
                 .build()
 ````
 
+You can style the individual results by changing a few values.
+
+**dimens.xml**
+
+| Name                    | Description|
+|-------------------------|------------|
+| tripkit_search_result_icon_size | Sets the size of the result icon. The default is `24dp`. |
+| tripkit_search_result_divider_inset | Sets the inset of the dividing line between items. The default is `0dp`.|
+
+<br/>
+
+**styles.xml**
+
+| Name | Description|
+|------|------------|
+| tripkit_search_result_title | Sets the style of the result title.|
+| tripkit_search_result_subtitle | Sets the style of the result subtitle. |
+
+<br/>
+
 The [`LocationSearchFragment.Builder()`](tripkit-android/com.skedgo.tripkit.ui.search/-location-search-fragment/-builder/index.md) can be configured with a few different settings.
 
 | Function                 | Description |
