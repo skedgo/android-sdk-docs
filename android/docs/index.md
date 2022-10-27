@@ -27,6 +27,15 @@ repositories {
     maven { url "https://jitpack.io" }
 }
 ```
+TripKit supports for Android apps running Android 4.0.3 and above. To make sure that it works in your Android app, please specify minSdkVersion in your build.gradle file
+
+```kotlin
+android {
+  defaultConfig {
+    minSdkVersion 16
+  }
+}
+```
 
 Then, you'll need to add your TripGo API key. TripKit expects the key to be provided as `R.string.skedgo_api_key`,
 so you can either add it to your `strings.xml` file, or use `resValue` in Gradle, or perhaps another way. 
@@ -36,7 +45,35 @@ Finally, add the two TripKit libraries to your dependencies. Check with SkedGo f
 ```kotlin
 dependencies {
 // ...
-    implementation "com.skedgo.tripkit:TripKitAndroid:2.x"
+    implementation 'com.github.skedgo.tripkit-android:TripKitAndroid:<insert-newest-version-here>'
     implementation "com.skedgo.tripkit:TripKitAndroidUI:2.x"
+}
+```
+
+## Create TripKit instance to access TripKit's services
+
+We recommend to have an Application subclass. Next, in the onCreate() method, you can initiate following setup:
+
+> v2.1.43
+```kotlin
+class App : Application() {
+  override fun onCreate() {
+    super.onCreate()
+    JodaTimeAndroid.init(this)
+    
+    TripKitConfigs.builder().context(this)
+            .debuggable(true)          
+            .key { key }
+            .build()
+
+	val httpClientModule = HttpClientModule(null, null, configs)
+
+	val tripKit = DaggerTripKit.builder()
+                .mainModule(MainModule(configs))
+                .httpClientModule(httpClientModule)
+                .build()
+
+    TripKit.initialize(this, tripKit)            
+  }
 }
 ```
