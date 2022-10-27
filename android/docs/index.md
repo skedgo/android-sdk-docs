@@ -54,25 +54,7 @@ dependencies {
 
 We recommend to have an Application subclass. Next, in the onCreate() method, you can initiate following setup:
 
-> for <= v1.23.0-dev
-```kotlin
-
-class App : Application() {
-  override fun onCreate() {
-    super.onCreate()
-    JodaTimeAndroid.init(this)
-    TripKit.initialize(
-        Configs.builder()
-            .context(this)
-            .key { Key.ApiKey("YOUR_API_KEY") }
-            .build()
-    )
-  }
-}
-
-```
-
-> for >= v2.1.43
+> v2.1.43
 ```kotlin
 class App : Application() {
   override fun onCreate() {
