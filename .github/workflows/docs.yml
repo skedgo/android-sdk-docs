@@ -9,17 +9,14 @@ on:
 jobs:
   build_docs:
     name: Build and deploy docs
-    runs-on: macos-12
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout master
-        uses: actions/checkout@v2
-
-      - name: Prepare dependencies
-        run: |
-          pip3 install mkdocs
-          pip3 install pymdown-extensions     
-
-      - name: Build docs
-        run: |
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs
+      - run: pip install pymdown-extensions
+      - run: |
           cd android
-          mkdocs gh-deploy
+          mkdocs gh-deploy --force --clean --verbose
