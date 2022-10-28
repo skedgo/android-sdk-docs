@@ -22,4 +22,4 @@ jobs:
       - name: Build docs
         run: |
           cd android
-          ./mkdocs gh-deploy
+          mkdocs gh-deploy
