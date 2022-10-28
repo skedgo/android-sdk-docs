@@ -1,0 +1,25 @@
+name: Deploy docs
+
+on:
+  push:
+    branches: [ main ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build_docs:
+    name: Build and deploy docs
+    runs-on: macos-12
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v2
+
+      - name: Prepare dependencies
+        run: |
+          pip3 install mkdocs
+          pip3 install pymdown-extensions     
+
+      - name: Build docs
+        run: |
+          cd android
+          ./mkdocs gh-deploy
