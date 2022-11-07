@@ -40,17 +40,17 @@ android {
 Then, you'll need to add your TripGo API key. TripKit expects the key to be provided as `R.string.skedgo_api_key`,
 so you can either add it to your `strings.xml` file, or use `resValue` in Gradle, or perhaps another way. 
 
-Finally, add the two TripKit libraries to your dependencies. Check with SkedGo for the latest version number.
+Finally, add libraries to your dependencies. Check with SkedGo for the latest version number.
 
+## For TripKit only
 ```kotlin
 dependencies {
 // ...
     implementation 'com.github.skedgo.tripkit-android:TripKitAndroid:<insert-newest-version-here>'
-    implementation "com.skedgo.tripkit:TripKitAndroidUI:2.x"
 }
 ```
 
-## Create TripKit instance to access TripKit's services
+### Create TripKit instance to access TripKit's services
 
 We recommend to have an Application subclass. Next, in the onCreate() method, you can initiate following setup:
 
@@ -74,6 +74,33 @@ class App : Application() {
                 .build()
 
     TripKit.initialize(this, tripKit)            
+  }
+}
+```
+
+## For TripKitUI (also includes TripKit)
+```kotlin
+dependencies {
+// ...
+    implementation 'com.github.skedgo.tripkit-android-ui:TripKitAndroidUI:<insert-newest-version-here>'
+}
+```
+
+### Create TripKitUI instance to access both TripKitUI and TripKit services
+
+We recommend to have an Application subclass. Next, in the onCreate() method, you can initiate following setup:
+
+> v2.1.43
+```kotlin
+class App : Application() {
+  override fun onCreate() {
+    super.onCreate()
+
+    val baseConfig = TripKitUI.buildTripKitConfig(applicationContext, Key.ApiKey("api_key_here"))
+    val httpClientModule = HttpClientModule(null, BuildConfig.VERSION_NAME, baseConfig, getSharedPreferences("data_pref_name", MODE_PRIVATE))
+
+    val appConfigs = TripKitConfigs.builder().from(baseConfig).build()
+    TripKitUI.initialize(this, Key.ApiKey("api_key_here"), appConfigs, httpClientModule)       
   }
 }
 ```
