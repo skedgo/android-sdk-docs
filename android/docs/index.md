@@ -12,21 +12,14 @@ To begin, you'll need both an SDK token as well as an API key to use our web ser
 
 Sales will have given you your SDK token, and you can get an API key from our [Developer Page](https://developer.tripgo.com).
 
-First, add our two Maven repositories to the list in `build.gradle`. Replace **MAVEN_TOKEN** with the token that you received
-from us.
+First, add Maven repository to the list in `build.gradle`.
 
 ```kotlin
-repositories {
-    maven {
-        credentials {
-            username skedgo-developer
-            password MAVEN_TOKEN
-        }
-        url "https://www.myget.org/F/skedgo/maven/"
-    }
+repositories {  
     maven { url "https://jitpack.io" }
 }
 ```
+
 TripKit supports for Android apps running Android 4.0.3 and above. To make sure that it works in your Android app, please specify minSdkVersion in your build.gradle file
 
 ```kotlin
