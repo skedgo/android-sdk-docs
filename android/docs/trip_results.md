@@ -9,30 +9,18 @@ and displays a list of possible routes.
 To begin with, you'll need to build a [`Query`](tripkit-android/com.skedgo.tripkit.common.model/-query/index.md) object. Queries have locations, transport mode weighting, and contain
 information about transfer time and walking speed. Two [`Locations`](tripkit-android/com.skedgo.tripkit.common.model/-location/index.md) are required, but the rest is optional.
 
-````kotlin tab="Kotlin"
-    val query = Query().apply {
-        fromLocation = departureLocation
-        toLocation = destinationLocation
-        cyclingSpeed = 1
-        walkingSpeed = 1
-        environmentWeight = 0.5
-        hassleWeight = 1.0
-        budgetWeight = 2.0
-        setTimeTag(timeTagForQuery)
-    }
-````
-
-````java tab="Java"
-    Query query = new Query();
-    query.setFromLocation(departureLocation);
-    query.setToLocation(destinationLocation);
-    query.setCyclingSpeed(1);
-    query.setWalkingSpeed(1);
-    query.setEnvironmentWeight(0.5);
-    query.setHassleWeight(1);
-    query.setBudgetWeight(2);
-    query.setTimeTag(timeTagForQuery);
-````
+```kotlin
+val query = Query().apply {
+    fromLocation = departureLocation
+    toLocation = destinationLocation
+    cyclingSpeed = 1
+    walkingSpeed = 1
+    environmentWeight = 0.5
+    hassleWeight = 1.0
+    budgetWeight = 2.0
+    setTimeTag(timeTagForQuery)
+}
+```
 
 | Parameter | Description |
 |-----------|-------------|
@@ -58,30 +46,30 @@ and automatically handles date/time selection and transit mode filtering.
 
 Transit modes are automatically saved and restored from `SharedPreferences` the next time that a trip result is displayed.
 
-````kotlin tab="Kotlin"
-    val fragment = TripResultListFragment.Builder()
-            .withQuery(query)
-            .build()
-````
+```kotlin
+val fragment = TripResultListFragment.Builder()
+        .withQuery(query)
+        .build()
+```
 
 The origin and destination locations are clickable. When clicked, the fragment calls an [`OnLocationClickListener`](tripkit-android/com.skedgo.tripkit.ui.tripresults/-trip-result-list-fragment/-on-location-click-listener/index.md).
 
-````kotlin tab="Kotlin"
-    fragment.setOnLocationClickListener(
-        startLocationClicked = {
-            // You could show a LocationSearchFragment here
-         }, 
-        destinationLocationClicked = {
-            // Or do nothing at all?
-        })
-````
+```kotlin
+fragment.setOnLocationClickListener(
+    startLocationClicked = {
+        // You could show a LocationSearchFragment here
+        }, 
+    destinationLocationClicked = {
+        // Or do nothing at all?
+    })
+```
 
 When the user chooses a particular trip, the [`OnTripSelectedListener`](tripkit-android/com.skedgo.tripkit.ui.tripresults/-trip-result-list-fragment/-on-trip-selected-listener/index.md) will be called with a `ViewTrip` result. 
 You can then launch a [`TripSegmentListFragment`](tripkit_map_fragment.md#TripSegmentListFragment) to display the individual segments.
 
-````kotlin tab="Kotlin"
-    fragment.setOnTripSelectedListener { viewTrip -> tripSelected(viewTrip)}
-````
+```kotlin
+fragment.setOnTripSelectedListener { viewTrip -> tripSelected(viewTrip)}
+```
 
 ## TripResultMapFragment
 
@@ -90,11 +78,11 @@ You can then launch a [`TripSegmentListFragment`](tripkit_map_fragment.md#TripSe
 With a ViewTrip chosen, you can display the route using a [`TripResultMapFragment`](tripkit-android/com.skedgo.tripkit.ui.tripresult/-trip-result-map-fragment/index.md). As TripKit caches route information
 in the background, you only need to pass a UUID to the `withTripGroupId` function in the [`TripResultMapFragment.Builder`](tripkit-android/com.skedgo.tripkit.ui.tripresult/-trip-result-map-fragment/-builder/index.md). 
 
-````kotlin tab="Kotlin"
-    val mapFragment = TripResultMapFragment.Builder()
-                                           .withTripGroupId(viewTrip.tripGroupUUID)
-                                           .build()
-```` 
+```kotlin
+val mapFragment = TripResultMapFragment.Builder()
+                                        .withTripGroupId(viewTrip.tripGroupUUID)
+                                        .build()
+```
 
 ## TripSegmentListFragment
 
@@ -105,23 +93,17 @@ example, "Go" and "Favourite".
 
 To build a [`TripSegmentListFragment`](tripkit-android/com.skedgo.tripkit.ui.tripresult/-trip-segment-list-fragment/index.md), you only need a `ViewTrip`'s UUID.
 
-````kotlin tab="Kotlin"
-    val fragment = TripSegmentListFragment.Builder()
-        .withTripGroupId(viewTrip.tripGroupUUID)
-        .build()
-````
-
-````java tab="Java"
-    TripSegmentListFragment fragment = new TripSegmentListFragment.Builder()
-                                              .withTripGroupId(tripGroup.uuid())
-                                              .build();
-````
+```kotlin
+val fragment = TripSegmentListFragment.Builder()
+    .withTripGroupId(viewTrip.tripGroupUUID)
+    .build()
+```
 
 If you'd also like to use buttons, pass it a list of [`TripKitButtons`](tripkit-android/com.skedgo.tripkit.ui.model/-trip-kit-button/index.md). A [`TripKitButton`](tripkit-android/com.skedgo.tripkit.ui.model/-trip-kit-button/index.md) consists of a string identifier,
 which you'll receive in the button click handler, and a resource identifier for a layout which will be inflated. The
 layout can contain a single `Button` if you'd like.
 
-````xml tab="Layout"
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.button.MaterialButton 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -133,25 +115,26 @@ layout can contain a single `Button` if you'd like.
     android:drawableLeft="@drawable/ic_directions"
     android:theme="@style/Theme.MaterialComponents"
     style="@style/Widget.MaterialComponents.Button.UnelevatedButton"/>
+```
 
-````
+```kotlin
+val buttonList = listOf(TripKitButton("go", R.layout.go_button), 
+                        TripKitButton("favorite", R.layout.favourite_button))
 
-````kotlin tab="Kotlin"
-        val buttonList = listOf(TripKitButton("go", R.layout.go_button), 
-                                TripKitButton("favorite", R.layout.favourite_button))
-
-        val fragment = TripSegmentListFragment.Builder()
-            .withTripGroupId(trip!!.tripGroupUUID)
-            .withButtons(buttonList)
-            .build()
-````
+val fragment = TripSegmentListFragment.Builder()
+    .withTripGroupId(trip!!.tripGroupUUID)
+    .withButtons(buttonList)
+    .build()
+```
 
 When the button is clicked, the [`TripSegmentListFragment.OnTripKitButtonClickListener`](tripkit-android/com.skedgo.tripkit.ui.tripresult/-trip-segment-list-fragment/-on-trip-kit-button-click-listener/index.md) will be called with the id of the [`TripKitButton`](tripkit-android/com.skedgo.tripkit.ui.model/-trip-kit-button/index.md) and the
 current trip group.
 
-````kotlin tab="Kotlin"
-        fragment.setOnTripKitButtonListener { id, tripGroup ->  // Do something with the button }
-````
+```kotlin
+fragment.setOnTripKitButtonListener { id, tripGroup ->  
+    // Do something with the button 
+}
+```
 
 ## TripResultPagerFragment
 
@@ -161,19 +144,19 @@ for a given result list into a view pager, allowing the user to swipe back and f
 
 Like the [`TripSegmentListFragment`](trip_results.md#TripSegmentListFragment), you can pass it [`TripKitButtons`](tripkit-android/com.skedgo.tripkit.ui.model/-trip-kit-button/index.md), and provide a [`TripResultPagerFragment.OnTripKitButtonClickListener`](tripkit-android/com.skedgo.tripkit.ui.tripresult/-trip-result-pager-fragment/-on-trip-kit-button-click-listener/index.md) to receive the click events.
 
-````kotlin tab="Kotlin"
-    val pagerFragment = TripResultPagerFragment.Builder()
-            .withTripButton("go",  R.layout.go_button)
-            .withTripButton("favorite", R.layout.bookmark_button)
-            .withMapFragment(mapFragment)
-            .withViewTrip(viewTrip)
-            .build()
+```kotlin
+val pagerFragment = TripResultPagerFragment.Builder()
+        .withTripButton("go",  R.layout.go_button)
+        .withTripButton("favorite", R.layout.bookmark_button)
+        .withMapFragment(mapFragment)
+        .withViewTrip(viewTrip)
+        .build()
 
-    pagerFragment.setOnTripKitButtonClickListener { id, tripGroup ->
-        if (id == "go") {
-            Toast.makeText(context!!, "Will go to ${tripGroup.uuid()}", Toast.LENGTH_SHORT).show()
-        } else if (id == "favorite") {
-            Toast.makeText(context!!, "Will add ${tripGroup.uuid()} as a favorite", Toast.LENGTH_SHORT).show()
-        }
+pagerFragment.setOnTripKitButtonClickListener { id, tripGroup ->
+    if (id == "go") {
+        Toast.makeText(context!!, "Will go to ${tripGroup.uuid()}", Toast.LENGTH_SHORT).show()
+    } else if (id == "favorite") {
+        Toast.makeText(context!!, "Will add ${tripGroup.uuid()} as a favorite", Toast.LENGTH_SHORT).show()
     }
-````
+}
+```
