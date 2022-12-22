@@ -1,12 +1,14 @@
 site_name: TripKit SDK for Android
 nav:
-  - Introduction: index.md
-  - TripKit Map Fragment: tripkit_map_fragment.md
-  - Searching for a Location: search_location.md
-  - Trip Results: trip_results.md
-  - Service & Stop Detail: stop_detail.md
-  - Class Documentation: tripkit-android/index.md
-  - Routes for region: routes_for_region.md
+  - Getting Started: index.md
+  - Guide:
+    - TripKit Map Fragment: tripkit_map_fragment.md
+    - Location Search: search_location.md
+    - Trip Results: trip_results.md
+    - Service & Stop Detail: stop_detail.md
+    - Routes for region: routes_for_region.md
+  - SDK Reference: tripkit-android/index.md
+  - API: https://developer.tripgo.com
 theme:
     name: null
     custom_dir: ../skedgo_theme/
