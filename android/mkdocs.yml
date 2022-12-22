@@ -6,6 +6,7 @@ nav:
   - Trip Results: trip_results.md
   - Service & Stop Detail: stop_detail.md
   - Class Documentation: tripkit-android/index.md
+  - Routes for region: routes_for_region.md
 theme:
     name: null
     custom_dir: ../skedgo_theme/
