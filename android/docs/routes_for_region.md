@@ -120,7 +120,7 @@ TripKitUI.getInstance().regionRoutingRepository().getRoutes(
     ): Single<RouteDetails>
 ````
 
-> #### Parameters
+> ### Parameters
 | Name  | Type | Required |
 | ------------- | ------------- | ------------- |
 | region | String | Yes |
@@ -128,10 +128,10 @@ TripKitUI.getInstance().regionRoutingRepository().getRoutes(
 | routeID | Int | Yes |
 
 
-> #### Response
+> ### Response
 (RxJava Single) [`RouteDetails`](tripkit-android/com.skedgo.android.common.model/-location/index.md)
 
-> #### Sample
+> ### Sample
 
 ````kotlin
 TripKitUI.getInstance().regionRoutingRepository().getRegionRouteInfo(
@@ -143,3 +143,4 @@ TripKitUI.getInstance().regionRoutingRepository().getRegionRouteInfo(
 }
 
 ````
+
