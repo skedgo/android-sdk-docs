@@ -1,7 +1,4 @@
-!!! note
-    This documentation reflects the initial version of the TripKit SDK for Android. It is not finalized.
-    
-# Introduction
+# TripKit SDK for Android
 
 Using the TripKit SDK, you can quickly integrate SkedGo's award-winning trip planning platform with your own application
 in a matter of minutes.
