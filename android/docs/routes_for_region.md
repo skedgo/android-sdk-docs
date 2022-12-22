@@ -1,4 +1,4 @@
-# RegionRoutingRepository
+## RegionRoutingRepository
 
 Here, you can retrieve detailed information about routes for either all operators in a region, or a specified operator
 
@@ -110,7 +110,7 @@ TripKitUI.getInstance().regionRoutingRepository().getRoutes(
 
 ````
 
-### Get details of a route
+## Get details of a route
 
 ````
  fun getRegionRouteInfo(
