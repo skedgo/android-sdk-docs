@@ -120,7 +120,8 @@ TripKitUI.getInstance().regionRoutingRepository().getRoutes(
     ): Single<RouteDetails>
 ````
 
-__Parameters__
+**Parameters**
+
 | Name  | Type | Required |
 | ------------- | ------------- | ------------- |
 | region | String | Yes |
