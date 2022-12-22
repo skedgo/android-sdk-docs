@@ -97,7 +97,7 @@ destination locations, you can pass that using [`withLocations`](tripkit-android
 To configure the initial values, you can either use [`withTimeTag`](tripkit-android/com.skedgo.tripkit.ui.dialog/-trip-kit-date-time-picker-dialog-fragment/-builder/with-time-tag.md) to give the fragment a `TimeTag`, or you can use
 `withTimeType` and `timeMillis`.
 
-The `OnTimeSelectedListener` will return a [`TimeTag`](tripkit-android/com.skedgo.android.common.model/-time-tag/index.md) after the user has finalized their choice.
+The `OnTimeSelectedListener` will return a [`TimeTag`](tripkit-android/com.skedgo.tripkit.common.model/-time-tag/index.md) after the user has finalized their choice.
 
 ````kotlin tab="Kotlin"
 var fragment = TripKitDateTimePickerDialogFragment.Builder()

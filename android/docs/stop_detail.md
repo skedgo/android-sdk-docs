@@ -61,7 +61,7 @@ To show the details about a particular service, you can use the [`ServiceDetailF
 service line.  If you pass it a [ServiceStopMapFragment](stop_detail.md#ServiceStopMapFragment),
 it will automatically have the map move and zoom in on the scheduled stop that a user clicks on.
 
-You'll need to pass it a [`TimetableEntry`](tripkit-android/com.skedgo.tripkit.ui.model/-timetable-entry/index.md) and a [`ScheduledStop`](tripkit-android/com.skedgo.android.common.model/-scheduled-stop/index.md).
+You'll need to pass it a [`TimetableEntry`](tripkit-android/com.skedgo.tripkit.ui.model/-timetable-entry/index.md) and a [`ScheduledStop`](tripkit-android/com.skedgo.tripkit.common.model/-scheduled-stop/index.md).
 
 ````kotlin tab="Kotlin"
     var fragment = ServiceDetailFragment.Builder()

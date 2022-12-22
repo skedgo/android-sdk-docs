@@ -1,13 +1,13 @@
-Once you have two [`Location`](tripkit-android/com.skedgo.android.common.model/-location/index.md) objects, you can get a list of routes between them, the individual services that handle those
+Once you have two [`Location`](tripkit-android/com.skedgo.tripkit.common.model/-location/index.md) objects, you can get a list of routes between them, the individual services that handle those
 routes, and the individual segments.
  
-The [`TripResultListFragment`](tripkit-android/com.skedgo.tripkit.ui.tripresults/-trip-result-list-fragment/index.md) takes a `Query` which contains a pair of [`Locations`](tripkit-android/com.skedgo.android.common.model/-location/index.md) as well as weighting information,
+The [`TripResultListFragment`](tripkit-android/com.skedgo.tripkit.ui.tripresults/-trip-result-list-fragment/index.md) takes a `Query` which contains a pair of [`Locations`](tripkit-android/com.skedgo.tripkit.common.model/-location/index.md) as well as weighting information,
 and displays a list of possible routes.
 
 ## Query
 
-To begin with, you'll need to build a [`Query`](tripkit-android/com.skedgo.android.common.model/-query/index.md) object. Queries have locations, transport mode weighting, and contain
-information about transfer time and walking speed. Two [`Locations`](tripkit-android/com.skedgo.android.common.model/-location/index.md) are required, but the rest is optional.
+To begin with, you'll need to build a [`Query`](tripkit-android/com.skedgo.tripkit.common.model/-query/index.md) object. Queries have locations, transport mode weighting, and contain
+information about transfer time and walking speed. Two [`Locations`](tripkit-android/com.skedgo.tripkit.common.model/-location/index.md) are required, but the rest is optional.
 
 ````kotlin tab="Kotlin"
     val query = Query().apply {
