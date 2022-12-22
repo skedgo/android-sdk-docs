@@ -10,7 +10,7 @@ providing a UI for displaying the origin and destination locations, as well as d
 The [`RouteInputView`](tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/index.md) doesn't provide any logic, it's simply there to display information and pass along click events.
 You'll need to keep track of the chosen Locations yourself by adding an [`OnRouteWidgetClickedListener`](tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/-on-route-widget-clicked-listener/index.md).
 
-```xml tab="Layout"
+```xml
 <FrameLayout android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -29,7 +29,7 @@ You'll need to keep track of the chosen Locations yourself by adding an [`OnRout
 </FrameLayout>
 ```
 
-```kotlin tab="Kotlin"
+```kotlin
     private var fromLocation: Location? = null
     private var toLocation: Location? = null
 
@@ -43,38 +43,6 @@ You'll need to keep track of the chosen Locations yourself by adding an [`OnRout
                 RouteInputView.OnRouteWidgetClickedListener.Widget.ROUTE ->routeButtonSelected()
                 RouteInputView.OnRouteWidgetClickedListener.Widget.TIME -> timeButtonSelected()
             }
-    }
-```
-
-```java tab="Java"
-    private Location fromLocation = null
-    private Location toLocation = null
-
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        routeInputView.setOnRouteWidgetClickedListener(new RouteInputView.OnRouteWidgetClickedListener() {
-            @Override
-            public void widgetClicked(@NotNull Widget button) {
-                switch(button) {
-                    case START:
-                        showSearchForStart();
-                        break;
-                    case DESTINATION:
-                        showSearchForDestination();
-                        break;
-                    case SWAPPED:
-                        startAndDestinationSwapped();
-                        break;
-                    case ROUTE:
-                        routeButtonSelected();
-                        break;
-                    case TIME:
-                        timeButtonSelected();
-                        break;
-                }
-            }                   
-        });
     }
 ```
 
@@ -99,7 +67,7 @@ To configure the initial values, you can either use [`withTimeTag`](tripkit-andr
 
 The `OnTimeSelectedListener` will return a [`TimeTag`](tripkit-android/com.skedgo.tripkit.common.model/-time-tag/index.md) after the user has finalized their choice.
 
-````kotlin tab="Kotlin"
+```kotlin
 var fragment = TripKitDateTimePickerDialogFragment.Builder()
         .withLocations(toLocation, fromLocation)
         .withTimeTag(timeTagForQuery)
@@ -116,7 +84,8 @@ fragment.setOnTimeSelectedListener { tag ->
 }
 fragment.show(supportFragmentManager, "timePicker")
 
-````
+```
+
 ## LocationSearchFragment
 
 The [`LocationSearchFragment`](tripkit-android/com.skedgo.tripkit.ui.search/-location-search-fragment/index.md) is a self-contained location search component which merges search results from both SkedGo's
@@ -125,15 +94,15 @@ search results as well as Google Places.
 ![LocationSearchFragment.png](img/LocationSearchFragment.png)
 
 
-````kotlin tab="Kotlin"
-        LocationSearchFragment.Builder()
-                .withBounds(mMap.projection.visibleRegion.latLngBounds)
-                .near(mMap.cameraPosition.target)
-                .withHint(getString(R.string.search))
-                .allowCurrentLocation(true)
-                .allowDropPin()
-                .build()
-````
+```kotlin
+LocationSearchFragment.Builder()
+    .withBounds(mMap.projection.visibleRegion.latLngBounds)
+    .near(mMap.cameraPosition.target)
+    .withHint(getString(R.string.search))
+    .allowCurrentLocation(true)
+    .allowDropPin()
+    .build()
+```
 
 You can style the individual results by changing a few values.
 
