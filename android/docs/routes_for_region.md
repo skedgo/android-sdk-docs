@@ -5,7 +5,7 @@ Here, you can retrieve detailed information about routes for either all operator
 
 ## Get routes in a region
 
-With RegionRoutingRepository, you can fetch routes for a specific region by either providing its name or your [`Location`](https://android.developer.tripgo.com/tripkit-android/com.skedgo.tripkit.common.model/-location/) along with a query, to search for a route name, and operatorId if you have.
+With RegionRoutingRepository, you can fetch routes for a specific region by either providing its name or your [`Location`](tripkit-android/com.skedgo.tripkit.common.model/-location/index.md) along with a query, to search for a route name, and operatorId if you have.
 
 Make sure you you've initialized [TripKitUI](https://android.developer.tripgo.com/) to create an instance and access its services
 
@@ -31,7 +31,7 @@ You can access RegionRoutingRepository with `TripKitUI.getInstance().regionRouti
 | operatorId | String | No |
 
 > #### Response
-(RxJava Single) List of [`RegionRoute`](tripkit-android/com.skedgo.android.common.model/-location/index.md)
+(RxJava Single) List of [`RegionRoute`](tripkit-android/com.skedgo.tripkit.regionrouting/com.skedgo.tripkit.regionrouting.data/-regionroute/index.md)
 
 > #### Sample
 
@@ -48,7 +48,7 @@ TripKitUI.getInstance().regionRoutingRepository().getRegionRoutes(
 
 ````
 
-### Get routes with string query and [`Location`](https://android.developer.tripgo.com/tripkit-android/com.skedgo.tripkit.common.model/-location/) 
+### Get routes with string query and [`Location`](tripkit-android/com.skedgo.tripkit.common.model/-location/index.md) 
 
 ````
  fun getRoutes(
@@ -61,10 +61,10 @@ TripKitUI.getInstance().regionRoutingRepository().getRegionRoutes(
 | Name  | Type | Required |
 | ------------- | ------------- | ------------- |
 | query | String | Yes |
-| location | [`Location`](https://android.developer.tripgo.com/tripkit-android/com.skedgo.tripkit.common.model/-location/)  | Yes |
+| location | [`Location`](tripkit-android/com.skedgo.tripkit.common.model/-location/index.md)  | Yes |
 
 > #### Response
-(RxJava Observable) List of [`RegionRoute`](tripkit-android/com.skedgo.android.common.model/-location/index.md)
+(RxJava Observable) List of [`RegionRoute`](tripkit-android/com.skedgo.tripkit.regionrouting/com.skedgo.tripkit.regionrouting.data/-regionroute/index.md)
 
 > #### Sample
 
@@ -96,7 +96,7 @@ TripKitUI.getInstance().regionRoutingRepository().getRoutes(
 | query | String | Yes |
 
 > #### Response
-(RxJava Single) List of [`RegionRoute`](tripkit-android/com.skedgo.android.common.model/-location/index.md)
+(RxJava Single) List of [`RegionRoute`](tripkit-android/com.skedgo.tripkit.regionrouting/com.skedgo.tripkit.regionrouting.data/-regionroute/index.md)
 
 > #### Sample
 
@@ -130,7 +130,7 @@ TripKitUI.getInstance().regionRoutingRepository().getRoutes(
 
 
 __Response__
-(RxJava Single) [`RouteDetails`](tripkit-android/com.skedgo.android.common.model/-location/index.md)
+(RxJava Single) [`RouteDetails`](tripkit-android/com.skedgo.tripkit.regionrouting/com.skedgo.tripkit.regionrouting.data/-routedetails/index.md)
 
 __Sample__
 
