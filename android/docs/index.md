@@ -27,6 +27,24 @@ android {
 }
 ```
 
+Get Google maps API key from [Google Maps Platform](https://developers.google.com/maps/documentation/android-sdk/get-api-key) and add it on your project's [Manifest](https://developer.android.com/guide/topics/manifest/manifest-intro)
+
+```XML
+<manifest package="....
+  ....
+  <application...
+
+    <meta-data
+          android:name="com.google.android.geo.API_KEY"
+          android:value="YOUR_API_KEY_HERE" />
+
+    ....
+
+    </application>
+</manifest>
+```
+
+
 Then, you'll need to add your TripGo API key. TripKit expects the key to be provided as `R.string.skedgo_api_key`,
 so you can either add it to your `strings.xml` file, or use `resValue` in Gradle, or perhaps another way. 
 
@@ -36,7 +54,7 @@ Finally, add libraries to your dependencies. Check with SkedGo for the latest ve
 ```kotlin
 dependencies {
 // ...
-    implementation 'com.github.skedgo.tripkit-android:TripKitAndroid:<insert-newest-version-here>'
+    implementation 'com.github.skedgo:tripkit-android:<insert-newest-version-here>'
 }
 ```
 
@@ -72,7 +90,7 @@ class App : Application() {
 ```kotlin
 dependencies {
 // ...
-    implementation 'com.github.skedgo.tripkit-android-ui:TripKitAndroidUI:<insert-newest-version-here>'
+    implementation 'com.github.skedgo:tripkit-android-ui:<insert-newest-version-here>'
 }
 ```
 
