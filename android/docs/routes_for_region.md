@@ -145,3 +145,53 @@ TripKitUI.getInstance().regionRoutingRepository().getRegionRouteInfo(
 
 ````
 
+## Autocompleter
+
+First, declare RegionRoutingAutoCompleter
+
+````kotlin
+private val regionRoutingAutoCompleter: RegionRoutingAutoCompleter = TripKitUI.getInstance().regionRoutingAutoCompleter()
+````
+or
+````kotlin
+private val regionRoutingAutoCompleter: RegionRoutingAutoCompleter by lazy {
+        TripKitUI.getInstance().regionRoutingAutoCompleter()
+    }
+````
+
+then setup observer and get result as List<[RegionRoute](tripkit-android/com.skedgo.tripkit.regionrouting/com.skedgo.tripkit.regionrouting.data/-routedetails/index.md)>
+````kotlin
+regionRoutingAutoCompleter.observe({
+            //get results for the queries here as List<RegionRoute>
+        }, {
+            it.printStackTrace()
+        }
+````
+
+
+Use [AutoCompleteQuery](tripkit-android/com.skedgo.tripkit.regionrouting/com.skedgo.tripkit.regionrouting.data/-autocompletequery/index.md) to build a query to send on the RegionRoutingAutoCompleter
+
+>__By Region Name__
+
+````kotlin
+AutoCompleteQuery.Builder(
+        your_query_here_as_string
+).byRegionName(your_region_name_here).build()
+````
+
+>__By [Location](tripkit-android/com.skedgo.tripkit.common.model/-location/index.md)__
+````kotlin
+AutoCompleteQuery.Builder(
+                your_query_here_as_string
+        ).byLocation(location_object_here).build()
+````
+
+Lastly, send the query to the RegionRoutingAutoCompleter
+````kotlin
+regionRoutingAutoCompleter.sendQuery(
+                RegionRoutingAutoCompleter.AutoCompleteQuery.Builder(
+                        "sample query"
+                ).byRegionName("REGION_NAME").build()
+        )
+````
+and get the result from the observer that you setup earlier.
