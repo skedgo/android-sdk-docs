@@ -27,7 +27,7 @@ android {
 }
 ```
 
-Get Google maps API key from [Google Maps Platform](https://developers.google.com/maps/documentation/android-sdk/get-api-key) and add it on your project's [Manifest](https://developer.android.com/guide/topics/manifest/manifest-intro)
+Get Google maps API key from [Google Maps Platform](https://developers.google.com/maps/documentation/android-sdk/get-api-key) and make sure to enable the [Places API](https://console.cloud.google.com/apis/library/places-backend.googleapis.com?_gl=1*15naeh9*_ga*MjA2NzAyMTMwNS4xNjMwNTg4ODYw*_ga_NRWSTWS78N*MTY3MjkwNzQ4Ni40LjEuMTY3MjkwNzQ4OC4wLjAuMA..&project=mrwa-0001). Then add the google maps api key on your project's [Manifest](https://developer.android.com/guide/topics/manifest/manifest-intro)
 
 ```XML
 <manifest package="....
