@@ -8,6 +8,7 @@ nav:
     - Service & Stop Detail: stop_detail.md
     - Routes for region: routes_for_region.md
     - Get off alerts: get_off_alerts.md
+    - Viewcontroller: view_controllers.md
   - SDK Reference: tripkit-android/index.md
   - API: https://developer.tripgo.com
 theme:
