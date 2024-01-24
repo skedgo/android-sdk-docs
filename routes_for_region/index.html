@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="../img/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#154c7b">
+		<meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#154c7b">
+		<title>Routes for region - TripKit SDK for Android</title>
+			<link rel="stylesheet" href="../css/main.css">
+			<link rel="stylesheet" href="../css/superfences.css">
+			<link rel="stylesheet" href="../css/codehilite.css">
+			<link rel="stylesheet"
+				href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+			<![endif]--> 
+	</head>
+
+	<body >
+		<header class="navbar">
+	
+	<div class="search-container">
+		<a class="search" href="#"></a><div class="search-form" id="mkdocs_search_modal" tabindex="-1" raria-labelledby="Search Modal" aria-hidden="true">
+    <form role="form" class="container">
+        <div class="search-icon"></div>
+        <input type="text" class="search-field" placeholder="Type keyword..." id="mkdocs-search-query">
+    </form>
+    <div class="results-list">
+    	<div id="mkdocs-search-results" class="container"></div>
+    </div>
+</div>
+	</div>
+	
+	<div class="container-fluid">
+		<a class="logo" href="..">
+			<img src="../img/tripgo-api-logo-white.svg" alt="TripGo API Logo White" height="32" width="140">
+		</a>
+
+		<div class="divider"></div>
+		<a class="menu-toggle" type="button" href="#" aria-hidden="true">
+			<div class="bar-container">
+				<span class="bar-1"></span>
+				<span class="bar-2"></span>
+				<span class="bar-3"></span>
+			</div>
+		</a>
+		<div class="menu" aria-hidden="false">
+			
+				<ul>
+					
+						
+							<li class="">
+								<a href="..">Getting Started</a>
+							</li>
+						
+					
+						
+							<li>
+								<a href="#" class="dropdown">Guide</a>
+								<ul class="submenu">
+									
+										<li class="">
+											<a href="../tripkit_map_fragment/">TripKit Map Fragment</a>
+										</li>
+									
+										<li class="">
+											<a href="../search_location/">Location Search</a>
+										</li>
+									
+										<li class="">
+											<a href="../trip_results/">Trip Results</a>
+										</li>
+									
+										<li class="">
+											<a href="../stop_detail/">Service & Stop Detail</a>
+										</li>
+									
+										<li class="current">
+											<a href="./">Routes for region</a>
+										</li>
+									
+										<li class="">
+											<a href="../get_off_alerts/">Get off alerts</a>
+										</li>
+									
+										<li class="">
+											<a href="../view_controllers/">Viewcontroller</a>
+										</li>
+									
+								</ul>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="../tripkit-android/">SDK Reference</a>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="https://developer.tripgo.com">API</a>
+							</li>
+						
+					
+				</ul>
+			
+		</div>
+		
+	</div>
+	
+</header>
+
+		<div class="container -layout-3-9">
+				<div class="col" role="complementary"><div class="sidebar hidden-print affix" role="complementary" id="sidebar">
+	<div class="indicator"></div>
+    <ul class="nav sidenav">
+        <li class="main "><a href="#regionroutingrepository" class="active">RegionRoutingRepository</a></li>
+        <li class="main "><a href="#get-routes-in-a-region" class="">Get routes in a region</a></li>
+            <li><a href="#get-routes-with-region-name-query-modes-and-operator-id" class="">Get routes with region name, query, modes and operator id</a></li>
+            <li><a href="#get-routes-with-string-query-and-location" class="">Get routes with string query and Location</a></li>
+            <li><a href="#get-routes-with-region-name-and-query" class="">Get routes with region name and query</a></li>
+        <li class="main "><a href="#get-details-of-a-route" class="">Get details of a route</a></li>
+        <li class="main "><a href="#autocompleter" class="">Autocompleter</a></li>
+    </ul>
+</div></div>
+				<div class="col content" role="main">
+
+<h2 id="regionroutingrepository">RegionRoutingRepository</h2>
+<p>Here, you can retrieve detailed information about routes for either all operators in a region, or a specified operator</p>
+<h2 id="get-routes-in-a-region">Get routes in a region</h2>
+<p>With RegionRoutingRepository, you can fetch routes for a specific region by either providing its name or your <a href="../tripkit-android/com.skedgo.tripkit.common.model/-location/"><code>Location</code></a> along with a query, to search for a route name, and operatorId if you have.</p>
+<p>Make sure you you've initialized <a href="https://android.developer.tripgo.com/">TripKitUI</a> to create an instance and access its services</p>
+<p>You can access RegionRoutingRepository with <code>TripKitUI.getInstance().regionRoutingRepository()</code></p>
+<h3 id="get-routes-with-region-name-query-modes-and-operator-id">Get routes with region name, query, modes and operator id</h3>
+<pre class="codehilite"><code> fun getRegionRoutes(
+            region: String,
+            query: String? = null,
+            modes: List&lt;String&gt; = emptyList(),
+            operatorId: String? = null
+    ): Single&lt;List&lt;RegionRoute&gt;&gt;</code></pre>
+<blockquote>
+<h4 id="parameters">Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>region</td>
+<td>String</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>query</td>
+<td>String</td>
+<td>No</td>
+</tr>
+<tr>
+<td>modes</td>
+<td>List<String></td>
+<td>No</td>
+</tr>
+<tr>
+<td>operatorId</td>
+<td>String</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h4 id="response">Response</h4>
+<p>(RxJava Single) List of <a href="../tripkit-android/com.skedgo.tripkit.regionrouting/com.skedgo.tripkit.regionrouting.data/-regionroute/"><code>RegionRoute</code></a></p>
+<h4 id="sample">Sample</h4>
+</blockquote>
+<pre class="codehilite"><code class="language-kotlin">TripKitUI.getInstance().regionRoutingRepository().getRegionRoutes(
+    region = "US_CA_RegionName", 
+    query = "Metro",
+    modes = listOf("pt_pub_sample"),
+    operatorId = "sampleId"
+
+).subscribe {
+    // Handle response here
+}
+</code></pre>
+<h3 id="get-routes-with-string-query-and-location">Get routes with string query and <a href="../tripkit-android/com.skedgo.tripkit.common.model/-location/"><code>Location</code></a></h3>
+<pre class="codehilite"><code> fun getRoutes(
+            query: String,
+            location: Location?
+    ): Observable&lt;List&lt;RegionRoute&gt;&gt;</code></pre>
+<blockquote>
+<h4 id="parameters_1">Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>query</td>
+<td>String</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>location</td>
+<td><a href="../tripkit-android/com.skedgo.tripkit.common.model/-location/"><code>Location</code></a></td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h4 id="response_1">Response</h4>
+<p>(RxJava Observable) List of <a href="../tripkit-android/com.skedgo.tripkit.regionrouting/com.skedgo.tripkit.regionrouting.data/-regionroute/"><code>RegionRoute</code></a></p>
+<h4 id="sample_1">Sample</h4>
+</blockquote>
+<pre class="codehilite"><code class="language-kotlin">val location: Location? = Location(-33.9504502,151.0309)
+
+TripKitUI.getInstance().regionRoutingRepository().getRoutes(
+    query = "Metro",
+    location = location
+).subscribe {
+    // Handle response here
+}
+</code></pre>
+<h3 id="get-routes-with-region-name-and-query">Get routes with region name and query</h3>
+<pre class="codehilite"><code> fun getRoutes(
+            regionName: String,
+            query: String
+    ): Single&lt;List&lt;RegionRoute&gt;&gt;</code></pre>
+<blockquote>
+<h4 id="parameters_2">Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>regionName</td>
+<td>String</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>query</td>
+<td>String</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h4 id="response_2">Response</h4>
+<p>(RxJava Single) List of <a href="../tripkit-android/com.skedgo.tripkit.regionrouting/com.skedgo.tripkit.regionrouting.data/-regionroute/"><code>RegionRoute</code></a></p>
+<h4 id="sample_2">Sample</h4>
+</blockquote>
+<pre class="codehilite"><code class="language-kotlin">TripKitUI.getInstance().regionRoutingRepository().getRoutes(
+    regionName = "US_CA_RegionName"
+    query = "Metro"
+).subscribe {
+    // Handle response here
+}
+</code></pre>
+<h2 id="get-details-of-a-route">Get details of a route</h2>
+<pre class="codehilite"><code> fun getRegionRouteInfo(
+            region: String,
+            operatorId: String,
+            routeID: Int
+    ): Single&lt;RouteDetails&gt;</code></pre>
+<p><strong>Parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>region</td>
+<td>String</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>operatorId</td>
+<td>String</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>routeID</td>
+<td>Int</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Response</strong>
+(RxJava Single) <a href="../tripkit-android/com.skedgo.tripkit.regionrouting/com.skedgo.tripkit.regionrouting.data/-routedetails/"><code>RouteDetails</code></a></p>
+<p><strong>Sample</strong></p>
+<pre class="codehilite"><code class="language-kotlin">TripKitUI.getInstance().regionRoutingRepository().getRegionRouteInfo(
+    regionName = "US_CA_RegionName"
+    operatorId = "Sample_Rail",
+    routeID = 123
+).subscribe {
+    // Handle response here
+}
+</code></pre>
+<h2 id="autocompleter">Autocompleter</h2>
+<p>First, declare RegionRoutingAutoCompleter</p>
+<p><pre class="codehilite"><code class="language-kotlin">private val regionRoutingAutoCompleter: RegionRoutingAutoCompleter = TripKitUI.getInstance().regionRoutingAutoCompleter()</code></pre>
+or
+<pre class="codehilite"><code class="language-kotlin">private val regionRoutingAutoCompleter: RegionRoutingAutoCompleter by lazy {
+        TripKitUI.getInstance().regionRoutingAutoCompleter()
+    }</code></pre></p>
+<p>then setup observer and get result as List&lt;<a href="../tripkit-android/com.skedgo.tripkit.regionrouting/com.skedgo.tripkit.regionrouting.data/-routedetails/">RegionRoute</a>&gt;
+<pre class="codehilite"><code class="language-kotlin">regionRoutingAutoCompleter.observe({
+            //get results for the queries here as List&lt;RegionRoute&gt;
+        }, {
+            it.printStackTrace()
+        }</code></pre></p>
+<p>Use <a href="tripkit-android/com.skedgo.tripkit.regionrouting/com.skedgo.tripkit.regionrouting.data/-autocompletequery/index.md">AutoCompleteQuery</a> to build a query to send on the RegionRoutingAutoCompleter</p>
+<blockquote>
+<p><strong>By Region Name</strong></p>
+</blockquote>
+<pre class="codehilite"><code class="language-kotlin">AutoCompleteQuery.Builder(
+        your_query_here_as_string
+).byRegionName(your_region_name_here).build()</code></pre>
+<blockquote>
+<p><strong>By <a href="../tripkit-android/com.skedgo.tripkit.common.model/-location/">Location</a></strong>
+<pre class="codehilite"><code class="language-kotlin">AutoCompleteQuery.Builder(
+                your_query_here_as_string
+        ).byLocation(location_object_here).build()</code></pre></p>
+</blockquote>
+<p>Lastly, send the query to the RegionRoutingAutoCompleter
+<pre class="codehilite"><code class="language-kotlin">regionRoutingAutoCompleter.sendQuery(
+                RegionRoutingAutoCompleter.AutoCompleteQuery.Builder(
+                        "sample query"
+                ).byRegionName("REGION_NAME").build()
+        )</code></pre>
+and get the result from the observer that you setup earlier.</p></div>
+		</div>
+		<div class="navbar-bottom" role="navigation">
+	<div class="container -layout-6-6">
+			    <div class="col">
+			        <a rel="next"  href="../stop_detail/"  class="prev">
+			            <div class="label">
+			            	Previous
+			            </div>
+			            <div class="title">
+			            	Service & Stop Detail
+			            </div>
+			        </a>
+			    </div>
+			    <div class="col">
+			        <a rel="prev"  href="../get_off_alerts/" class="next">
+			            <div class="label">
+			            	Next
+			            </div>
+			            <div class="title">
+			            	Get off alerts
+			            </div>
+			        </a>
+			    </div>
+	</div>
+</div>
+		<footer class="footer">
+	<div class="logo">
+		<img src="../img/tripgo-api-logo-mono.svg" alt="TripGo Logo" width="134" height="34">
+	</div>
+	<ul class="menu">
+		<li>
+			<a href="https://www.skedgo.com">SkedGo website</a>
+		</li>
+		<li>
+			<a href="https://skedgo.com/en/tripgo-api/pricing/">Pricing</a>
+		</li>
+		<li>
+			<a href="https://github.com/skedgo/tripgo-api/issues">Report issue</a>
+		</li>
+		<li>
+			<a href="mailto:api@tripgo.com">Email support</a>
+		</li>
+		<li>
+			<a href="http://slack.tripgo.com/">Slack community</a>
+		</li>
+	</ul>
+</footer>
+			<script>var base_url = '..';</script>
+			<script src="../js/app.min.js"></script>
+				<script src="../search/main.js"></script>
+</body>
+</html>

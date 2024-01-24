@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="../img/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#154c7b">
+		<meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#154c7b">
+		<title>SDK Reference - TripKit SDK for Android</title>
+			<link rel="stylesheet" href="../css/main.css">
+			<link rel="stylesheet" href="../css/superfences.css">
+			<link rel="stylesheet" href="../css/codehilite.css">
+			<link rel="stylesheet"
+				href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+			<![endif]--> 
+	</head>
+
+	<body >
+		<header class="navbar">
+	
+	<div class="search-container">
+		<a class="search" href="#"></a><div class="search-form" id="mkdocs_search_modal" tabindex="-1" raria-labelledby="Search Modal" aria-hidden="true">
+    <form role="form" class="container">
+        <div class="search-icon"></div>
+        <input type="text" class="search-field" placeholder="Type keyword..." id="mkdocs-search-query">
+    </form>
+    <div class="results-list">
+    	<div id="mkdocs-search-results" class="container"></div>
+    </div>
+</div>
+	</div>
+	
+	<div class="container-fluid">
+		<a class="logo" href="..">
+			<img src="../img/tripgo-api-logo-white.svg" alt="TripGo API Logo White" height="32" width="140">
+		</a>
+
+		<div class="divider"></div>
+		<a class="menu-toggle" type="button" href="#" aria-hidden="true">
+			<div class="bar-container">
+				<span class="bar-1"></span>
+				<span class="bar-2"></span>
+				<span class="bar-3"></span>
+			</div>
+		</a>
+		<div class="menu" aria-hidden="false">
+			
+				<ul>
+					
+						
+							<li class="">
+								<a href="..">Getting Started</a>
+							</li>
+						
+					
+						
+							<li>
+								<a href="#" class="dropdown">Guide</a>
+								<ul class="submenu">
+									
+										<li class="">
+											<a href="../tripkit_map_fragment/">TripKit Map Fragment</a>
+										</li>
+									
+										<li class="">
+											<a href="../search_location/">Location Search</a>
+										</li>
+									
+										<li class="">
+											<a href="../trip_results/">Trip Results</a>
+										</li>
+									
+										<li class="">
+											<a href="../stop_detail/">Service & Stop Detail</a>
+										</li>
+									
+										<li class="">
+											<a href="../routes_for_region/">Routes for region</a>
+										</li>
+									
+										<li class="">
+											<a href="../get_off_alerts/">Get off alerts</a>
+										</li>
+									
+										<li class="">
+											<a href="../view_controllers/">Viewcontroller</a>
+										</li>
+									
+								</ul>
+							</li>
+						
+					
+						
+							<li class="current">
+								<a href="./">SDK Reference</a>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="https://developer.tripgo.com">API</a>
+							</li>
+						
+					
+				</ul>
+			
+		</div>
+		
+	</div>
+	
+</header>
+
+		<div class="container -layout-3-9">
+				<div class="col" role="complementary"><div class="sidebar hidden-print affix" role="complementary" id="sidebar">
+	<div class="indicator"></div>
+    <ul class="nav sidenav">
+        <li class="main "><a href="#packages" class="active">Packages</a></li>
+        <li class="main "><a href="#index" class="">Index</a></li>
+    </ul>
+</div></div>
+				<div class="col content" role="main">
+
+<p><a href="./">tripkit-android</a></p>
+<h3 id="packages">Packages</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="com.skedgo/">com.skedgo</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.geocoding/">com.skedgo.geocoding</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.geocoding.agregator/">com.skedgo.geocoding.agregator</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.rxtry/">com.skedgo.rxtry</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit/">com.skedgo.tripkit</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.a2brouting/">com.skedgo.tripkit.a2brouting</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.agenda/">com.skedgo.tripkit.agenda</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.alerts/">com.skedgo.tripkit.alerts</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.analytics/">com.skedgo.tripkit.analytics</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.android/">com.skedgo.tripkit.android</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.bookingproviders/">com.skedgo.tripkit.bookingproviders</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.common/">com.skedgo.tripkit.common</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.common.agenda/">com.skedgo.tripkit.common.agenda</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.common.model/">com.skedgo.tripkit.common.model</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.common.util/">com.skedgo.tripkit.common.util</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.configuration/">com.skedgo.tripkit.configuration</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.connectivity/">com.skedgo.tripkit.data.connectivity</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.database/">com.skedgo.tripkit.data.database</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.database.locations.bikepods/">com.skedgo.tripkit.data.database.locations.bikepods</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.database.locations.carparks/">com.skedgo.tripkit.data.database.locations.carparks</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.database.locations.carpods/">com.skedgo.tripkit.data.database.locations.carpods</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.database.locations.onstreetparking/">com.skedgo.tripkit.data.database.locations.onstreetparking</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.database.stops/">com.skedgo.tripkit.data.database.stops</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.database.timetables/">com.skedgo.tripkit.data.database.timetables</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.datetime/">com.skedgo.tripkit.data.datetime</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.locations/">com.skedgo.tripkit.data.locations</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.regions/">com.skedgo.tripkit.data.regions</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.routingstatus/">com.skedgo.tripkit.data.routingstatus</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.tsp/">com.skedgo.tripkit.data.tsp</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.data.util/">com.skedgo.tripkit.data.util</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.datetime/">com.skedgo.tripkit.datetime</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.geocoding/">com.skedgo.tripkit.geocoding</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.location/">com.skedgo.tripkit.location</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.locations/">com.skedgo.tripkit.locations</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.logging/">com.skedgo.tripkit.logging</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.parkingspots/">com.skedgo.tripkit.parkingspots</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.parkingspots.models/">com.skedgo.tripkit.parkingspots.models</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.routing/">com.skedgo.tripkit.routing</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.routingstatus/">com.skedgo.tripkit.routingstatus</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.scope/">com.skedgo.tripkit.scope</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.time/">com.skedgo.tripkit.time</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.tsp/">com.skedgo.tripkit.tsp</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui/">com.skedgo.tripkit.ui</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.booking/">com.skedgo.tripkit.ui.booking</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.core/">com.skedgo.tripkit.ui.core</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.core.binding/">com.skedgo.tripkit.ui.core.binding</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.core.modeprefs/">com.skedgo.tripkit.ui.core.modeprefs</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.core.permissions/">com.skedgo.tripkit.ui.core.permissions</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.core.rxlifecyclecomponents/">com.skedgo.tripkit.ui.core.rxlifecyclecomponents</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.core.rxproperty/">com.skedgo.tripkit.ui.core.rxproperty</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.creditsources/">com.skedgo.tripkit.ui.creditsources</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.data/">com.skedgo.tripkit.ui.data</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.dialog/">com.skedgo.tripkit.ui.dialog</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.geocoding/">com.skedgo.tripkit.ui.geocoding</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.locationhelper/">com.skedgo.tripkit.ui.locationhelper</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.map/">com.skedgo.tripkit.ui.map</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.map.adapter/">com.skedgo.tripkit.ui.map.adapter</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.map.home/">com.skedgo.tripkit.ui.map.home</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.map.servicestop/">com.skedgo.tripkit.ui.map.servicestop</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.model/">com.skedgo.tripkit.ui.model</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.provider/">com.skedgo.tripkit.ui.provider</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.realtime/">com.skedgo.tripkit.ui.realtime</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.routeinput/">com.skedgo.tripkit.ui.routeinput</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.routing/">com.skedgo.tripkit.ui.routing</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.routing.settings/">com.skedgo.tripkit.ui.routing.settings</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.search/">com.skedgo.tripkit.ui.search</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.servicedetail/">com.skedgo.tripkit.ui.servicedetail</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.timetables/">com.skedgo.tripkit.ui.timetables</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.timetables.data/">com.skedgo.tripkit.ui.timetables.data</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.timetables.domain/">com.skedgo.tripkit.ui.timetables.domain</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.trip/">com.skedgo.tripkit.ui.trip</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.trip.details.viewmodel/">com.skedgo.tripkit.ui.trip.details.viewmodel</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.trip.options/">com.skedgo.tripkit.ui.trip.options</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.tripresult/">com.skedgo.tripkit.ui.tripresult</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.tripresults/">com.skedgo.tripkit.ui.tripresults</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.utils/">com.skedgo.tripkit.ui.utils</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="com.skedgo.tripkit.ui.views/">com.skedgo.tripkit.ui.views</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="skedgo.tripgo.agenda.legacy/">skedgo.tripgo.agenda.legacy</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="skedgo.tripgo.data.timetables/">skedgo.tripgo.data.timetables</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="skedgo.tripgo.parkingspots.models/">skedgo.tripgo.parkingspots.models</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="index">Index</h3>
+<p><a href="alltypes/">All Types</a></p></div>
+		</div>
+		<div class="navbar-bottom" role="navigation">
+	<div class="container -layout-6-6">
+			    <div class="col">
+			        <a rel="next"  href="../view_controllers/"  class="prev">
+			            <div class="label">
+			            	Previous
+			            </div>
+			            <div class="title">
+			            	Viewcontroller
+			            </div>
+			        </a>
+			    </div>
+			    <div class="disabled col">
+			        <a rel="prev"  class="next">
+			            <div class="label">
+			            	Next
+			            </div>
+			            <div class="title">
+			            	
+			            </div>
+			        </a>
+			    </div>
+	</div>
+</div>
+		<footer class="footer">
+	<div class="logo">
+		<img src="../img/tripgo-api-logo-mono.svg" alt="TripGo Logo" width="134" height="34">
+	</div>
+	<ul class="menu">
+		<li>
+			<a href="https://www.skedgo.com">SkedGo website</a>
+		</li>
+		<li>
+			<a href="https://skedgo.com/en/tripgo-api/pricing/">Pricing</a>
+		</li>
+		<li>
+			<a href="https://github.com/skedgo/tripgo-api/issues">Report issue</a>
+		</li>
+		<li>
+			<a href="mailto:api@tripgo.com">Email support</a>
+		</li>
+		<li>
+			<a href="http://slack.tripgo.com/">Slack community</a>
+		</li>
+	</ul>
+</footer>
+			<script>var base_url = '..';</script>
+			<script src="../js/app.min.js"></script>
+				<script src="../search/main.js"></script>
+</body>
+</html>

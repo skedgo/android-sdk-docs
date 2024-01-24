@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="../../../img/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../../../img/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../../../img/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../../../img/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../../../img/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../../../img/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../../../img/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../../../img/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../../../img/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="../../../img/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../../../img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../../../img/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../../../img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="../../../img/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#154c7b">
+		<meta name="msapplication-TileImage" content="../../../img/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#154c7b">
+		<title>Index - TripKit SDK for Android</title>
+			<link rel="stylesheet" href="../../../css/main.css">
+			<link rel="stylesheet" href="../../../css/superfences.css">
+			<link rel="stylesheet" href="../../../css/codehilite.css">
+			<link rel="stylesheet"
+				href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+			<![endif]--> 
+	</head>
+
+	<body >
+		<header class="navbar">
+	
+	<div class="search-container">
+		<a class="search" href="#"></a><div class="search-form" id="mkdocs_search_modal" tabindex="-1" raria-labelledby="Search Modal" aria-hidden="true">
+    <form role="form" class="container">
+        <div class="search-icon"></div>
+        <input type="text" class="search-field" placeholder="Type keyword..." id="mkdocs-search-query">
+    </form>
+    <div class="results-list">
+    	<div id="mkdocs-search-results" class="container"></div>
+    </div>
+</div>
+	</div>
+	
+	<div class="container-fluid">
+		<a class="logo" href="../../..">
+			<img src="../../../img/tripgo-api-logo-white.svg" alt="TripGo API Logo White" height="32" width="140">
+		</a>
+
+		<div class="divider"></div>
+		<a class="menu-toggle" type="button" href="#" aria-hidden="true">
+			<div class="bar-container">
+				<span class="bar-1"></span>
+				<span class="bar-2"></span>
+				<span class="bar-3"></span>
+			</div>
+		</a>
+		<div class="menu" aria-hidden="false">
+			
+				<ul>
+					
+						
+							<li class="">
+								<a href="../../..">Getting Started</a>
+							</li>
+						
+					
+						
+							<li>
+								<a href="#" class="dropdown">Guide</a>
+								<ul class="submenu">
+									
+										<li class="">
+											<a href="../../../tripkit_map_fragment/">TripKit Map Fragment</a>
+										</li>
+									
+										<li class="">
+											<a href="../../../search_location/">Location Search</a>
+										</li>
+									
+										<li class="">
+											<a href="../../../trip_results/">Trip Results</a>
+										</li>
+									
+										<li class="">
+											<a href="../../../stop_detail/">Service & Stop Detail</a>
+										</li>
+									
+										<li class="">
+											<a href="../../../routes_for_region/">Routes for region</a>
+										</li>
+									
+										<li class="">
+											<a href="../../../get_off_alerts/">Get off alerts</a>
+										</li>
+									
+										<li class="">
+											<a href="../../../view_controllers/">Viewcontroller</a>
+										</li>
+									
+								</ul>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="../../">SDK Reference</a>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="https://developer.tripgo.com">API</a>
+							</li>
+						
+					
+				</ul>
+			
+		</div>
+		
+	</div>
+	
+</header>
+
+		<div class="container -layout-3-9">
+				<div class="col" role="complementary"><div class="sidebar hidden-print affix" role="complementary" id="sidebar">
+	<div class="indicator"></div>
+    <ul class="nav sidenav">
+        <li class="main "><a href="#location" class="active">Location</a></li>
+            <li><a href="#constructors" class="">Constructors</a></li>
+            <li><a href="#properties" class="">Properties</a></li>
+            <li><a href="#functions" class="">Functions</a></li>
+            <li><a href="#extension-properties" class="">Extension Properties</a></li>
+            <li><a href="#extension-functions" class="">Extension Functions</a></li>
+            <li><a href="#inheritors" class="">Inheritors</a></li>
+    </ul>
+</div></div>
+				<div class="col content" role="main">
+
+<p><a href="../../">tripkit-android</a> / <a href="../">com.skedgo.tripkit.common.model</a> / <a href="./">Location</a></p>
+<h1 id="location">Location</h1>
+<p><code>open class Location : Parcelable</code></p>
+<h3 id="constructors">Constructors</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="-init-/">&lt;init&gt;</a></td>
+<td><code>Location()</code><br><code>Location(other:</code><a href="./"><code>Location</code></a><code>!)</code><br><code>Location(lat:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a><code>, lon:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a><code>)</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="-c-r-e-a-t-o-r/">CREATOR</a></td>
+<td><code>static val CREATOR: Creator&lt;</code><a href="./"><code>Location</code></a><code>!&gt;!</code></td>
+</tr>
+<tr>
+<td><a href="-f-o-u-r-s-q-u-a-r-e/">FOURSQUARE</a></td>
+<td><code>static val FOURSQUARE:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a></td>
+</tr>
+<tr>
+<td><a href="-g-o-o-g-l-e/">GOOGLE</a></td>
+<td><code>static val GOOGLE:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a></td>
+</tr>
+<tr>
+<td><a href="-l-o-c-a-l/">LOCAL</a></td>
+<td><code>static val LOCAL:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a></td>
+</tr>
+<tr>
+<td><a href="m-average-rating/">mAverageRating</a></td>
+<td><code>var mAverageRating:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html"><code>Float</code></a></td>
+</tr>
+<tr>
+<td><a href="m-favourite-sort-order-index/">mFavouriteSortOrderIndex</a></td>
+<td><code>var mFavouriteSortOrderIndex:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="m-id/">mId</a></td>
+<td><code>var mId:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a></td>
+</tr>
+<tr>
+<td><a href="m-is-favourite/">mIsFavourite</a></td>
+<td><code>var mIsFavourite:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+<tr>
+<td><a href="m-location-type/">mLocationType</a></td>
+<td><code>var mLocationType:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="m-rating-count/">mRatingCount</a></td>
+<td><code>var mRatingCount:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="m-rating-image-url/">mRatingImageUrl</a></td>
+<td><code>var mRatingImageUrl:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="m-source/">mSource</a></td>
+<td><code>var mSource:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="-n-o_-b-e-a-r-i-n-g/">NO_BEARING</a></td>
+<td><code>static val NO_BEARING:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="-t-r-i-p-g-o/">TRIPGO</a></td>
+<td>Source<code>static val TRIPGO:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a></td>
+</tr>
+<tr>
+<td><a href="-t-y-p-e_-c-a-l-e-n-d-a-r/">TYPE_CALENDAR</a></td>
+<td>Location comes from users calendar<code>static val TYPE_CALENDAR:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="-t-y-p-e_-c-o-n-t-a-c-t/">TYPE_CONTACT</a></td>
+<td>Location comes from a contact in the users address book<code>static val TYPE_CONTACT:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="-t-y-p-e_-h-i-s-t-o-r-y/">TYPE_HISTORY</a></td>
+<td>Location comes from previous search/geocoding history or long-pressed<code>static val TYPE_HISTORY:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="-t-y-p-e_-h-o-m-e/">TYPE_HOME</a></td>
+<td>Location is info from the users personal contact card (home/work address etc)<code>static val TYPE_HOME:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="-t-y-p-e_-p-e-r-s-o-n-a-l/">TYPE_PERSONAL</a></td>
+<td>Location is info from the users personal contact card (home/work address etc)<code>static val TYPE_PERSONAL:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="-t-y-p-e_-s-c-h-e-d-u-l-e-d_-s-t-o-p/">TYPE_SCHEDULED_STOP</a></td>
+<td>The location is a scheduled stop<code>static val TYPE_SCHEDULED_STOP:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="-t-y-p-e_-s-e-r-v-i-c-e_-s-t-o-p/">TYPE_SERVICE_STOP</a></td>
+<td>Location is a stop on a user's trip<code>static val TYPE_SERVICE_STOP:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="-t-y-p-e_-u-n-k-n-o-w-n/">TYPE_UNKNOWN</a></td>
+<td>No known location type<code>static val TYPE_UNKNOWN:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="-t-y-p-e_-w3-w/">TYPE_W3W</a></td>
+<td>What3Words type<code>static val TYPE_W3W:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="-t-y-p-e_-w-o-r-k/">TYPE_WORK</a></td>
+<td><code>static val TYPE_WORK:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="-z-e-r-o_-l-a-t/">ZERO_LAT</a></td>
+<td><code>static val ZERO_LAT:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a></td>
+</tr>
+<tr>
+<td><a href="-z-e-r-o_-l-o-n/">ZERO_LON</a></td>
+<td><code>static val ZERO_LON:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="functions">Functions</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="describe-contents/">describeContents</a></td>
+<td><code>open fun describeContents():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="distance-to/">distanceTo</a></td>
+<td><code>open fun distanceTo(location:</code><a href="./"><code>Location</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a><br>Get the distance between this and another point <code>open fun distanceTo(lat:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a><code>, lon:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="equals/">equals</a></td>
+<td><code>open fun equals(other:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><code>Any</code></a><code>?):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+<tr>
+<td><a href="equals-by-lat-lon/">equalsByLatLon</a></td>
+<td><code>open fun equalsByLatLon(_loc:</code><a href="./"><code>Location</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+<tr>
+<td><a href="fill-from/">fillFrom</a></td>
+<td><code>open fun fillFrom(other:</code><a href="./"><code>Location</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="get-address/">getAddress</a></td>
+<td><code>open fun getAddress():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-average-rating/">getAverageRating</a></td>
+<td><code>open fun getAverageRating():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html"><code>Float</code></a></td>
+</tr>
+<tr>
+<td><a href="get-bearing/">getBearing</a></td>
+<td><code>open fun getBearing():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="get-bearing-to/">getBearingTo</a></td>
+<td><code>open fun getBearingTo(other:</code><a href="./"><code>Location</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a><br><code>open fun getBearingTo(lat:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a><code>, lon:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a></td>
+</tr>
+<tr>
+<td><a href="get-coordinate-string/">getCoordinateString</a></td>
+<td><code>open fun getCoordinateString():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-display-address/">getDisplayAddress</a></td>
+<td><code>open fun getDisplayAddress():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-display-name/">getDisplayName</a></td>
+<td>To present a human-readable name of a location. Invoke this if we want to present a location to users (e.g, a pin on a map, location of an event).<code>open fun getDisplayName():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-favourite-sort-order-index/">getFavouriteSortOrderIndex</a></td>
+<td><code>open fun getFavouriteSortOrderIndex():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="get-id/">getId</a></td>
+<td><code>open fun getId():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a></td>
+</tr>
+<tr>
+<td><a href="get-last-updated-time/">getLastUpdatedTime</a></td>
+<td><code>open fun getLastUpdatedTime():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a></td>
+</tr>
+<tr>
+<td><a href="get-lat/">getLat</a></td>
+<td><code>open fun getLat():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a></td>
+</tr>
+<tr>
+<td><a href="get-location-class/">getLocationClass</a></td>
+<td><code>open fun getLocationClass():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>?</code></td>
+</tr>
+<tr>
+<td><a href="get-location-type/">getLocationType</a></td>
+<td><code>open fun getLocationType():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="get-lon/">getLon</a></td>
+<td><code>open fun getLon():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a></td>
+</tr>
+<tr>
+<td><a href="get-name/">getName</a></td>
+<td><code>open fun getName():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-name-or-approximate-address/">getNameOrApproximateAddress</a></td>
+<td><code>open fun getNameOrApproximateAddress():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-phone-number/">getPhoneNumber</a></td>
+<td><code>open fun getPhoneNumber():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-popularity/">getPopularity</a></td>
+<td><code>open fun getPopularity():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="get-rating-count/">getRatingCount</a></td>
+<td><code>open fun getRatingCount():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="get-rating-image-url/">getRatingImageUrl</a></td>
+<td><code>open fun getRatingImageUrl():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-source/">getSource</a></td>
+<td><code>open fun getSource():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-url/">getUrl</a></td>
+<td><code>open fun getUrl():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-w3w/">getW3w</a></td>
+<td><code>open fun getW3w():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-w3w-info-u-r-l/">getW3wInfoURL</a></td>
+<td><code>open fun getW3wInfoURL():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="has-valid-coordinates/">hasValidCoordinates</a></td>
+<td><code>open fun hasValidCoordinates():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+<tr>
+<td><a href="is-approximately-at/">isApproximatelyAt</a></td>
+<td><code>open fun isApproximatelyAt(other:</code><a href="./"><code>Location</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a><br><code>open fun isApproximatelyAt(lat:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a><code>, lon:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+<tr>
+<td><a href="is-exact/">isExact</a></td>
+<td><code>open fun isExact():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+<tr>
+<td><a href="is-favourite/">isFavourite</a></td>
+<td><code>open fun isFavourite():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a><br><code>open fun isFavourite(favourite:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="is-loosely-approximately-at/">isLooselyApproximatelyAt</a></td>
+<td><code>open fun isLooselyApproximatelyAt(other:</code><a href="./"><code>Location</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+<tr>
+<td><a href="is-non-zero-location/">isNonZeroLocation</a></td>
+<td><code>open fun isNonZeroLocation():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+<tr>
+<td><a href="is-valid-location/">isValidLocation</a></td>
+<td><code>open static fun isValidLocation(loc:</code><a href="./"><code>Location</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+<tr>
+<td><a href="round/">round</a></td>
+<td><code>open fun round(d:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a></td>
+</tr>
+<tr>
+<td><a href="set-address/">setAddress</a></td>
+<td><code>open fun setAddress(address:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-average-rating/">setAverageRating</a></td>
+<td><code>open fun setAverageRating(averageRating:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html"><code>Float</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-bearing/">setBearing</a></td>
+<td><code>open fun setBearing(bearing:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-exact/">setExact</a></td>
+<td><code>open fun setExact(exact:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-favourite-sort-order-index/">setFavouriteSortOrderIndex</a></td>
+<td><code>open fun setFavouriteSortOrderIndex(favouriteSortOrderIndex:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-id/">setId</a></td>
+<td><code>open fun setId(id:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-last-updated-time/">setLastUpdatedTime</a></td>
+<td><code>open fun setLastUpdatedTime(lastUpdatedTime:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-lat/">setLat</a></td>
+<td><code>open fun setLat(lat:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-location-class/">setLocationClass</a></td>
+<td><code>open fun setLocationClass(locationClass:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-location-type/">setLocationType</a></td>
+<td><code>open fun setLocationType(type:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-lon/">setLon</a></td>
+<td><code>open fun setLon(lon:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><code>Double</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-name/">setName</a></td>
+<td><code>open fun setName(name:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-phone-number/">setPhoneNumber</a></td>
+<td><code>open fun setPhoneNumber(phoneNumber:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-popularity/">setPopularity</a></td>
+<td><code>open fun setPopularity(popularity:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-rating-count/">setRatingCount</a></td>
+<td><code>open fun setRatingCount(ratingCount:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-rating-image-url/">setRatingImageUrl</a></td>
+<td><code>open fun setRatingImageUrl(ratingImageUrl:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-source/">setSource</a></td>
+<td><code>open fun setSource(source:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-time-zone/">setTimeZone</a></td>
+<td>NOTE: You should only use this setter for testing purpose.<code>open fun setTimeZone(timeZone:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>?):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-url/">setUrl</a></td>
+<td><code>open fun setUrl(url:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-w3w/">setW3w</a></td>
+<td><code>open fun setW3w(w3w:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-w3w-info-u-r-l/">setW3wInfoURL</a></td>
+<td><code>open fun setW3wInfoURL(w3wInfoURL:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="write-to-parcel/">writeToParcel</a></td>
+<td><code>open fun writeToParcel(out: Parcel!, flags:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="extension-properties">Extension Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../com.skedgo.tripkit.routing/date-time-zone/">dateTimeZone</a></td>
+<td><code>val</code><a href="./"><code>Location</code></a><code>.dateTimeZone: DateTimeZone</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="extension-functions">Extension Functions</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../com.skedgo.tripkit.routing/is-near/">isNear</a></td>
+<td><code>fun</code><a href="./"><code>Location</code></a><code>.isNear(location:</code><a href="./"><code>Location</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="inheritors">Inheritors</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../-scheduled-stop/">ScheduledStop</a></td>
+<td><code>open class ScheduledStop :</code><a href="./"><code>Location</code></a></td>
+</tr>
+<tr>
+<td><a href="../-service-stop/">ServiceStop</a></td>
+<td>Represents a future stop of a service in a trip.<code>open class ServiceStop :</code><a href="./"><code>Location</code></a><code>,</code><a href="../-wheelchair-accessible/"><code>WheelchairAccessible</code></a></td>
+</tr>
+</tbody>
+</table></div>
+		</div>
+		<div class="navbar-bottom" role="navigation">
+	<div class="container -layout-6-6">
+	</div>
+</div>
+		<footer class="footer">
+	<div class="logo">
+		<img src="../../../img/tripgo-api-logo-mono.svg" alt="TripGo Logo" width="134" height="34">
+	</div>
+	<ul class="menu">
+		<li>
+			<a href="https://www.skedgo.com">SkedGo website</a>
+		</li>
+		<li>
+			<a href="https://skedgo.com/en/tripgo-api/pricing/">Pricing</a>
+		</li>
+		<li>
+			<a href="https://github.com/skedgo/tripgo-api/issues">Report issue</a>
+		</li>
+		<li>
+			<a href="mailto:api@tripgo.com">Email support</a>
+		</li>
+		<li>
+			<a href="http://slack.tripgo.com/">Slack community</a>
+		</li>
+	</ul>
+</footer>
+			<script>var base_url = '../../..';</script>
+			<script src="../../../js/app.min.js"></script>
+				<script src="../../../search/main.js"></script>
+</body>
+</html>
