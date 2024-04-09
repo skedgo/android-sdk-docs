@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="../img/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#154c7b">
+		<meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#154c7b">
+		<title>Get off alerts - TripKit SDK for Android</title>
+			<link rel="stylesheet" href="../css/main.css">
+			<link rel="stylesheet" href="../css/superfences.css">
+			<link rel="stylesheet" href="../css/codehilite.css">
+			<link rel="stylesheet"
+				href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+			<![endif]--> 
+	</head>
+
+	<body >
+		<header class="navbar">
+	
+	<div class="search-container">
+		<a class="search" href="#"></a><div class="search-form" id="mkdocs_search_modal" tabindex="-1" raria-labelledby="Search Modal" aria-hidden="true">
+    <form role="form" class="container">
+        <div class="search-icon"></div>
+        <input type="text" class="search-field" placeholder="Type keyword..." id="mkdocs-search-query">
+    </form>
+    <div class="results-list">
+    	<div id="mkdocs-search-results" class="container"></div>
+    </div>
+</div>
+	</div>
+	
+	<div class="container-fluid">
+		<a class="logo" href="..">
+			<img src="../img/tripgo-api-logo-white.svg" alt="TripGo API Logo White" height="32" width="140">
+		</a>
+
+		<div class="divider"></div>
+		<a class="menu-toggle" type="button" href="#" aria-hidden="true">
+			<div class="bar-container">
+				<span class="bar-1"></span>
+				<span class="bar-2"></span>
+				<span class="bar-3"></span>
+			</div>
+		</a>
+		<div class="menu" aria-hidden="false">
+			
+				<ul>
+					
+						
+							<li class="">
+								<a href="..">Getting Started</a>
+							</li>
+						
+					
+						
+							<li>
+								<a href="#" class="dropdown">Guide</a>
+								<ul class="submenu">
+									
+										<li class="">
+											<a href="../tripkit_map_fragment/">TripKit Map Fragment</a>
+										</li>
+									
+										<li class="">
+											<a href="../search_location/">Location Search</a>
+										</li>
+									
+										<li class="">
+											<a href="../trip_results/">Trip Results</a>
+										</li>
+									
+										<li class="">
+											<a href="../stop_detail/">Service & Stop Detail</a>
+										</li>
+									
+										<li class="">
+											<a href="../routes_for_region/">Routes for region</a>
+										</li>
+									
+										<li class="current">
+											<a href="./">Get off alerts</a>
+										</li>
+									
+										<li class="">
+											<a href="../view_controllers/">Viewcontroller</a>
+										</li>
+									
+								</ul>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="../tripkit-android/">SDK Reference</a>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="https://developer.tripgo.com">API</a>
+							</li>
+						
+					
+				</ul>
+			
+		</div>
+		
+	</div>
+	
+</header>
+
+		<div class="container -layout-3-9">
+				<div class="col" role="complementary"><div class="sidebar hidden-print affix" role="complementary" id="sidebar">
+	<div class="indicator"></div>
+    <ul class="nav sidenav">
+        <li class="main "><a href="#permissions" class="active">Permissions</a></li>
+        <li class="main "><a href="#get-off-alerts-enabledisable-state-for-a-trip" class="">Get off alerts enable/disable state for a trip</a></li>
+        <li class="main "><a href="#geolocation" class="">GeoLocation</a></li>
+        <li class="main "><a href="#alert-for-trip-start" class="">Alert for trip start</a></li>
+    </ul>
+</div></div>
+				<div class="col content" role="main">
+
+<h2 id="permissions">Permissions</h2>
+<p>You first need to ask user's to allow the permissions below:
+<pre class="codehilite"><code>android.Manifest.permission.ACCESS_FINE_LOCATION,
+android.Manifest.permission.ACCESS_BACKGROUND_LOCATION</code></pre></p>
+<h2 id="get-off-alerts-enabledisable-state-for-a-trip">Get off alerts enable/disable state for a trip</h2>
+<p>You can use <a href="../tripkit-android/com.skedgo.tripkit.routing/-get-off-alerts-cache/"><code>GetOffAlertCache</code></a> to save get off alerts feature enable/disable state (or you can use your own) by your trip identifier.</p>
+<p><strong>Initialize class with application context</strong></p>
+<pre class="codehilite"><code>GetOffAlertCache.INSTANCE.init(applicationContext);</code></pre>
+<p><strong>Set get off alert state for a trip</strong></p>
+<pre class="codehilite"><code>fun setTripAlertOnState(tripUuid: String, onState: Boolean)</code></pre>
+<blockquote>
+<p><strong>Parameters</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tripUuid</td>
+<td>String</td>
+<td>Yes</td>
+<td>Your trip unique identifier</td>
+</tr>
+<tr>
+<td>onState</td>
+<td>Boolean</td>
+<td>Yes</td>
+<td>enable/disable state</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Sample</strong></p>
+</blockquote>
+<pre class="codehilite"><code>GetOffAlertCache.setTripAlertOnState("your_trip_identifier", true)</code></pre>
+<p><strong>Get get off alert state for a trip</strong></p>
+<pre class="codehilite"><code>fun isTripAlertStateOn(tripUuid: String): Boolean</code></pre>
+<blockquote>
+<p><strong>Parameters</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tripUuid</td>
+<td>String</td>
+<td>Yes</td>
+<td>Your trip unique identifier</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Response</strong></p>
+</blockquote>
+<p>Boolean - the enable/disable state of get off alert for the specified trip</p>
+<h2 id="geolocation"><a href="../tripkit-android/com.skedgo.tripkit.routing/-geolocation/"><code>GeoLocation</code></a></h2>
+<p>This class handles the creation and removal of geofences for the trip segments when alerts are enabled</p>
+<p><strong>Add receiver on your project's Manifest.xml</strong>
+<pre class="codehilite"><code>&lt;receiver
+    android:name=".routing.GeofenceBroadcastReceiver"
+    android:enabled="true"
+    android:exported="true"&gt;
+    &lt;intent-filter&gt;
+        &lt;action android:name="com.skedgo.tripkit.routing.GeofenceBroadcastReceiver.ACTION_GEOFENCE_EVENT" /&gt;
+    &lt;/intent-filter&gt;
+&lt;/receiver&gt;</code></pre></p>
+<p><strong>Initialize class with application context</strong></p>
+<pre class="codehilite"><code class="language-java">GeoLocation.INSTANCE.init(applicationContext)</code></pre>
+<pre class="codehilite"><code class="language-kotlin">GeoLocation.init(applicationContext)</code></pre>
+<p><strong>Create Geofences using <a href="../tripkit-android/com.skedgo.tripkit.routing/-geofence/"><code>Geofence</code></a> from <a href="../tripkit-android/com.skedgo.tripkit.routing/-trip-segment/"><code>TripSegment</code></a></strong></p>
+<pre class="codehilite"><code>fun createGeoFences(geofences: List&lt;Geofence&gt;)</code></pre>
+<blockquote>
+<p><strong>Parameters</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>geofences</td>
+<td>List&lt;<a href="../tripkit-android/com.skedgo.tripkit.routing/-geofence/"><code>Geofence</code></a>&gt;</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Sample</strong>
+<pre class="codehilite"><code>trip.segments?.mapNotNull { it.geofences }?.flatten()?.let { geofences -&gt;
+                        GeoLocation.createGeoFences(
+                                geofences.map { geofence -&gt;
+                                    geofence.computeAndSetTimeline(trip.endDateTime.millis)
+                                    geofence
+                                }
+                        )
+                    }</code></pre></p>
+</blockquote>
+<p><strong>Clear geofences</strong>
+<pre class="codehilite"><code>fun clearGeofences()</code></pre></p>
+<h2 id="alert-for-trip-start">Alert for trip start</h2>
+<p><strong>Add receiver on your project's Manifest.xml</strong>
+<pre class="codehilite"><code>&lt;receiver
+    android:name=".routing.TripAlarmBroadcastReceiver"
+    android:enabled="true"
+    android:exported="true"/&gt;</code></pre></p>
+<p>When get off alert is enabled for your trip, create an <a href="https://developer.android.com/reference/android/app/AlarmManager"><code>AlarmManager</code></a> instance using your <a href="../tripkit-android/com.skedgo.tripkit.routing/-trip/"><code>Trip</code></a>'s start <a href="../tripkit-android/com.skedgo.tripkit.routing/-trip-segment/"><code>segment</code></a></p>
+<pre class="codehilite"><code>trip.segments.minByOrNull { it.startTimeInSecs }?.let { startSegment -&gt;
+    val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
+    val startSegmentStartTimeInSecs = startSegment.startTimeInSecs
+
+    val alarmIntent = Intent(context, TripAlarmBroadcastReceiver::class.java)
+    alarmIntent.putExtra(TripAlarmBroadcastReceiver.ACTION_START_TRIP_EVENT, true)
+    alarmIntent.putExtra(TripAlarmBroadcastReceiver.EXTRA_START_TRIP_EVENT_TRIP, Gson().toJson(trip))
+
+    var pendingIntent = PendingIntent.getBroadcast(context, 0, alarmIntent, 0)
+}</code></pre>
+<p>then set the alarm trigger by time in milliseconds you want before the start of your <a href="../tripkit-android/com.skedgo.tripkit.routing/-trip/"><code>Trip</code></a>'s start <a href="../tripkit-android/com.skedgo.tripkit.routing/-trip-segment/"><code>segment</code></a></p>
+<pre class="codehilite"><code>alarmManager.set(
+    AlarmManager.RTC_WAKEUP,
+    (TimeUnit.SECONDS.toMillis(startSegmentStartTimeInSecs) - TimeUnit.MINUTES.toMillis(5)),
+    pendingIntent
+)</code></pre></div>
+		</div>
+		<div class="navbar-bottom" role="navigation">
+	<div class="container -layout-6-6">
+			    <div class="col">
+			        <a rel="next"  href="../routes_for_region/"  class="prev">
+			            <div class="label">
+			            	Previous
+			            </div>
+			            <div class="title">
+			            	Routes for region
+			            </div>
+			        </a>
+			    </div>
+			    <div class="col">
+			        <a rel="prev"  href="../view_controllers/" class="next">
+			            <div class="label">
+			            	Next
+			            </div>
+			            <div class="title">
+			            	Viewcontroller
+			            </div>
+			        </a>
+			    </div>
+	</div>
+</div>
+		<footer class="footer">
+	<div class="logo">
+		<img src="../img/tripgo-api-logo-mono.svg" alt="TripGo Logo" width="134" height="34">
+	</div>
+	<ul class="menu">
+		<li>
+			<a href="https://www.skedgo.com">SkedGo website</a>
+		</li>
+		<li>
+			<a href="https://skedgo.com/en/tripgo-api/pricing/">Pricing</a>
+		</li>
+		<li>
+			<a href="https://github.com/skedgo/tripgo-api/issues">Report issue</a>
+		</li>
+		<li>
+			<a href="mailto:api@tripgo.com">Email support</a>
+		</li>
+		<li>
+			<a href="http://slack.tripgo.com/">Slack community</a>
+		</li>
+	</ul>
+</footer>
+			<script>var base_url = '..';</script>
+			<script src="../js/app.min.js"></script>
+				<script src="../search/main.js"></script>
+</body>
+</html>

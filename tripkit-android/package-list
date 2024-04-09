@@ -1,0 +1,118 @@
+$dokka.format:gfm
+$dokka.linkExtension:md
+$dokka.location:com.skedgo.rxtry$toTry(io.reactivex.Observable((com.skedgo.rxtry.toTry.T)), kotlin.Function1((kotlin.Throwable, kotlin.Boolean)))com.skedgo.rxtry/io.reactivex.-observable/to-try.md
+$dokka.location:com.skedgo.rxtry$toTry(io.reactivex.Single((com.skedgo.rxtry.toTry.T)), kotlin.Function1((kotlin.Throwable, kotlin.Boolean)))com.skedgo.rxtry/io.reactivex.-single/to-try.md
+$dokka.location:com.skedgo.tripkit.a2brouting$toProfileWeight(kotlin.Int)com.skedgo.tripkit.a2brouting/kotlin.-int/to-profile-weight.md
+$dokka.location:com.skedgo.tripkit.android$refreshRegions(io.reactivex.Observable((com.skedgo.TripKit)))com.skedgo.tripkit.android/io.reactivex.-observable/refresh-regions.md
+$dokka.location:com.skedgo.tripkit.data.util$onChanged(android.content.SharedPreferences)com.skedgo.tripkit.data.util/android.content.-shared-preferences/on-changed.md
+$dokka.location:com.skedgo.tripkit.routing$from(kotlin.String)com.skedgo.tripkit.routing/kotlin.-string/from.md
+$dokka.location:com.skedgo.tripkit.routing$toAvailability(kotlin.String)com.skedgo.tripkit.routing/kotlin.-string/to-availability.md
+$dokka.location:com.skedgo.tripkit.routing$toOccupancy(kotlin.String)com.skedgo.tripkit.routing/kotlin.-string/to-occupancy.md
+$dokka.location:com.skedgo.tripkit.routing$toSeconds(org.joda.time.DateTime)com.skedgo.tripkit.routing/org.joda.time.-date-time/to-seconds.md
+$dokka.location:com.skedgo.tripkit.tsp$hasWheelChairInformation(com.skedgo.tripkit.data.tsp.RegionInfo)com.skedgo.tripkit.tsp/com.skedgo.tripkit.data.tsp.-region-info/has-wheel-chair-information.md
+$dokka.location:com.skedgo.tripkit.ui.core$afterMeasured(android.view.View)com.skedgo.tripkit.ui.core/android.view.-view/after-measured.md
+$dokka.location:com.skedgo.tripkit.ui.core$fetchAsync(com.squareup.picasso.Picasso, kotlin.String)com.skedgo.tripkit.ui.core/com.squareup.picasso.-picasso/fetch-async.md
+$dokka.location:com.skedgo.tripkit.ui.core$fetchAsyncWithSize(com.squareup.picasso.Picasso, kotlin.String, kotlin.Int)com.skedgo.tripkit.ui.core/com.squareup.picasso.-picasso/fetch-async-with-size.md
+$dokka.location:com.skedgo.tripkit.ui.core$filterNone(io.reactivex.Observable((com.gojuno.koptional.Optional((com.skedgo.tripkit.ui.core.filterNone.T)))))com.skedgo.tripkit.ui.core/io.reactivex.-observable/filter-none.md
+$dokka.location:com.skedgo.tripkit.ui.core$filterSome(io.reactivex.Observable((com.gojuno.koptional.Optional((com.skedgo.tripkit.ui.core.filterSome.T)))))com.skedgo.tripkit.ui.core/io.reactivex.-observable/filter-some.md
+$dokka.location:com.skedgo.tripkit.ui.core$isExecuting(io.reactivex.Observable((com.skedgo.tripkit.ui.core.isExecuting.T)), kotlin.Function1((kotlin.Boolean, kotlin.Unit)))com.skedgo.tripkit.ui.core/io.reactivex.-observable/is-executing.md
+$dokka.location:com.skedgo.tripkit.ui.core.permissions$dealWithNeverAskAgainDenial(android.app.Activity, kotlin.String)com.skedgo.tripkit.ui.core.permissions/android.app.-activity/deal-with-never-ask-again-denial.md
+$dokka.location:com.skedgo.tripkit.ui.core.permissions$findContentLayout(android.app.Activity)com.skedgo.tripkit.ui.core.permissions/android.app.-activity/find-content-layout.md
+$dokka.location:com.skedgo.tripkit.ui.core.permissions$showGenericRationale(android.app.Activity, kotlin.String, kotlin.String)com.skedgo.tripkit.ui.core.permissions/android.app.-activity/show-generic-rationale.md
+$dokka.location:com.skedgo.tripkit.ui.core.rxproperty$asObservable(androidx.databinding.ObservableBoolean)com.skedgo.tripkit.ui.core.rxproperty/androidx.databinding.-observable-boolean/as-observable.md
+$dokka.location:com.skedgo.tripkit.ui.core.rxproperty$asObservable(androidx.databinding.ObservableField((com.skedgo.tripkit.ui.core.rxproperty.asObservable.T)))com.skedgo.tripkit.ui.core.rxproperty/androidx.databinding.-observable-field/as-observable.md
+$dokka.location:com.skedgo.tripkit.ui.core.rxproperty$asObservable(androidx.databinding.ObservableInt)com.skedgo.tripkit.ui.core.rxproperty/androidx.databinding.-observable-int/as-observable.md
+$dokka.location:com.skedgo.tripkit.ui.core.rxproperty$asObservable(androidx.databinding.ObservableList((com.skedgo.tripkit.ui.core.rxproperty.asObservable.T)))com.skedgo.tripkit.ui.core.rxproperty/androidx.databinding.-observable-list/as-observable.md
+$dokka.location:com.skedgo.tripkit.ui.map$convertToDomainLatLngBounds(com.google.android.gms.maps.model.LatLngBounds)com.skedgo.tripkit.ui.map/com.google.android.gms.maps.model.-lat-lng-bounds/convert-to-domain-lat-lng-bounds.md
+$dokka.location:com.skedgo.tripkit.ui.map.home$ignoreOutOfRegionsException(io.reactivex.Observable((com.skedgo.tripkit.common.model.Region)))com.skedgo.tripkit.ui.map.home/io.reactivex.-observable/ignore-out-of-regions-exception.md
+$dokka.location:com.skedgo.tripkit.ui.routing$getVisibleGeoPointsOnMap(kotlin.collections.List((com.skedgo.tripkit.routing.TripSegment)))com.skedgo.tripkit.ui.routing/kotlin.collections.-list/get-visible-geo-points-on-map.md
+$dokka.location:com.skedgo.tripkit.ui.routing$updateCamera(com.google.android.gms.maps.GoogleMap, com.skedgo.tripkit.ui.tripresult.MapCameraUpdate)com.skedgo.tripkit.ui.routing/com.google.android.gms.maps.-google-map/update-camera.md
+$dokka.location:com.skedgo.tripkit.ui.routing.settings$toCyclingSpeed(kotlin.Int)com.skedgo.tripkit.ui.routing.settings/kotlin.-int/to-cycling-speed.md
+$dokka.location:com.skedgo.tripkit.ui.routing.settings$toWalkingSpeed(kotlin.Int)com.skedgo.tripkit.ui.routing.settings/kotlin.-int/to-walking-speed.md
+$dokka.location:com.skedgo.tripkit.ui.trip.details.viewmodel$getMostSevereAlert(kotlin.collections.List((com.skedgo.tripkit.common.model.RealtimeAlert)))com.skedgo.tripkit.ui.trip.details.viewmodel/kotlin.collections.-list/get-most-severe-alert.md
+$dokka.location:com.skedgo.tripkit.ui.tripresult$toCameraUpdate(com.google.android.gms.maps.model.LatLngBounds, kotlin.Int)com.skedgo.tripkit.ui.tripresult/com.google.android.gms.maps.model.-lat-lng-bounds/to-camera-update.md
+$dokka.location:com.skedgo.tripkit.ui.tripresult$toCameraUpdate(kotlin.collections.List((com.skedgo.tripkit.location.GeoPoint)))com.skedgo.tripkit.ui.tripresult/kotlin.collections.-list/to-camera-update.md
+$dokka.location:com.skedgo.tripkit.ui.utils$ignoreNetworkErrors(io.reactivex.Observable((com.skedgo.tripkit.ui.utils.ignoreNetworkErrors.T)))com.skedgo.tripkit.ui.utils/io.reactivex.-observable/ignore-network-errors.md
+$dokka.location:com.skedgo.tripkit.ui.utils$isNetworkConnected(android.content.Context)com.skedgo.tripkit.ui.utils/android.content.-context/is-network-connected.md
+$dokka.location:com.skedgo.tripkit.ui.utils$tint(android.graphics.drawable.Drawable, kotlin.Int)com.skedgo.tripkit.ui.utils/android.graphics.drawable.-drawable/tint.md
+$dokka.location:com.skedgo.tripkit.ui.utils$viewAppDetailsSettingsIntent(android.content.Context)com.skedgo.tripkit.ui.utils/android.content.-context/view-app-details-settings-intent.md
+com.skedgo
+com.skedgo.geocoding
+com.skedgo.geocoding.agregator
+com.skedgo.rxtry
+com.skedgo.tripkit
+com.skedgo.tripkit.a2brouting
+com.skedgo.tripkit.agenda
+com.skedgo.tripkit.alerts
+com.skedgo.tripkit.analytics
+com.skedgo.tripkit.android
+com.skedgo.tripkit.bookingproviders
+com.skedgo.tripkit.common
+com.skedgo.tripkit.common.agenda
+com.skedgo.tripkit.common.model
+com.skedgo.tripkit.common.util
+com.skedgo.tripkit.configuration
+com.skedgo.tripkit.data.connectivity
+com.skedgo.tripkit.data.database
+com.skedgo.tripkit.data.database.locations.bikepods
+com.skedgo.tripkit.data.database.locations.carparks
+com.skedgo.tripkit.data.database.locations.carpods
+com.skedgo.tripkit.data.database.locations.onstreetparking
+com.skedgo.tripkit.data.database.stops
+com.skedgo.tripkit.data.database.timetables
+com.skedgo.tripkit.data.datetime
+com.skedgo.tripkit.data.locations
+com.skedgo.tripkit.data.regions
+com.skedgo.tripkit.data.routingstatus
+com.skedgo.tripkit.data.tsp
+com.skedgo.tripkit.data.util
+com.skedgo.tripkit.datetime
+com.skedgo.tripkit.geocoding
+com.skedgo.tripkit.location
+com.skedgo.tripkit.locations
+com.skedgo.tripkit.logging
+com.skedgo.tripkit.parkingspots
+com.skedgo.tripkit.parkingspots.models
+com.skedgo.tripkit.routing
+com.skedgo.tripkit.routingstatus
+com.skedgo.tripkit.scope
+com.skedgo.tripkit.time
+com.skedgo.tripkit.tsp
+com.skedgo.tripkit.ui
+com.skedgo.tripkit.ui.booking
+com.skedgo.tripkit.ui.core
+com.skedgo.tripkit.ui.core.binding
+com.skedgo.tripkit.ui.core.modeprefs
+com.skedgo.tripkit.ui.core.permissions
+com.skedgo.tripkit.ui.core.rxlifecyclecomponents
+com.skedgo.tripkit.ui.core.rxproperty
+com.skedgo.tripkit.ui.creditsources
+com.skedgo.tripkit.ui.data
+com.skedgo.tripkit.ui.dialog
+com.skedgo.tripkit.ui.geocoding
+com.skedgo.tripkit.ui.locationhelper
+com.skedgo.tripkit.ui.map
+com.skedgo.tripkit.ui.map.adapter
+com.skedgo.tripkit.ui.map.home
+com.skedgo.tripkit.ui.map.servicestop
+com.skedgo.tripkit.ui.model
+com.skedgo.tripkit.ui.provider
+com.skedgo.tripkit.ui.realtime
+com.skedgo.tripkit.ui.routeinput
+com.skedgo.tripkit.ui.routing
+com.skedgo.tripkit.ui.routing.settings
+com.skedgo.tripkit.ui.search
+com.skedgo.tripkit.ui.servicedetail
+com.skedgo.tripkit.ui.timetables
+com.skedgo.tripkit.ui.timetables.data
+com.skedgo.tripkit.ui.timetables.domain
+com.skedgo.tripkit.ui.trip
+com.skedgo.tripkit.ui.trip.details.viewmodel
+com.skedgo.tripkit.ui.trip.options
+com.skedgo.tripkit.ui.tripresult
+com.skedgo.tripkit.ui.tripresults
+com.skedgo.tripkit.ui.utils
+com.skedgo.tripkit.ui.views
+skedgo.tripgo.agenda.legacy
+skedgo.tripgo.data.timetables
+skedgo.tripgo.parkingspots.models

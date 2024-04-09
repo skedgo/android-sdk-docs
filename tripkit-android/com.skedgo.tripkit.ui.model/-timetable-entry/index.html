@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="../../../img/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../../../img/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../../../img/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../../../img/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../../../img/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../../../img/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../../../img/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../../../img/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../../../img/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="../../../img/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../../../img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../../../img/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../../../img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="../../../img/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#154c7b">
+		<meta name="msapplication-TileImage" content="../../../img/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#154c7b">
+		<title>Index - TripKit SDK for Android</title>
+			<link rel="stylesheet" href="../../../css/main.css">
+			<link rel="stylesheet" href="../../../css/superfences.css">
+			<link rel="stylesheet" href="../../../css/codehilite.css">
+			<link rel="stylesheet"
+				href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+			<![endif]--> 
+	</head>
+
+	<body >
+		<header class="navbar">
+	
+	<div class="search-container">
+		<a class="search" href="#"></a><div class="search-form" id="mkdocs_search_modal" tabindex="-1" raria-labelledby="Search Modal" aria-hidden="true">
+    <form role="form" class="container">
+        <div class="search-icon"></div>
+        <input type="text" class="search-field" placeholder="Type keyword..." id="mkdocs-search-query">
+    </form>
+    <div class="results-list">
+    	<div id="mkdocs-search-results" class="container"></div>
+    </div>
+</div>
+	</div>
+	
+	<div class="container-fluid">
+		<a class="logo" href="../../..">
+			<img src="../../../img/tripgo-api-logo-white.svg" alt="TripGo API Logo White" height="32" width="140">
+		</a>
+
+		<div class="divider"></div>
+		<a class="menu-toggle" type="button" href="#" aria-hidden="true">
+			<div class="bar-container">
+				<span class="bar-1"></span>
+				<span class="bar-2"></span>
+				<span class="bar-3"></span>
+			</div>
+		</a>
+		<div class="menu" aria-hidden="false">
+			
+				<ul>
+					
+						
+							<li class="">
+								<a href="../../..">Getting Started</a>
+							</li>
+						
+					
+						
+							<li>
+								<a href="#" class="dropdown">Guide</a>
+								<ul class="submenu">
+									
+										<li class="">
+											<a href="../../../tripkit_map_fragment/">TripKit Map Fragment</a>
+										</li>
+									
+										<li class="">
+											<a href="../../../search_location/">Location Search</a>
+										</li>
+									
+										<li class="">
+											<a href="../../../trip_results/">Trip Results</a>
+										</li>
+									
+										<li class="">
+											<a href="../../../stop_detail/">Service & Stop Detail</a>
+										</li>
+									
+										<li class="">
+											<a href="../../../routes_for_region/">Routes for region</a>
+										</li>
+									
+										<li class="">
+											<a href="../../../get_off_alerts/">Get off alerts</a>
+										</li>
+									
+										<li class="">
+											<a href="../../../view_controllers/">Viewcontroller</a>
+										</li>
+									
+								</ul>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="../../">SDK Reference</a>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="https://developer.tripgo.com">API</a>
+							</li>
+						
+					
+				</ul>
+			
+		</div>
+		
+	</div>
+	
+</header>
+
+		<div class="container -layout-3-9">
+				<div class="col" role="complementary"><div class="sidebar hidden-print affix" role="complementary" id="sidebar">
+	<div class="indicator"></div>
+    <ul class="nav sidenav">
+        <li class="main "><a href="#timetableentry" class="active">TimetableEntry</a></li>
+            <li><a href="#constructors" class="">Constructors</a></li>
+            <li><a href="#properties" class="">Properties</a></li>
+            <li><a href="#functions" class="">Functions</a></li>
+            <li><a href="#extension-functions" class="">Extension Functions</a></li>
+    </ul>
+</div></div>
+				<div class="col content" role="main">
+
+<p><a href="../../">tripkit-android</a> / <a href="../">com.skedgo.tripkit.ui.model</a> / <a href="./">TimetableEntry</a></p>
+<h1 id="timetableentry">TimetableEntry</h1>
+<p><code>open class TimetableEntry : Parcelable,</code><a href="../../com.skedgo.tripkit.common.agenda/-i-real-time-element/"><code>IRealTimeElement</code></a><code>,</code><a href="../../com.skedgo.tripkit.common.model/-i-time-range/"><code>ITimeRange</code></a><code>,</code><a href="../../com.skedgo.tripkit.common.model/-wheelchair-accessible/"><code>WheelchairAccessible</code></a></p>
+<p>(Aka Service)</p>
+<h3 id="constructors">Constructors</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="-init-/">&lt;init&gt;</a></td>
+<td><code>TimetableEntry()</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="-c-r-e-a-t-o-r/">CREATOR</a></td>
+<td><code>static val CREATOR: Creator&lt;</code><a href="./"><code>TimetableEntry</code></a><code>!&gt;!</code></td>
+</tr>
+<tr>
+<td><a href="end-stop/">endStop</a></td>
+<td>For A2B-timetable-related stuff.<code>var endStop:</code><a href="../../com.skedgo.tripkit.common.model/-scheduled-stop/"><code>ScheduledStop</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="pair-identifier/">pairIdentifier</a></td>
+<td>For A2B-timetable-related stuff.<code>var pairIdentifier:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="start-stop/">startStop</a></td>
+<td>For A2B-timetable-related stuff.<code>var startStop:</code><a href="../../com.skedgo.tripkit.common.model/-scheduled-stop/"><code>ScheduledStop</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="stops/">stops</a></td>
+<td><code>val stops: Var&lt;</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><code>MutableList</code></a><code>&lt;</code><a href="../-stop-info/"><code>StopInfo</code></a><code>!&gt;!&gt;!</code></td>
+</tr>
+<tr>
+<td><a href="wheelchair-accessible/">wheelchairAccessible</a></td>
+<td><code>open val wheelchairAccessible:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a><code>?</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="functions">Functions</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="describe-contents/">describeContents</a></td>
+<td><code>open fun describeContents():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="get-alert-hash-codes/">getAlertHashCodes</a></td>
+<td><code>open fun getAlertHashCodes():</code><a href="https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html"><code>ArrayList</code></a><code>&lt;</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a><code>!&gt;?</code></td>
+</tr>
+<tr>
+<td><a href="get-alerts/">getAlerts</a></td>
+<td><code>open fun getAlerts():</code><a href="https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html"><code>ArrayList</code></a><code>&lt;</code><a href="../../com.skedgo.tripkit.common.model/-realtime-alert/"><code>RealtimeAlert</code></a><code>!&gt;!</code></td>
+</tr>
+<tr>
+<td><a href="get-end-stop-code/">getEndStopCode</a></td>
+<td><code>open fun getEndStopCode():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-end-time-in-secs/">getEndTimeInSecs</a></td>
+<td><code>open fun getEndTimeInSecs():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a></td>
+</tr>
+<tr>
+<td><a href="get-frequency/">getFrequency</a></td>
+<td><code>open fun getFrequency():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="get-id/">getId</a></td>
+<td><code>open fun getId():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a></td>
+</tr>
+<tr>
+<td><a href="get-mode-info/">getModeInfo</a></td>
+<td><code>open fun getModeInfo():</code><a href="../../com.skedgo.tripkit.routing/-mode-info/"><code>ModeInfo</code></a><code>?</code></td>
+</tr>
+<tr>
+<td><a href="get-operator/">getOperator</a></td>
+<td><code>open fun getOperator():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-real-time-arrival/">getRealTimeArrival</a></td>
+<td><code>open fun getRealTimeArrival():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="get-real-time-departure/">getRealTimeDeparture</a></td>
+<td><code>open fun getRealTimeDeparture():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a></td>
+</tr>
+<tr>
+<td><a href="get-real-time-status/">getRealTimeStatus</a></td>
+<td><code>open fun getRealTimeStatus():</code><a href="../../com.skedgo.tripkit.common.model/-real-time-status/"><code>RealTimeStatus</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-realtime-vehicle/">getRealtimeVehicle</a></td>
+<td><code>open fun getRealtimeVehicle():</code><a href="../../com.skedgo.tripkit.routing/-real-time-vehicle/"><code>RealTimeVehicle</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-search-string/">getSearchString</a></td>
+<td><code>open fun getSearchString():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-service-color/">getServiceColor</a></td>
+<td><code>open fun getServiceColor():</code><a href="../../com.skedgo.tripkit.routing/-service-color/"><code>ServiceColor</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-service-direction/">getServiceDirection</a></td>
+<td><code>open fun getServiceDirection():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>?</code></td>
+</tr>
+<tr>
+<td><a href="get-service-name/">getServiceName</a></td>
+<td><code>open fun getServiceName():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>?</code></td>
+</tr>
+<tr>
+<td><a href="get-service-number/">getServiceNumber</a></td>
+<td><code>open fun getServiceNumber():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>?</code></td>
+</tr>
+<tr>
+<td><a href="get-service-time/">getServiceTime</a></td>
+<td>In secs.<code>open fun getServiceTime():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a></td>
+</tr>
+<tr>
+<td><a href="get-service-trip-id/">getServiceTripId</a></td>
+<td><code>open fun getServiceTripId():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-start-stop-code/">getStartStopCode</a></td>
+<td><code>open fun getStartStopCode():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-start-stop-short-name/">getStartStopShortName</a></td>
+<td><code>open fun getStartStopShortName():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="get-start-time-in-secs/">getStartTimeInSecs</a></td>
+<td><code>open fun getStartTimeInSecs():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a></td>
+</tr>
+<tr>
+<td><a href="get-stop-code/">getStopCode</a></td>
+<td><code>open fun getStopCode():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!</code></td>
+</tr>
+<tr>
+<td><a href="has-alerts/">hasAlerts</a></td>
+<td><code>open fun hasAlerts():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+<tr>
+<td><a href="is-before/">isBefore</a></td>
+<td>For example, in order to determine a past service trip.<code>open fun isBefore(pointSecs:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+<tr>
+<td><a href="is-favourite/">isFavourite</a></td>
+<td><code>open fun isFavourite():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a><br><code>open fun isFavourite(isFavourite:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="is-frequency-based/">isFrequencyBased</a></td>
+<td><code>open fun isFrequencyBased():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a></td>
+</tr>
+<tr>
+<td><a href="set-alert-hash-codes/">setAlertHashCodes</a></td>
+<td><code>open fun setAlertHashCodes(alertHashCodes:</code><a href="https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html"><code>ArrayList</code></a><code>&lt;</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a><code>!&gt;?):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-alerts/">setAlerts</a></td>
+<td><code>open fun setAlerts(alerts:</code><a href="https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html"><code>ArrayList</code></a><code>&lt;</code><a href="../../com.skedgo.tripkit.common.model/-realtime-alert/"><code>RealtimeAlert</code></a><code>!&gt;!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-end-stop-code/">setEndStopCode</a></td>
+<td><code>open fun setEndStopCode(endStopCode:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-end-time-in-secs/">setEndTimeInSecs</a></td>
+<td><code>open fun setEndTimeInSecs(endTimeInSecs:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-frequency/">setFrequency</a></td>
+<td><code>open fun setFrequency(freq:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-id/">setId</a></td>
+<td><code>open fun setId(id:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-mode-info/">setModeInfo</a></td>
+<td><code>open fun setModeInfo(modeInfo:</code><a href="../../com.skedgo.tripkit.routing/-mode-info/"><code>ModeInfo</code></a><code>?):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-operator/">setOperator</a></td>
+<td><code>open fun setOperator(operator:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-real-time-arrival/">setRealTimeArrival</a></td>
+<td><code>open fun setRealTimeArrival(realTimeArrival:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-real-time-departure/">setRealTimeDeparture</a></td>
+<td><code>open fun setRealTimeDeparture(realTimeDeparture:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-real-time-status/">setRealTimeStatus</a></td>
+<td><code>open fun setRealTimeStatus(realTimeStatus:</code><a href="../../com.skedgo.tripkit.common.model/-real-time-status/"><code>RealTimeStatus</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-realtime-vehicle/">setRealtimeVehicle</a></td>
+<td><code>open fun setRealtimeVehicle(realtimeVehicle:</code><a href="../../com.skedgo.tripkit.routing/-real-time-vehicle/"><code>RealTimeVehicle</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-search-string/">setSearchString</a></td>
+<td><code>open fun setSearchString(searchString:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-service-color/">setServiceColor</a></td>
+<td><code>open fun setServiceColor(serviceColor:</code><a href="../../com.skedgo.tripkit.routing/-service-color/"><code>ServiceColor</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-service-direction/">setServiceDirection</a></td>
+<td><code>open fun setServiceDirection(serviceDirection:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-service-name/">setServiceName</a></td>
+<td><code>open fun setServiceName(serviceName:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-service-number/">setServiceNumber</a></td>
+<td><code>open fun setServiceNumber(serviceNumber:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-service-time/">setServiceTime</a></td>
+<td><code>open fun setServiceTime(serviceTime:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-service-trip-id/">setServiceTripId</a></td>
+<td><code>open fun setServiceTripId(serviceTripId:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-start-stop-code/">setStartStopCode</a></td>
+<td><code>open fun setStartStopCode(startStopCode:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-start-stop-short-name/">setStartStopShortName</a></td>
+<td><code>open fun setStartStopShortName(startStopShortName:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-start-time-in-secs/">setStartTimeInSecs</a></td>
+<td><code>open fun setStartTimeInSecs(startTimeInSecs:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-stop-code/">setStopCode</a></td>
+<td><code>open fun setStopCode(stopCode:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a><code>!):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="set-wheelchair-accessible/">setWheelchairAccessible</a></td>
+<td><code>open fun setWheelchairAccessible(wheelchairAccessible:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><code>Boolean</code></a><code>?):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+<tr>
+<td><a href="to-string/">toString</a></td>
+<td>For debug purpose only.<code>open fun toString():</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><code>String</code></a></td>
+</tr>
+<tr>
+<td><a href="write-to-parcel/">writeToParcel</a></td>
+<td><code>open fun writeToParcel(out: Parcel!, flags:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><code>Int</code></a><code>):</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><code>Unit</code></a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="extension-functions">Extension Functions</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../com.skedgo.tripkit.ui.timetables/get-time-left-to-depart-interval/">getTimeLeftToDepartInterval</a></td>
+<td><code>fun</code><a href="./"><code>TimetableEntry</code></a><code>.getTimeLeftToDepartInterval(period:</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a><code>, timeUnit:</code><a href="https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/TimeUnit.html"><code>TimeUnit</code></a><code>): Observable&lt;</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><code>Long</code></a><code>&gt;</code></td>
+</tr>
+</tbody>
+</table></div>
+		</div>
+		<div class="navbar-bottom" role="navigation">
+	<div class="container -layout-6-6">
+	</div>
+</div>
+		<footer class="footer">
+	<div class="logo">
+		<img src="../../../img/tripgo-api-logo-mono.svg" alt="TripGo Logo" width="134" height="34">
+	</div>
+	<ul class="menu">
+		<li>
+			<a href="https://www.skedgo.com">SkedGo website</a>
+		</li>
+		<li>
+			<a href="https://skedgo.com/en/tripgo-api/pricing/">Pricing</a>
+		</li>
+		<li>
+			<a href="https://github.com/skedgo/tripgo-api/issues">Report issue</a>
+		</li>
+		<li>
+			<a href="mailto:api@tripgo.com">Email support</a>
+		</li>
+		<li>
+			<a href="http://slack.tripgo.com/">Slack community</a>
+		</li>
+	</ul>
+</footer>
+			<script>var base_url = '../../..';</script>
+			<script src="../../../js/app.min.js"></script>
+				<script src="../../../search/main.js"></script>
+</body>
+</html>

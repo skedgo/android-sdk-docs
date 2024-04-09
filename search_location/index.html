@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="../img/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#154c7b">
+		<meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#154c7b">
+		<title>Location Search - TripKit SDK for Android</title>
+			<link rel="stylesheet" href="../css/main.css">
+			<link rel="stylesheet" href="../css/superfences.css">
+			<link rel="stylesheet" href="../css/codehilite.css">
+			<link rel="stylesheet"
+				href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+			<![endif]--> 
+	</head>
+
+	<body >
+		<header class="navbar">
+	
+	<div class="search-container">
+		<a class="search" href="#"></a><div class="search-form" id="mkdocs_search_modal" tabindex="-1" raria-labelledby="Search Modal" aria-hidden="true">
+    <form role="form" class="container">
+        <div class="search-icon"></div>
+        <input type="text" class="search-field" placeholder="Type keyword..." id="mkdocs-search-query">
+    </form>
+    <div class="results-list">
+    	<div id="mkdocs-search-results" class="container"></div>
+    </div>
+</div>
+	</div>
+	
+	<div class="container-fluid">
+		<a class="logo" href="..">
+			<img src="../img/tripgo-api-logo-white.svg" alt="TripGo API Logo White" height="32" width="140">
+		</a>
+
+		<div class="divider"></div>
+		<a class="menu-toggle" type="button" href="#" aria-hidden="true">
+			<div class="bar-container">
+				<span class="bar-1"></span>
+				<span class="bar-2"></span>
+				<span class="bar-3"></span>
+			</div>
+		</a>
+		<div class="menu" aria-hidden="false">
+			
+				<ul>
+					
+						
+							<li class="">
+								<a href="..">Getting Started</a>
+							</li>
+						
+					
+						
+							<li>
+								<a href="#" class="dropdown">Guide</a>
+								<ul class="submenu">
+									
+										<li class="">
+											<a href="../tripkit_map_fragment/">TripKit Map Fragment</a>
+										</li>
+									
+										<li class="current">
+											<a href="./">Location Search</a>
+										</li>
+									
+										<li class="">
+											<a href="../trip_results/">Trip Results</a>
+										</li>
+									
+										<li class="">
+											<a href="../stop_detail/">Service & Stop Detail</a>
+										</li>
+									
+										<li class="">
+											<a href="../routes_for_region/">Routes for region</a>
+										</li>
+									
+										<li class="">
+											<a href="../get_off_alerts/">Get off alerts</a>
+										</li>
+									
+										<li class="">
+											<a href="../view_controllers/">Viewcontroller</a>
+										</li>
+									
+								</ul>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="../tripkit-android/">SDK Reference</a>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="https://developer.tripgo.com">API</a>
+							</li>
+						
+					
+				</ul>
+			
+		</div>
+		
+	</div>
+	
+</header>
+
+		<div class="container -layout-3-9">
+				<div class="col" role="complementary"><div class="sidebar hidden-print affix" role="complementary" id="sidebar">
+	<div class="indicator"></div>
+    <ul class="nav sidenav">
+        <li class="main "><a href="#routeinputview" class="active">RouteInputView</a></li>
+        <li class="main "><a href="#tripkitdatetimepickerdialogfragment" class="">TripKitDateTimePickerDialogFragment</a></li>
+        <li class="main "><a href="#locationsearchfragment" class="">LocationSearchFragment</a></li>
+    </ul>
+</div></div>
+				<div class="col content" role="main">
+
+<p>Most of the time, you'll be interested in things involving Locations - a starting location, a destination location,
+or possibly a service stop location. We provide a few components to help you find them.</p>
+<h2 id="routeinputview">RouteInputView</h2>
+<p><img alt="RouteInputView" src="../img/RouteInputView.png" /></p>
+<p>The <a href="../tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/"><code>RouteInputView</code></a> is a view that can be overlaid on top of a map, such as the  <a href="../tripkit_map_fragment/">TripKit Map Fragment</a>, 
+providing a UI for displaying the origin and destination locations, as well as departure/arrival time.</p>
+<p>The <a href="../tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/"><code>RouteInputView</code></a> doesn't provide any logic, it's simply there to display information and pass along click events.
+You'll need to keep track of the chosen Locations yourself by adding an <a href="../tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/-on-route-widget-clicked-listener/"><code>OnRouteWidgetClickedListener</code></a>.</p>
+<pre class="codehilite"><code class="language-xml">&lt;FrameLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"&gt;
+
+    &lt;fragment android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/map"
+              android:name="com.skedgo.tripkit.ui.map.home.TripKitMapFragment"/&gt;
+    &lt;com.skedgo.tripkit.ui.routeinput.RouteInputView
+            android:id="@+id/routeInputView"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="match_parent"/&gt;
+&lt;/FrameLayout&gt;</code></pre>
+<pre class="codehilite"><code class="language-kotlin">    private var fromLocation: Location? = null
+    private var toLocation: Location? = null
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        routeInputView.setOnRouteWidgetClickedListener { widget -&gt;
+            when(widget) {
+                RouteInputView.OnRouteWidgetClickedListener.Widget.START -&gt; showSearchForStart()
+                RouteInputView.OnRouteWidgetClickedListener.Widget.DESTINATION -&gt; showSearchForDestination()
+                RouteInputView.OnRouteWidgetClickedListener.Widget.SWAPPED -&gt; startAndDestinationSwapped()
+                RouteInputView.OnRouteWidgetClickedListener.Widget.ROUTE -&gt;routeButtonSelected()
+                RouteInputView.OnRouteWidgetClickedListener.Widget.TIME -&gt; timeButtonSelected()
+            }
+    }</code></pre>
+<p>The <a href="../tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/-on-route-widget-clicked-listener/widget-clicked/"><code>widgetClicked</code></a> 
+function of your  <a href="../tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/-on-route-widget-clicked-listener/"><code>OnRouteWidgetClickedListener</code></a> will give you an <a href="../tripkit-android/com.skedgo.tripkit.ui.routeinput/-route-input-view/-on-route-widget-clicked-listener/-widget/">enum value</a> of the widget that was 
+clicked.</p>
+<p>When the user clicks on the start or destination fields, you could launch a <a href="#locationsearchfragment">LocationSearchFragment</a> to allow them to 
+search for a location. When they click on the time button, you can show them a <a href="#tripkitdatetimepickerdialogfragment">TripKitDateTimePickerDialogFragment</a> 
+to set their departure or arrival time, and when they click on the <em>Route</em> button, you could load the <a href="../trip_results/">TripResultListFragment</a>.</p>
+<h2 id="tripkitdatetimepickerdialogfragment">TripKitDateTimePickerDialogFragment</h2>
+<p><img alt="TripKitDateTimePickerDialogFragment" src="../img/TripKitTimeDatePickerDialog.png" /></p>
+<p>The <a href="../tripkit-android/com.skedgo.tripkit.ui.dialog/-trip-kit-date-time-picker-dialog-fragment/"><code>TripKitTimeDatePickerDialogFragment</code></a> displays a date and time picker so the user can choose their departure or arrival time. </p>
+<p>Use the <a href="../tripkit-android/com.skedgo.tripkit.ui.dialog/-trip-kit-date-time-picker-dialog-fragment/-builder/"><code>TripKitDateTimePickerDialogFragment.Builder</code></a> to build your fragment fluently. If you know the start and 
+destination locations, you can pass that using <a href="../tripkit-android/com.skedgo.tripkit.ui.dialog/-trip-kit-date-time-picker-dialog-fragment/-builder/with-locations/"><code>withLocations</code></a> to automatically handle timezone issues. </p>
+<p>To configure the initial values, you can either use <a href="../tripkit-android/com.skedgo.tripkit.ui.dialog/-trip-kit-date-time-picker-dialog-fragment/-builder/with-time-tag/"><code>withTimeTag</code></a> to give the fragment a <code>TimeTag</code>, or you can use
+<code>withTimeType</code> and <code>timeMillis</code>.</p>
+<p>The <code>OnTimeSelectedListener</code> will return a <a href="../tripkit-android/com.skedgo.tripkit.common.model/-time-tag/"><code>TimeTag</code></a> after the user has finalized their choice.</p>
+<pre class="codehilite"><code class="language-kotlin">var fragment = TripKitDateTimePickerDialogFragment.Builder()
+        .withLocations(toLocation, fromLocation)
+        .withTimeTag(timeTagForQuery)
+        .build()
+
+fragment.setOnTimeSelectedListener { tag -&gt;
+    // Show the correct time on the RouteInputView button when they've changed the time
+    val timeZone: String? = when (tag.type) {
+        TIME_TYPE_LEAVE_AFTER -&gt; { toLocation?.timeZone }
+        TIME_TYPE_ARRIVE_BY -&gt; { fromLocation?.timeZone }
+        else -&gt; null
+    }
+    routeInputView.setTimeButton(tag.formatString(this, timeZone))
+}
+fragment.show(supportFragmentManager, "timePicker")
+</code></pre>
+<h2 id="locationsearchfragment">LocationSearchFragment</h2>
+<p>The <a href="../tripkit-android/com.skedgo.tripkit.ui.search/-location-search-fragment/"><code>LocationSearchFragment</code></a> is a self-contained location search component which merges search results from both SkedGo's
+search results as well as Google Places. </p>
+<p><img alt="LocationSearchFragment.png" src="../img/LocationSearchFragment.png" /></p>
+<pre class="codehilite"><code class="language-kotlin">LocationSearchFragment.Builder()
+    .withBounds(mMap.projection.visibleRegion.latLngBounds)
+    .near(mMap.cameraPosition.target)
+    .withHint(getString(R.string.search))
+    .allowCurrentLocation(true)
+    .allowDropPin()
+    .build()</code></pre>
+<p>You can style the individual results by changing a few values.</p>
+<p><strong>dimens.xml</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tripkit_search_result_icon_size</td>
+<td>Sets the size of the result icon. The default is <code>24dp</code>.</td>
+</tr>
+<tr>
+<td>tripkit_search_result_divider_inset</td>
+<td>Sets the inset of the dividing line between items. The default is <code>0dp</code>.</td>
+</tr>
+</tbody>
+</table>
+<p><br/></p>
+<p><strong>styles.xml</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tripkit_search_result_title</td>
+<td>Sets the style of the result title.</td>
+</tr>
+<tr>
+<td>tripkit_search_result_subtitle</td>
+<td>Sets the style of the result subtitle.</td>
+</tr>
+</tbody>
+</table>
+<p><br/></p>
+<p>The <a href="../tripkit-android/com.skedgo.tripkit.ui.search/-location-search-fragment/-builder/"><code>LocationSearchFragment.Builder()</code></a> can be configured with a few different settings.</p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>withBounds(LatLngBounds)</td>
+<td>Used for Google Places searches. In our example, we use the map's visible boundaries.</td>
+</tr>
+<tr>
+<td>near(LatLng)</td>
+<td>Used for TripGo searches. In our example, we focus on the center of the map.</td>
+</tr>
+<tr>
+<td>withHint(String)</td>
+<td>Sets the EditText's hint.</td>
+</tr>
+<tr>
+<td>initialQuery(String)</td>
+<td>Set a query.</td>
+</tr>
+<tr>
+<td>allowCurrentLocation(Boolean)</td>
+<td>When <code>true</code>, show a permanent option for "Current Location" at the top of the results list</td>
+</tr>
+<tr>
+<td>allowDropPin(Boolean)</td>
+<td>When <code>true</code>, show a permanent option for "Choose on Map" at the top of the results list</td>
+</tr>
+</tbody>
+</table></div>
+		</div>
+		<div class="navbar-bottom" role="navigation">
+	<div class="container -layout-6-6">
+			    <div class="col">
+			        <a rel="next"  href="../tripkit_map_fragment/"  class="prev">
+			            <div class="label">
+			            	Previous
+			            </div>
+			            <div class="title">
+			            	TripKit Map Fragment
+			            </div>
+			        </a>
+			    </div>
+			    <div class="col">
+			        <a rel="prev"  href="../trip_results/" class="next">
+			            <div class="label">
+			            	Next
+			            </div>
+			            <div class="title">
+			            	Trip Results
+			            </div>
+			        </a>
+			    </div>
+	</div>
+</div>
+		<footer class="footer">
+	<div class="logo">
+		<img src="../img/tripgo-api-logo-mono.svg" alt="TripGo Logo" width="134" height="34">
+	</div>
+	<ul class="menu">
+		<li>
+			<a href="https://www.skedgo.com">SkedGo website</a>
+		</li>
+		<li>
+			<a href="https://skedgo.com/en/tripgo-api/pricing/">Pricing</a>
+		</li>
+		<li>
+			<a href="https://github.com/skedgo/tripgo-api/issues">Report issue</a>
+		</li>
+		<li>
+			<a href="mailto:api@tripgo.com">Email support</a>
+		</li>
+		<li>
+			<a href="http://slack.tripgo.com/">Slack community</a>
+		</li>
+	</ul>
+</footer>
+			<script>var base_url = '..';</script>
+			<script src="../js/app.min.js"></script>
+				<script src="../search/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="None">
+		
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="./img/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#154c7b">
+		<meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#154c7b">
+		<title>TripKit SDK for Android</title>
+			<link rel="stylesheet" href="./css/main.css">
+			<link rel="stylesheet" href="./css/superfences.css">
+			<link rel="stylesheet" href="./css/codehilite.css">
+			<link rel="stylesheet"
+				href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+			<![endif]--> 
+	</head>
+
+	<body  class="homepage">
+		<header class="navbar">
+	
+	<div class="search-container">
+		<a class="search" href="#"></a><div class="search-form" id="mkdocs_search_modal" tabindex="-1" raria-labelledby="Search Modal" aria-hidden="true">
+    <form role="form" class="container">
+        <div class="search-icon"></div>
+        <input type="text" class="search-field" placeholder="Type keyword..." id="mkdocs-search-query">
+    </form>
+    <div class="results-list">
+    	<div id="mkdocs-search-results" class="container"></div>
+    </div>
+</div>
+	</div>
+	
+	<div class="container-fluid">
+		<a class="logo" href=".">
+			<img src="./img/tripgo-api-logo-white.svg" alt="TripGo API Logo White" height="32" width="140">
+		</a>
+
+		<div class="divider"></div>
+		<a class="menu-toggle" type="button" href="#" aria-hidden="true">
+			<div class="bar-container">
+				<span class="bar-1"></span>
+				<span class="bar-2"></span>
+				<span class="bar-3"></span>
+			</div>
+		</a>
+		<div class="menu" aria-hidden="false">
+			
+				<ul>
+					
+						
+							<li class="current">
+								<a href=".">Getting Started</a>
+							</li>
+						
+					
+						
+							<li>
+								<a href="#" class="dropdown">Guide</a>
+								<ul class="submenu">
+									
+										<li class="">
+											<a href="tripkit_map_fragment/">TripKit Map Fragment</a>
+										</li>
+									
+										<li class="">
+											<a href="search_location/">Location Search</a>
+										</li>
+									
+										<li class="">
+											<a href="trip_results/">Trip Results</a>
+										</li>
+									
+										<li class="">
+											<a href="stop_detail/">Service & Stop Detail</a>
+										</li>
+									
+										<li class="">
+											<a href="routes_for_region/">Routes for region</a>
+										</li>
+									
+										<li class="">
+											<a href="get_off_alerts/">Get off alerts</a>
+										</li>
+									
+										<li class="">
+											<a href="view_controllers/">Viewcontroller</a>
+										</li>
+									
+								</ul>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="tripkit-android/">SDK Reference</a>
+							</li>
+						
+					
+						
+							<li class="">
+								<a href="https://developer.tripgo.com">API</a>
+							</li>
+						
+					
+				</ul>
+			
+		</div>
+		
+	</div>
+	
+</header>
+
+		<div class="container -layout-3-9">
+				<div class="col" role="complementary"><div class="sidebar hidden-print affix" role="complementary" id="sidebar">
+	<div class="indicator"></div>
+    <ul class="nav sidenav">
+        <li class="main "><a href="#tripkit-sdk-for-android" class="active">TripKit SDK for Android</a></li>
+            <li><a href="#setup" class="">Setup</a></li>
+            <li><a href="#for-tripkit-only" class="">For TripKit only</a></li>
+            <li><a href="#for-tripkitui-also-includes-tripkit" class="">For TripKitUI (also includes TripKit)</a></li>
+    </ul>
+</div></div>
+				<div class="col content" role="main">
+
+<h1 id="tripkit-sdk-for-android">TripKit SDK for Android</h1>
+<p>Using the TripKit SDK, you can quickly integrate SkedGo's award-winning trip planning platform with your own application
+in a matter of minutes.</p>
+<h2 id="setup">Setup</h2>
+<p>To begin, you'll need an API key to use our web service. You can get an API key from our <a href="https://developer.tripgo.com">Developer Page</a>.</p>
+<p>First, add the Maven repository to the list in <code>build.gradle</code>:</p>
+<pre class="codehilite"><code class="language-kotlin">repositories {  
+    maven { url "https://jitpack.io" }
+}</code></pre>
+<p>TripKit supports Android apps running Android 4.0.3 and above. To make sure that it works in your Android app, please specify <code>minSdkVersion</code> in your <code>build.gradle</code> file:</p>
+<pre class="codehilite"><code class="language-kotlin">android {
+  defaultConfig {
+    minSdkVersion 16
+  }
+}</code></pre>
+<p>Get a Google Maps API key from <a href="https://developers.google.com/maps/documentation/android-sdk/get-api-key">Google Maps Platform</a> and make sure to enable the <a href="https://console.cloud.google.com/apis/library/places-backend.googleapis.com?_gl=1*15naeh9*_ga*MjA2NzAyMTMwNS4xNjMwNTg4ODYw*_ga_NRWSTWS78N*MTY3MjkwNzQ4Ni40LjEuMTY3MjkwNzQ4OC4wLjAuMA..&amp;project=mrwa-0001">Places API</a>. Then add the Google Maps API key on your project's <a href="https://developer.android.com/guide/topics/manifest/manifest-intro">Manifest</a></p>
+<pre class="codehilite"><code class="language-XML">&lt;manifest package="....
+  ....
+  &lt;application...
+
+    &lt;meta-data
+          android:name="com.google.android.geo.API_KEY"
+          android:value="YOUR_API_KEY_HERE" /&gt;
+
+    ....
+
+    &lt;/application&gt;
+&lt;/manifest&gt;</code></pre>
+<p>Then, you'll need to add your TripGo API key. TripKit expects the key to be provided as <code>R.string.skedgo_api_key</code>,
+so you can either add it to your <code>strings.xml</code> file, or use <code>resValue</code> in Gradle, or perhaps another way. </p>
+<p>Finally, add libraries to your dependencies. Check with SkedGo for the latest version number.</p>
+<h2 id="for-tripkit-only">For TripKit only</h2>
+<pre class="codehilite"><code class="language-kotlin">dependencies {
+// ...
+    implementation 'com.github.skedgo:tripkit-android:&lt;insert-newest-version-here&gt;'
+}</code></pre>
+<h3 id="create-tripkit-instance-to-access-tripkits-services">Create TripKit instance to access TripKit's services</h3>
+<p>We recommend to have an <code>Application</code> subclass. Next, in the <code>onCreate()</code> method, you can initiate following setup:</p>
+<pre class="codehilite"><code class="language-kotlin">class App : Application() {
+  override fun onCreate() {
+    super.onCreate()
+    JodaTimeAndroid.init(this)
+
+    TripKitConfigs.builder().context(this)
+            .debuggable(true)          
+            .key { key }
+            .build()
+
+    val httpClientModule = HttpClientModule(null, null, configs)
+
+    val tripKit = DaggerTripKit.builder()
+                .mainModule(MainModule(configs))
+                .httpClientModule(httpClientModule)
+                .build()
+
+    TripKit.initialize(this, tripKit)            
+  }
+}</code></pre>
+<h2 id="for-tripkitui-also-includes-tripkit">For TripKitUI (also includes TripKit)</h2>
+<pre class="codehilite"><code class="language-kotlin">dependencies {
+// ...
+    implementation 'com.github.skedgo:tripkit-android-ui:&lt;insert-newest-version-here&gt;'
+}</code></pre>
+<h3 id="create-tripkitui-instance-to-access-both-tripkitui-and-tripkit-services">Create TripKitUI instance to access both TripKitUI and TripKit services</h3>
+<p>We recommend to have an <code>Application</code> subclass. Next, in the <code>onCreate()</code> method, you can initiate following setup:</p>
+<pre class="codehilite"><code class="language-kotlin">class App : Application() {
+  override fun onCreate() {
+    super.onCreate()
+
+    val baseConfig = TripKitUI.buildTripKitConfig(applicationContext, Key.ApiKey("api_key_here"))
+    val httpClientModule = HttpClientModule(null, BuildConfig.VERSION_NAME, baseConfig, getSharedPreferences("data_pref_name", MODE_PRIVATE))
+
+    val appConfigs = TripKitConfigs.builder().from(baseConfig).build()
+    TripKitUI.initialize(this, Key.ApiKey("api_key_here"), appConfigs, httpClientModule)       
+  }
+}</code></pre></div>
+		</div>
+		<div class="navbar-bottom" role="navigation">
+	<div class="container -layout-6-6">
+			    <div class="disabled col">
+			        <a rel="next"  class="prev">
+			            <div class="label">
+			            	Previous
+			            </div>
+			            <div class="title">
+			            	
+			            </div>
+			        </a>
+			    </div>
+			    <div class="col">
+			        <a rel="prev"  href="tripkit_map_fragment/" class="next">
+			            <div class="label">
+			            	Next
+			            </div>
+			            <div class="title">
+			            	TripKit Map Fragment
+			            </div>
+			        </a>
+			    </div>
+	</div>
+</div>
+		<footer class="footer">
+	<div class="logo">
+		<img src="./img/tripgo-api-logo-mono.svg" alt="TripGo Logo" width="134" height="34">
+	</div>
+	<ul class="menu">
+		<li>
+			<a href="https://www.skedgo.com">SkedGo website</a>
+		</li>
+		<li>
+			<a href="https://skedgo.com/en/tripgo-api/pricing/">Pricing</a>
+		</li>
+		<li>
+			<a href="https://github.com/skedgo/tripgo-api/issues">Report issue</a>
+		</li>
+		<li>
+			<a href="mailto:api@tripgo.com">Email support</a>
+		</li>
+		<li>
+			<a href="http://slack.tripgo.com/">Slack community</a>
+		</li>
+	</ul>
+</footer>
+			<script>var base_url = '.';</script>
+			<script src="./js/app.min.js"></script>
+				<script src="search/main.js"></script>
+</body>
+</html>
