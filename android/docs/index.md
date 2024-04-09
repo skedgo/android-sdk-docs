@@ -5,9 +5,7 @@ in a matter of minutes.
 
 ## Setup
 
-To begin, you'll need both an SDK token as well as an API key to use our web service.
-
-Sales will have given you your SDK token, and you can get an API key from our [Developer Page](https://developer.tripgo.com).
+To begin, you'll need an API key to use our web service. You can get an API key from our [Developer Page](https://developer.tripgo.com).
 
 First, add Maven repository to the list in `build.gradle`.
 
