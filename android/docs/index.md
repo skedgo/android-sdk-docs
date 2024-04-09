@@ -7,7 +7,7 @@ in a matter of minutes.
 
 To begin, you'll need an API key to use our web service. You can get an API key from our [Developer Page](https://developer.tripgo.com).
 
-First, add Maven repository to the list in `build.gradle`.
+First, add the Maven repository to the list in `build.gradle`:
 
 ```kotlin
 repositories {  
@@ -15,7 +15,7 @@ repositories {
 }
 ```
 
-TripKit supports for Android apps running Android 4.0.3 and above. To make sure that it works in your Android app, please specify minSdkVersion in your build.gradle file
+TripKit supports Android apps running Android 4.0.3 and above. To make sure that it works in your Android app, please specify `minSdkVersion` in your `build.gradle` file:
 
 ```kotlin
 android {
@@ -25,7 +25,7 @@ android {
 }
 ```
 
-Get Google maps API key from [Google Maps Platform](https://developers.google.com/maps/documentation/android-sdk/get-api-key) and make sure to enable the [Places API](https://console.cloud.google.com/apis/library/places-backend.googleapis.com?_gl=1*15naeh9*_ga*MjA2NzAyMTMwNS4xNjMwNTg4ODYw*_ga_NRWSTWS78N*MTY3MjkwNzQ4Ni40LjEuMTY3MjkwNzQ4OC4wLjAuMA..&project=mrwa-0001). Then add the google maps api key on your project's [Manifest](https://developer.android.com/guide/topics/manifest/manifest-intro)
+Get a Google Maps API key from [Google Maps Platform](https://developers.google.com/maps/documentation/android-sdk/get-api-key) and make sure to enable the [Places API](https://console.cloud.google.com/apis/library/places-backend.googleapis.com?_gl=1*15naeh9*_ga*MjA2NzAyMTMwNS4xNjMwNTg4ODYw*_ga_NRWSTWS78N*MTY3MjkwNzQ4Ni40LjEuMTY3MjkwNzQ4OC4wLjAuMA..&project=mrwa-0001). Then add the Google Maps API key on your project's [Manifest](https://developer.android.com/guide/topics/manifest/manifest-intro)
 
 ```XML
 <manifest package="....
@@ -49,6 +49,7 @@ so you can either add it to your `strings.xml` file, or use `resValue` in Gradle
 Finally, add libraries to your dependencies. Check with SkedGo for the latest version number.
 
 ## For TripKit only
+
 ```kotlin
 dependencies {
 // ...
@@ -58,9 +59,8 @@ dependencies {
 
 ### Create TripKit instance to access TripKit's services
 
-We recommend to have an Application subclass. Next, in the onCreate() method, you can initiate following setup:
+We recommend to have an `Application` subclass. Next, in the `onCreate()` method, you can initiate following setup:
 
-> v2.1.43
 ```kotlin
 class App : Application() {
   override fun onCreate() {
@@ -85,6 +85,7 @@ class App : Application() {
 ```
 
 ## For TripKitUI (also includes TripKit)
+
 ```kotlin
 dependencies {
 // ...
@@ -94,9 +95,8 @@ dependencies {
 
 ### Create TripKitUI instance to access both TripKitUI and TripKit services
 
-We recommend to have an Application subclass. Next, in the onCreate() method, you can initiate following setup:
+We recommend to have an `Application` subclass. Next, in the `onCreate()` method, you can initiate following setup:
 
-> v2.1.43
 ```kotlin
 class App : Application() {
   override fun onCreate() {
